@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "WorkBuddy 实战蓝皮书（钉钉版）：从安装使用到 AI 工作系统",
+  "description": "千问办公绿皮书：基于钉钉知识库的使用手册与实战指南",
   "engines": {
     "node": ">=20 <25"
   },

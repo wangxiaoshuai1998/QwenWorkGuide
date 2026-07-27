@@ -10,7 +10,7 @@ export default defineConfig({
     lang: "zh-CN",
     title: "千问办公绿皮书",
     titleTemplate: ":title · 千问办公绿皮书",
-    description: "从初识千问办公到用顺手：千问办公使用手册与实战指南。",
+    description: "千问办公中文使用手册与实战指南：涵盖产品初识、Web 端与桌面端使用链路、通用设置。",
     cleanUrls: true,
     lastUpdated: true,
     srcExclude: ["**/source.md", "plans/**"],
@@ -31,7 +31,7 @@ export default defineConfig({
     head: [
       ["link", { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" }],
       ["meta", { name: "theme-color", content: "#4add86" }],
-      ["meta", { name: "author", content: "WorkBuddy Guide Contributors" }],
+      ["meta", { name: "author", content: "QwenWork Guide Contributors" }],
       [
         "meta",
         {
@@ -44,7 +44,7 @@ export default defineConfig({
         {
           name: "keywords",
           content:
-            "WorkBuddy,WorkBuddy 教程,AI Agent,AI 工作系统,Skills,MCP,自动化,多智能体,职场 AI",
+            "千问办公,QwenWork,QwenWork Guide,AI 办公,AI Agent,AI 工作系统,自动化,职场 AI,WorkBuddy",
         },
       ],
     ],
@@ -99,8 +99,8 @@ export default defineConfig({
       },
       footer: {
         message:
-          '以真实任务为主线的 WorkBuddy 社区实战读本 · Pixel icons by <a href="https://pixeliconlibrary.com/" target="_blank" rel="noreferrer">HackerNoon</a>',
-        copyright: "Copyright © 2026 WorkBuddy Guide Contributors",
+          '以真实任务为主线的千问办公社区实战读本 · Pixel icons by <a href="https://pixeliconlibrary.com/" target="_blank" rel="noreferrer">HackerNoon</a>',
+        copyright: "Copyright © 2026 QwenWork Guide Contributors",
       },
     },
   });

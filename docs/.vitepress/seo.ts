@@ -4,11 +4,11 @@ import { resolve } from "node:path";
 import type { HeadConfig, PageData, TransformContext } from "vitepress";
 
 const SITE_NAME = "千问办公绿皮书";
-const SITE_ALTERNATE_NAME = "WorkBuddy Guide";
+const SITE_ALTERNATE_NAME = "QwenWork Guide";
 const ORGANIZATION_NAME = "WorkBuddy Guide Contributors";
 const GITHUB_URL = "https://github.com/AlephAITech/WorkBuddyGuide";
 const DEFAULT_DESCRIPTION =
-  "从安装使用到 AI 工作系统：27 章 WorkBuddy 实战指南与团队落地方法。";
+  "千问办公中文使用手册与实战指南：涵盖产品初识、Web 端与桌面端使用链路、通用设置。";
 
 function cleanPagePath(page: string): string {
   if (page === "index.md") return "/";
@@ -138,7 +138,7 @@ function breadcrumbName(segment: string): string {
     cases: "社区案例集",
     community: "社区共创",
     help: "帮你解决",
-    "reading-guide": "WorkBuddy 学习指南",
+    "reading-guide": "千问办公阅读指南",
   };
 
   return labels[decodedSegment] || decodedSegment.replace(/[-_]/g, " ");
