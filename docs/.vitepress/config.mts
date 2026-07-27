@@ -73,7 +73,7 @@ export default defineConfig({
       ],
       sidebar: siteSidebar,
       socialLinks: [
-        { icon: "github", link: "https://github.com/OWNER/WorkBuddyGuide-DingTalk" },
+        { icon: "github", link: "https://github.com/OWNER/QwenWorkGuide" },
       ],
       search: {
         provider: "local",
@@ -94,7 +94,7 @@ export default defineConfig({
         },
       },
       editLink: {
-        pattern: "https://github.com/OWNER/WorkBuddyGuide-DingTalk/edit/main/docs/:path",
+        pattern: "https://github.com/OWNER/QwenWorkGuide/edit/main/docs/:path",
         text: "在 GitHub 上改进此页",
       },
       footer: {

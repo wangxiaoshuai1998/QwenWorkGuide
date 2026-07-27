@@ -4,13 +4,13 @@
 
 ## Cloudflare Pages 设置
 
-在 Cloudflare 控制台选择 **Workers & Pages → Create application → Pages → Import an existing Git repository**，授权并选择 `OWNER/WorkBuddyGuide-DingTalk`。
+在 Cloudflare 控制台选择 **Workers & Pages → Create application → Pages → Import an existing Git repository**，授权并选择 `OWNER/QwenWorkGuide`。
 
 使用以下配置：
 
 | 配置项 | 值 |
 | --- | --- |
-| Project name | `workbuddy-guide-dingtalk` |
+| Project name | `qwenwork-guide` |
 | Production branch | `main` |
 | Framework preset | `VitePress`（也可选择 None） |
 | Build command | `npm run docs:build` |
