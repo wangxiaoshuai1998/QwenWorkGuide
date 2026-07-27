@@ -14,7 +14,7 @@ const mountLightbox = async () => {
 };
 
 const createDocImage = ({
-  alt = "WorkBuddy 操作截图",
+  alt = "千问办公操作截图",
   linked = false,
   optedOut = false,
   roleButton = false,
@@ -152,7 +152,7 @@ describe("ImageLightbox", () => {
     expect(plainImage.dataset.wbZoomable).toBe("");
     expect(plainImage.getAttribute("tabindex")).toBe("0");
     expect(plainImage.getAttribute("role")).toBe("button");
-    expect(plainImage.getAttribute("aria-label")).toContain("WorkBuddy 操作截图");
+    expect(plainImage.getAttribute("aria-label")).toContain("千问办公操作截图");
     expect(linkedImage.dataset.wbZoomable).toBeUndefined();
     expect(optedOutImage.dataset.wbZoomable).toBeUndefined();
     expect(existingButtonImage.dataset.wbZoomable).toBeUndefined();

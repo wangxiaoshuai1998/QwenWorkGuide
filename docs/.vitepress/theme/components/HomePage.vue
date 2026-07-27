@@ -9,7 +9,7 @@ import PixelIconSprite from "./PixelIconSprite.vue";
     <section class="wb-hero" aria-labelledby="wb-hero-title">
       <div class="wb-hero__stage">
         <div class="wb-hero__copy">
-          <p class="wb-pixel-label">OPEN-SOURCE · 27 CHAPTERS · 2026</p>
+          <p class="wb-pixel-label">OPEN-SOURCE · 4 CHAPTERS · 2026</p>
           <h1 id="wb-hero-title" class="wb-hero__title--bluebook">千问办公绿皮书</h1>
           <p class="wb-hero__summary">
             千问办公——你的全能AI同事，对话即可交付。<br />
@@ -24,8 +24,8 @@ import PixelIconSprite from "./PixelIconSprite.vue";
           </div>
         </div>
 
-        <div class="wb-hero__art" aria-label="WorkBuddy 像素图标组合">
-          <span class="wb-hero__monogram">WB_</span>
+        <div class="wb-hero__art" aria-label="千问办公像素图标组合">
+          <span class="wb-hero__monogram">QW_</span>
           <span class="wb-icon-card wb-icon-card--buddy">
             <PixelIcon name="face-grin" />
           </span>
@@ -39,8 +39,8 @@ import PixelIconSprite from "./PixelIconSprite.vue";
             <PixelIcon name="briefcase" />
           </span>
           <div class="wb-hero__metrics" aria-label="绿皮书内容规模">
-            <span><b>27</b> CHAPTERS</span>
-            <span><b>4</b> PARTS</span>
+            <span><b>4</b> CHAPTERS</span>
+            <span><b>1</b> PART</span>
             <span><b>∞</b> WORKFLOWS</span>
           </div>
         </div>
@@ -72,7 +72,7 @@ import PixelIconSprite from "./PixelIconSprite.vue";
           <p class="wb-pixel-label">READING PATH / 01—04</p>
           <h2 id="wb-reading-title">四段路径，按你的目标进入</h2>
         </div>
-        <p>从个人上手到组织落地，循序渐进，构建你的 WorkBuddy 工作系统。</p>
+        <p>从个人上手到组织落地，循序渐进，构建你的千问办公工作系统。</p>
       </div>
 
       <div class="wb-reading-grid">

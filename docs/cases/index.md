@@ -1,17 +1,17 @@
 ---
-title: WorkBuddy 社区案例集
-description: 汇集 WorkBuddy 用户提交的真实案例，了解不同场景使用了哪些 Skills、如何执行以及最终呈现了什么效果。
+title: 千问办公社区案例集
+description: 汇集千问办公用户提交的真实案例，了解不同场景使用了哪些 Skills、如何执行以及最终呈现了什么效果。
 breadcrumbTitle: 社区案例集
 aside: false
 outline: false
 pageClass: community-cases-page
 ---
 
-# WorkBuddy 社区案例集
+# 千问办公社区案例集
 
-这里收录由 WorkBuddy 用户提交的真实实践。每个案例都会说明它解决了什么场景、使用了哪些 Skills、在 WorkBuddy 中怎样执行，以及最终交付了什么结果。
+这里收录由千问办公用户提交的真实实践。每个案例都会说明它解决了什么场景、使用了哪些 Skills、在千问办公中怎样执行，以及最终交付了什么结果。
 
-社区案例通过完整性、安全性和可读性审核后即可发布；经过进一步复现和编辑的经典任务，未来可能被收录进《WorkBuddy 实战绿皮书》正文。
+社区案例通过完整性、安全性和可读性审核后即可发布；经过进一步复现和编辑的经典任务，未来可能被收录进《千问办公绿皮书》正文。
 
 ## 如何提交 Case
 
@@ -33,8 +33,8 @@ pageClass: community-cases-page
 <section class="case-co-create" aria-labelledby="case-co-create-title">
   <div class="case-co-create__copy">
     <p class="case-co-create__label">CONTRIBUTOR COMMUNITY</p>
-    <h2 id="case-co-create-title">提交 PR 后，加入 WorkBuddy 共创群</h2>
-    <p>如果你正在准备或已经提交 Case PR，欢迎添加微信。我们会邀请你进入 WorkBuddy 共创群，一起讨论案例结构、复现过程、审核建议和绿皮书后续选题。</p>
+    <h2 id="case-co-create-title">提交 PR 后，加入千问办公共创群</h2>
+    <p>如果你正在准备或已经提交 Case PR，欢迎添加微信。我们会邀请你进入千问办公共创群，一起讨论案例结构、复现过程、审核建议和绿皮书后续选题。</p>
     <strong>添加微信时，请备注：workbuddy共创</strong>
     <ul>
       <li>交流 Case 选题，避免重复提交。</li>
@@ -43,7 +43,7 @@ pageClass: community-cases-page
       <li>参与经典 Case 进入绿皮书正文的共创。</li>
     </ul>
   </div>
-  <a class="case-co-create__qr" href="/cases/workbuddy-co-create-wechat.png" target="_blank" rel="noreferrer" aria-label="查看 WorkBuddy 共创联系人微信二维码大图">
+  <a class="case-co-create__qr" href="/cases/workbuddy-co-create-wechat.png" target="_blank" rel="noreferrer" aria-label="查看千问办公共创联系人微信二维码大图">
     <img src="/cases/workbuddy-co-create-wechat.png" alt="刘聪NLP 微信二维码，添加时备注 workbuddy共创" loading="lazy">
     <span>扫码添加微信 · 备注“workbuddy共创”</span>
   </a>
@@ -113,7 +113,7 @@ pageClass: community-cases-page
   border: 2px solid var(--vp-c-text-1);
   border-radius: 12px;
   background: var(--vp-c-bg-soft);
-  box-shadow: 10px 10px 0 #d8f238;
+  box-shadow: 10px 10px 0 var(--wb-acid);
 }
 
 .case-co-create__label {
@@ -141,7 +141,7 @@ pageClass: community-cases-page
   display: inline-block;
   margin: 10px 0 14px;
   padding: 8px 12px;
-  background: #d8f238;
+  background: var(--wb-acid);
   color: #0c0f0a;
 }
 
@@ -185,7 +185,7 @@ pageClass: community-cases-page
 @media (max-width: 720px) {
   .case-co-create {
     padding: 24px;
-    box-shadow: 7px 7px 0 #d8f238;
+    box-shadow: 7px 7px 0 var(--wb-acid);
   }
 }
 </style>

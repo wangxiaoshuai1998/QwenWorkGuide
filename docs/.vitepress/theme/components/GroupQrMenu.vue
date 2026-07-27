@@ -16,7 +16,7 @@ withDefaults(
         src="/community/workbuddy-wechat-group.jpg?v=20260726"
         width="396"
         height="396"
-        alt="WorkBuddy 微信交流群二维码"
+        alt="千问办公微信交流群二维码"
         loading="lazy"
         decoding="async"
       />

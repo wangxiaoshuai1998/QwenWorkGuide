@@ -1,7 +1,7 @@
 ---
-title: 帮你解决 WorkBuddy 使用场景问题
+title: 帮你解决千问办公使用场景问题
 titleTemplate: false
-description: 如果你不知道如何用 WorkBuddy 解决真实工作问题，可以提交场景问卷。我们会评估需求、联系沟通，并将具有复用价值的解决方案制作成开源 Case。
+description: 如果你不知道如何用千问办公解决真实工作问题，可以提交场景问卷。我们会评估需求、联系沟通，并将具有复用价值的解决方案制作成开源 Case。
 breadcrumbTitle: 帮你解决
 aside: false
 outline: false
@@ -11,8 +11,8 @@ pageClass: help-you-page
 <div class="help-hero">
   <div class="help-hero__copy">
     <p class="help-pixel-label">SCENARIO SUPPORT · OPEN CASES</p>
-    <h1>有工作场景，不知道怎么用 WorkBuddy 解决？</h1>
-    <p class="help-hero__lead">把你的真实问题告诉我们。我们会阅读每一份场景问卷，评估 WorkBuddy 是否能够解决；如果需要补充信息，我们会联系你进一步沟通。</p>
+    <h1>有工作场景，不知道怎么用千问办公解决？</h1>
+    <p class="help-hero__lead">把你的真实问题告诉我们。我们会阅读每一份场景问卷，评估千问办公是否能够解决；如果需要补充信息，我们会联系你进一步沟通。</p>
     <p>具有代表性和复用价值的问题，我们会尝试做成完整 Case，写清使用的 Skill、操作过程、任务描述和最终效果，并开源到社区案例集，帮助更多遇到同类问题的人。</p>
     <div class="help-hero__actions">
       <a class="help-button help-button--primary" href="#scenario-survey">扫码填写问卷</a>
@@ -24,12 +24,12 @@ pageClass: help-you-page
     <div class="help-survey-card__heading">
       <span>01</span>
       <div>
-        <strong>WorkBuddy 场景收集调查问卷</strong>
+        <strong>千问办公场景收集调查问卷</strong>
         <small>扫码后填写你的真实需求</small>
       </div>
     </div>
-    <a href="/help/workbuddy-scenario-survey.png" target="_blank" rel="noreferrer" aria-label="查看 WorkBuddy 场景收集调查问卷二维码大图">
-      <img src="/help/workbuddy-scenario-survey.png" alt="WorkBuddy 场景收集调查问卷二维码" loading="eager">
+    <a href="/help/workbuddy-scenario-survey.png" target="_blank" rel="noreferrer" aria-label="查看千问办公场景收集调查问卷二维码大图">
+      <img src="/help/workbuddy-scenario-survey.png" alt="千问办公场景收集调查问卷二维码" loading="eager">
     </a>
     <p>使用手机扫码填写；如果你正在手机上阅读，可以点击图片查看大图后长按识别。</p>
   </div>
@@ -47,7 +47,7 @@ pageClass: help-you-page
     <article>
       <span>02</span>
       <h3>评估解决路径</h3>
-      <p>判断 WorkBuddy 是否适合处理，并梳理可能需要的 Skill、权限和交付方式。</p>
+      <p>判断千问办公是否适合处理，并梳理可能需要的 Skill、权限和交付方式。</p>
     </article>
     <article>
       <span>03</span>
@@ -71,7 +71,7 @@ pageClass: help-you-page
     <li><strong>真实场景：</strong>你在什么岗位或任务中遇到了问题。</li>
     <li><strong>当前做法：</strong>现在需要哪些步骤，大概花多少时间。</li>
     <li><strong>输入资料：</strong>通常会用到哪些文件、网页、系统或数据。</li>
-    <li><strong>期望结果：</strong>希望 WorkBuddy 最终交付什么，以及怎样算完成。</li>
+    <li><strong>期望结果：</strong>希望千问办公最终交付什么，以及怎样算完成。</li>
     <li><strong>安全边界：</strong>是否涉及账号权限、敏感数据、文件修改或对外发布。</li>
   </ul>
 </section>
@@ -125,7 +125,7 @@ pageClass: help-you-page
   width: 92px;
   height: 9px;
   margin-top: 24px;
-  background: #d8f238;
+  background: var(--wb-acid);
   content: "";
 }
 
@@ -174,7 +174,7 @@ pageClass: help-you-page
   border: 2px solid var(--vp-c-text-1);
   border-radius: 14px;
   background: var(--vp-c-bg-soft);
-  box-shadow: 12px 12px 0 #d8f238;
+  box-shadow: 12px 12px 0 var(--wb-acid);
 }
 
 .help-survey-card__heading {
@@ -313,7 +313,7 @@ pageClass: help-you-page
 .help-note {
   margin: 12px 0 36px;
   padding: 24px;
-  border-left: 5px solid #d8f238;
+  border-left: 5px solid var(--wb-acid);
   background: var(--vp-c-bg-soft);
 }
 
@@ -355,7 +355,7 @@ pageClass: help-you-page
   }
 
   .help-survey-card {
-    box-shadow: 7px 7px 0 #d8f238;
+    box-shadow: 7px 7px 0 var(--wb-acid);
   }
 }
 </style>
