@@ -64,4 +64,8 @@
     <img src="/community/contacts/joy.jpg" alt="Joy 微信二维码" loading="lazy">
     <span>Joy</span>
   </a>
+  <a class="wb-contact-card" href="/community/contacts/wangxiaoshuai.jpg" target="_blank" rel="noreferrer">
+    <img src="/community/contacts/wangxiaoshuai.jpg" alt="wangxiaoshuai 微信二维码" loading="lazy">
+    <span>wangxiaoshuai</span>
+  </a>
 </div>

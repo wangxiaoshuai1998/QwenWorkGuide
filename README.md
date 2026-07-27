@@ -88,7 +88,7 @@ npm run docs:preview
 
 投稿时，在 `docs/cases/submissions/` 下为案例新建独立目录，使用 [Case 正文模板](./.github/CASE_TEMPLATE.md)编写内容，并通过 [Case PR 模板](./.github/PULL_REQUEST_TEMPLATE/case.md)提交。审核合并后，案例会自动出现在网站左侧目录；具有代表性的经典案例经过进一步复现和编辑后，可能进入绿皮书正式章节。
 
-完整流程请阅读 [Case 投稿指南](https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/main/docs/community/case-contributing.md)和[贡献指南](./CONTRIBUTING.md)。准备或提交 PR 后，也可以按网站提示加入共创群，交流选题并获得内容完善建议。
+完整流程请阅读 [Case 投稿指南](https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/main/docs/community/case-contributing.md)和[贡献指南](./CONTRIBUTING.md)。准备或提交 PR 后，也可以按网站提示进行交流联系，交流选题并获得内容完善建议。
 
 ## 目录结构
 
