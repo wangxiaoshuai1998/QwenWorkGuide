@@ -76,46 +76,46 @@ import PixelIconSprite from "./PixelIconSprite.vue";
       </div>
 
       <div class="wb-reading-grid">
-        <a class="wb-reading-card" href="/bluebook/第一篇%20使用手册：先把%20WorkBuddy%20用起来/">
+        <a class="wb-reading-card" href="/bluebook/第一篇%20使用手册：先把%20千问办公%20用起来/第1章%20初识%20千问办公/">
           <span class="wb-reading-card__icon"><PixelIcon name="user" /></span>
           <span class="wb-reading-card__content">
-            <small>PART 01 · CH. 01—10</small>
-            <strong>从 0 到 1：先把 WorkBuddy 用起来</strong>
-            <span>安装、界面、第一个任务、Skill、连接器、API 与自动化。</span>
-            <em><b>新手推荐</b><b>先完成一项任务</b></em>
+            <small>PART 01 · CH. 01</small>
+            <strong>初识千问办公：不止对话，更重交付</strong>
+            <span>核心能力、与传统 AI 对话的区别，以及典型使用场景。</span>
+            <em><b>新手推荐</b><b>五分钟了解</b></em>
           </span>
           <PixelIcon name="arrow-right" class="wb-reading-card__arrow" />
         </a>
 
-        <a class="wb-reading-card" href="/bluebook/第二篇%20案例篇：从一项任务到一支%20AI%20团队/">
+        <a class="wb-reading-card" href="/bluebook/第一篇%20使用手册：先把%20千问办公%20用起来/第2章%20Web端使用链路/">
           <span class="wb-reading-card__icon"><PixelIcon name="briefcase" /></span>
           <span class="wb-reading-card__content">
-            <small>PART 02 · CH. 11—21</small>
-            <strong>进入真实案例：让任务开始流动</strong>
-            <span>办公、文件、远程、资讯、知识、会议、投资和内容增长。</span>
-            <em><b>11 个案例</b><b>任务驱动</b></em>
+            <small>PART 01 · CH. 02</small>
+            <strong>Web 端使用链路：跑通第一个任务</strong>
+            <span>登录进入、创建任务、多轮沟通、网盘与网页发布。</span>
+            <em><b>浏览器即用</b><b>任务驱动</b></em>
           </span>
           <PixelIcon name="arrow-right" class="wb-reading-card__arrow" />
         </a>
 
-        <a class="wb-reading-card" href="/bluebook/第三篇%20进阶篇：把案例变成自己的工作系统/">
+        <a class="wb-reading-card" href="/bluebook/第一篇%20使用手册：先把%20千问办公%20用起来/第3章%20桌面端使用链路/">
           <span class="wb-reading-card__icon"><PixelIcon name="sitemap" /></span>
           <span class="wb-reading-card__content">
-            <small>PART 03 · CH. 22—25</small>
-            <strong>把案例变成可复用的工作系统</strong>
-            <span>打造 Skill、多 Agent 系统设计与可靠的自动化工作流。</span>
-            <em><b>系统进阶</b><b>可靠自动化</b></em>
+            <small>PART 01 · CH. 03</small>
+            <strong>桌面端使用链路：从下载到交付</strong>
+            <span>下载安装、登录账号、熟悉界面并提交第一个本地任务。</span>
+            <em><b>macOS / Windows</b><b>本地执行</b></em>
           </span>
           <PixelIcon name="arrow-right" class="wb-reading-card__arrow" />
         </a>
 
-        <a class="wb-reading-card" href="/bluebook/第四篇%20岗位与行业落地/">
+        <a class="wb-reading-card" href="/bluebook/第一篇%20使用手册：先把%20千问办公%20用起来/第4章%20通用设置/">
           <span class="wb-reading-card__icon"><PixelIcon name="users" /></span>
           <span class="wb-reading-card__content">
-            <small>PART 04 · CH. 26—27</small>
-            <strong>落到岗位与行业，组建 AI 团队</strong>
-            <span>从通用能力出发，设计适合不同岗位和行业的工作流。</span>
-            <em><b>团队落地</b><b>行业路线</b></em>
+            <small>PART 01 · CH. 04</small>
+            <strong>通用设置：把账号调到最顺手</strong>
+            <span>个人资料、语言与外观、订阅及积分使用管理。</span>
+            <em><b>账号管理</b><b>订阅积分</b></em>
           </span>
           <PixelIcon name="arrow-right" class="wb-reading-card__arrow" />
         </a>
@@ -132,23 +132,20 @@ import PixelIconSprite from "./PixelIconSprite.vue";
       </div>
 
       <div class="wb-task-grid">
-        <a href="/bluebook/第二篇%20案例篇：从一项任务到一支%20AI%20团队/第%2011%20章%20办公三件套：Word、Excel、PPT/">
-          <PixelIcon name="briefcase" /><strong>办公文档</strong><span>Word · Excel · PPT</span>
+        <a href="/bluebook/第一篇%20使用手册：先把%20千问办公%20用起来/">
+          <PixelIcon name="book" /><strong>本篇导读</strong><span>路线 · 章节 · 总览</span>
         </a>
-        <a href="/bluebook/第二篇%20案例篇：从一项任务到一支%20AI%20团队/第%2012%20章%20从整理桌面文件这些小事做起/">
-          <PixelIcon name="folder-open" /><strong>文件与远程</strong><span>整理 · 查找 · 执行</span>
+        <a href="/bluebook/第一篇%20使用手册：先把%20千问办公%20用起来/第1章%20初识%20千问办公/">
+          <PixelIcon name="robot" /><strong>认识千问办公</strong><span>能力 · 场景 · 差异</span>
         </a>
-        <a href="/bluebook/第二篇%20案例篇：从一项任务到一支%20AI%20团队/第%2015%20章%20资讯整合：把信息流变成每日通知/">
-          <PixelIcon name="newspaper" /><strong>资讯与知识</strong><span>收集 · 筛选 · 复用</span>
+        <a href="/bluebook/第一篇%20使用手册：先把%20千问办公%20用起来/第2章%20Web端使用链路/">
+          <PixelIcon name="newspaper" /><strong>Web 端上手</strong><span>登录 · 任务 · 发布</span>
         </a>
-        <a href="/bluebook/第二篇%20案例篇：从一项任务到一支%20AI%20团队/第%2018%20章%20把投资分析变成你的日常/">
-          <PixelIcon name="chart-line" /><strong>专业分析</strong><span>投资 · 研究 · 诊断</span>
+        <a href="/bluebook/第一篇%20使用手册：先把%20千问办公%20用起来/第3章%20桌面端使用链路/">
+          <PixelIcon name="folder-open" /><strong>桌面端上手</strong><span>下载 · 安装 · 交付</span>
         </a>
-        <a href="/bluebook/第二篇%20案例篇：从一项任务到一支%20AI%20团队/第%2019%20章%20一句话召唤%20AI%20视频团队/">
-          <PixelIcon name="video-camera" /><strong>内容生产</strong><span>视频 · 自媒体 · GEO</span>
-        </a>
-        <a href="/bluebook/第三篇%20进阶篇：把案例变成自己的工作系统/第%2024%20章%20如何进行多%20Agent%20系统设计/">
-          <PixelIcon name="robot" /><strong>AI 工作系统</strong><span>Skill · Agent · 自动化</span>
+        <a href="/bluebook/第一篇%20使用手册：先把%20千问办公%20用起来/第4章%20通用设置/">
+          <PixelIcon name="check-box" /><strong>通用设置</strong><span>资料 · 外观 · 订阅</span>
         </a>
       </div>
     </section>
