@@ -43,8 +43,8 @@ pageClass: community-cases-page
       <li>参与经典 Case 进入绿皮书正文的共创。</li>
     </ul>
   </div>
-  <a class="case-co-create__qr" href="/community/contacts/wangxiaoshuai.jpg" target="_blank" rel="noreferrer" aria-label="查看千问办公交流联系微信二维码大图">
-    <img src="/community/contacts/wangxiaoshuai.jpg" alt="微信二维码，添加时备注 workbuddy共创" loading="lazy">
+  <a class="case-co-create__qr" href="/cases/workbuddy-co-create-wechat.png" target="_blank" rel="noreferrer" aria-label="查看千问办公共创联系人微信二维码大图">
+    <img src="/cases/workbuddy-co-create-wechat.png" alt="刘聪NLP 微信二维码，添加时备注 workbuddy共创" loading="lazy">
     <span>扫码添加微信 · 备注“workbuddy共创”</span>
   </a>
 </section>
