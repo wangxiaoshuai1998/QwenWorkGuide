@@ -7,7 +7,7 @@
 /og/*
   Cache-Control: public, max-age=2592000
 
-/favicon.svg
+/favicon.png
   Cache-Control: public, max-age=2592000
 
 https://qwenwork.pages.dev/*
