@@ -1,12 +1,12 @@
 <p align="center">
   <a href="https://workbuddy.homes/">
-    <img src="./assets/workbuddy-guide-banner.png" alt="WorkBuddy Bluebook homepage preview" width="100%">
+    <img src="./assets/workbuddy-guide-banner.png" alt="QwenWork Guide homepage preview" width="100%">
   </a>
 </p>
 
-<h1 align="center">The WorkBuddy Bluebook</h1>
+<h1 align="center">QwenWork Guide (QwenWork Greenbook)</h1>
 
-<p align="center"><strong>From your first task to an AI team</strong></p>
+<p align="center"><strong>A hands-on Chinese user manual for QwenWork</strong></p>
 
 <p align="center">
   English · <a href="./README.md">简体中文</a> ·
@@ -15,7 +15,11 @@
   <a href="./CONTRIBUTING_en.md">Contribute</a>
 </p>
 
-> This is a task-driven field guide, not a rewritten feature manual. It starts with installation and a first successful task, then moves into office work, knowledge management, professional workflows, content automation, multi-agent systems, and reusable team practices.
+> This is a task-driven field guide, not a rewritten feature manual. The current release covers Part I · User Manual (part introduction + Chapters 1–4): getting to know QwenWork, the web workflow, the desktop workflow, and general settings. More parts will be published continuously.
+
+## Background / Upstream
+
+This project originates from the open-source WorkBuddy Bluebook ([AlephAITech/WorkBuddyGuide](https://github.com/AlephAITech/WorkBuddyGuide)) and has been rebuilt on top of its site framework as the QwenWork Guide. The book content is exported from a DingTalk knowledge base and maintained around real QwenWork workflows.
 
 ## Read Online
 
@@ -25,19 +29,21 @@ The book is currently written primarily in Simplified Chinese. English contribut
 
 ## What Is Inside
 
-| Section | Topics |
+Currently available: **Part I · User Manual (part introduction + Chapters 1–4)**. More parts are on the way.
+
+| Chapter | Topics |
 | --- | --- |
-| Part I · User Manual | Installation, interface, first task, Skills, connectors, APIs, and automation |
-| Part II · Cases | Office work, files, remote control, news, knowledge, meetings, investing, video, content, and GEO |
-| Part III · Advanced | Building Skills, multi-agent system design, and reliable automation |
-| Part IV · Roles and Industries | Role-based learning paths and industry workflows |
-| Appendices | Reusable instructions and a scenario lookup table |
+| Part Introduction | Reading paths, chapter overview, and learning goals |
+| Ch. 1 Getting to Know QwenWork | Core capabilities, differences from plain AI chat, and typical scenarios |
+| Ch. 2 Web Workflow | Signing in, creating tasks, multi-turn collaboration, cloud drive, and web publishing |
+| Ch. 3 Desktop Workflow | Download, installation, sign-in, interface tour, and the first local task |
+| Ch. 4 General Settings | Profile, language and appearance, subscription, and credit management |
 
 ## How to Read
 
-- **New to WorkBuddy**: start with Chapter 1 and complete Part I in order.
-- **Have a specific task**: jump to a matching case in Part II, then use Part III to turn the result into a reusable system.
-- **Rolling out to a team**: focus on Parts III and IV, including permissions, acceptance criteria, and failure recovery.
+- **New to QwenWork**: start with Chapter 1 and complete Part I in order.
+- **Want to get hands-on quickly**: jump to Chapter 2 (web) or Chapter 3 (desktop), finish a first task, then fill in the rest.
+- **Looking for more**: future parts (cases, advanced topics) will be published continuously—watch this repository for updates.
 
 ## Local Development
 
@@ -60,7 +66,7 @@ npm run docs:preview
 Contributions are welcome, including:
 
 - corrections for typos, broken links, and outdated information;
-- reproducible real-world WorkBuddy cases;
+- reproducible real-world QwenWork cases;
 - Skills, connectors, API, and automation practices;
 - role-specific and industry-specific workflows;
 - improvements to navigation, search, design, and accessibility;
@@ -74,7 +80,7 @@ The site uses **VitePress + Cloudflare Pages + GitHub**. Cloudflare Pages builds
 
 ## Authors
 
-Thanks to the authors who create and maintain The WorkBuddy Bluebook. Click a card to view the full-size image and scan its QR code.
+Thanks to the authors who created and maintain the upstream WorkBuddy Bluebook ([AlephAITech/WorkBuddyGuide](https://github.com/AlephAITech/WorkBuddyGuide)). Click a card to view the full-size image and scan its QR code.
 
 <p align="center">
   <a href="./assets/authors/jia-mu-wei-lai-pai.png"><img src="./assets/authors/jia-mu-wei-lai-pai.png" alt="甲木未来派" width="48%"></a>
@@ -92,7 +98,7 @@ Thanks to the authors who create and maintain The WorkBuddy Bluebook. Click a ca
 
 ## Disclaimer
 
-This is a community-maintained WorkBuddy practice guide. For time-sensitive product details—including features, UI, pricing, availability, and security policies—refer to official WorkBuddy sources.
+This is a community-maintained QwenWork practice guide. For time-sensitive product details—including features, UI, pricing, availability, and security policies—refer to official QwenWork sources.
 
 ## License
 
