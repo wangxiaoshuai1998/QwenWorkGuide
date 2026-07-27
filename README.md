@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/OWNER/QwenWorkGuide">
+  <a href="https://github.com/wangxiaoshuai1998/QwenWorkGuide">
     <img src="./assets/workbuddy-guide-banner.png" alt="千问办公绿皮书：首页预览" width="100%">
   </a>
 </p>
@@ -10,9 +10,9 @@
 
 <p align="center">
   简体中文 · <a href="./README_en.md">English</a> ·
-  <a href="https://github.com/OWNER/QwenWorkGuide">在线阅读</a> ·
-  <a href="https://github.com/OWNER/QwenWorkGuide/tree/main/docs/cases">社区案例集</a> ·
-  <a href="https://github.com/OWNER/QwenWorkGuide/tree/main/docs/help">帮你解决</a> ·
+  <a href="https://github.com/wangxiaoshuai1998/QwenWorkGuide">在线阅读</a> ·
+  <a href="https://github.com/wangxiaoshuai1998/QwenWorkGuide/tree/main/docs/cases">社区案例集</a> ·
+  <a href="https://github.com/wangxiaoshuai1998/QwenWorkGuide/tree/main/docs/help">帮你解决</a> ·
   <a href="./docs/reading-guide.md">阅读指南</a> ·
   <a href="./CONTRIBUTING.md">参与共创</a>
 </p>
@@ -25,7 +25,7 @@
 
 ## 在线阅读
 
-推荐访问 **[OWNER/QwenWorkGuide](https://github.com/OWNER/QwenWorkGuide)** 阅读。网站提供完整侧边栏、全文搜索、章节目录、深色模式、流程图和移动端适配。
+推荐访问 **[wangxiaoshuai1998/QwenWorkGuide](https://github.com/wangxiaoshuai1998/QwenWorkGuide)** 阅读。网站提供完整侧边栏、全文搜索、章节目录、深色模式、流程图和移动端适配。
 
 GitHub 适合了解项目和参与贡献；真正阅读绿皮书时，网站体验更完整。
 
@@ -45,17 +45,17 @@ GitHub 适合了解项目和参与贡献；真正阅读绿皮书时，网站体�
 
 - **第一次使用**：从[第 1 章](./docs/bluebook/第一篇%20使用手册：先把%20千问办公%20用起来/第1章%20初识%20千问办公/index.md)开始，按顺序读完第一篇。
 - **想直接上手**：先看第 2 章（Web 端）或第 3 章（桌面端），跑通第一个任务后再回头补齐其他章节。
-- **关注后续内容**：案例篇、进阶篇等后续篇章会持续更新，欢迎 Watch 本仓库或关注[社区案例集](https://github.com/OWNER/QwenWorkGuide/tree/main/docs/cases)。
+- **关注后续内容**：案例篇、进阶篇等后续篇章会持续更新，欢迎 Watch 本仓库或关注[社区案例集](https://github.com/wangxiaoshuai1998/QwenWorkGuide/tree/main/docs/cases)。
 
 更完整的路线见[如何阅读这本绿皮书](./docs/reading-guide.md)。
 
 ## 帮你解决
 
-如果你有真实的工作场景，却不知道怎样用千问办公完成，可以前往 **[帮你解决](https://github.com/OWNER/QwenWorkGuide/tree/main/docs/help)** 提交场景问卷。
+如果你有真实的工作场景，却不知道怎样用千问办公完成，可以前往 **[帮你解决](https://github.com/wangxiaoshuai1998/QwenWorkGuide/tree/main/docs/help)** 提交场景问卷。
 
 请在问卷中说明你遇到的问题、目前的处理方式、会用到的资料、期望结果和安全边界。我们会阅读并评估每一份需求；如果需要补充信息，会通过你主动留下的联系方式与你沟通。
 
-具有代表性和复用价值的问题，我们会尝试制作成完整的开源 Case，写清所用 Skill、安装与使用方法、任务描述、操作过程和最终效果，并发布到[社区案例集](https://github.com/OWNER/QwenWorkGuide/tree/main/docs/cases)，帮助更多遇到类似问题的人。
+具有代表性和复用价值的问题，我们会尝试制作成完整的开源 Case，写清所用 Skill、安装与使用方法、任务描述、操作过程和最终效果，并发布到[社区案例集](https://github.com/wangxiaoshuai1998/QwenWorkGuide/tree/main/docs/cases)，帮助更多遇到类似问题的人。
 
 ## 本地阅读与开发
 
@@ -75,7 +75,7 @@ npm run docs:preview
 
 ## 参与共创
 
-我们优先收集真实、可复现的千问办公使用案例。提交 Case 前，请先搜索[社区案例集](https://github.com/OWNER/QwenWorkGuide/tree/main/docs/cases)和[绿皮书目录](https://github.com/OWNER/QwenWorkGuide/tree/main/docs/bluebook)，确认场景或任务没有重复。若目标相同但使用了不同的 Skill、方法或交付形式，请在 PR 中说明差异。
+我们优先收集真实、可复现的千问办公使用案例。提交 Case 前，请先搜索[社区案例集](https://github.com/wangxiaoshuai1998/QwenWorkGuide/tree/main/docs/cases)和[绿皮书目录](https://github.com/wangxiaoshuai1998/QwenWorkGuide/tree/main/docs/bluebook)，确认场景或任务没有重复。若目标相同但使用了不同的 Skill、方法或交付形式，请在 PR 中说明差异。
 
 每个案例至少需要写清：
 
@@ -88,7 +88,7 @@ npm run docs:preview
 
 投稿时，在 `docs/cases/submissions/` 下为案例新建独立目录，使用 [Case 正文模板](./.github/CASE_TEMPLATE.md)编写内容，并通过 [Case PR 模板](./.github/PULL_REQUEST_TEMPLATE/case.md)提交。审核合并后，案例会自动出现在网站左侧目录；具有代表性的经典案例经过进一步复现和编辑后，可能进入绿皮书正式章节。
 
-完整流程请阅读 [Case 投稿指南](https://github.com/OWNER/QwenWorkGuide/blob/main/docs/community/case-contributing.md)和[贡献指南](./CONTRIBUTING.md)。准备或提交 PR 后，也可以按网站提示加入共创群，交流选题并获得内容完善建议。
+完整流程请阅读 [Case 投稿指南](https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/main/docs/community/case-contributing.md)和[贡献指南](./CONTRIBUTING.md)。准备或提交 PR 后，也可以按网站提示加入共创群，交流选题并获得内容完善建议。
 
 ## 目录结构
 
