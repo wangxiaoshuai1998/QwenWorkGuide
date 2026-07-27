@@ -55,7 +55,12 @@ CAPTION_LINE = re.compile(
 )
 # Heading lines that still carry HTML span wrappers after color cleanup.
 HEADING_LINE = re.compile(r"^#{1,6}[ \t].*$", re.M)
-SPAN_TAG = re.compile(r"</?span\b[^>]*>")
+# Only spans whose style sets color/background-color are machine noise; spans
+# the author wrote intentionally (class/data-* etc., no color style) are kept.
+STYLED_SPAN = re.compile(
+    r"<span\b[^>]*\bstyle=\"[^\"]*(?:background-)?color\s*:[^\"]*\"[^>]*>"
+    r"((?:(?!</?span\b).)*?)</span>"
+)
 # Empty image title left by the exporter: ![](url "") -> ![](url)
 EMPTY_IMG_TITLE = re.compile(r"(!\[[^\]\n]*\]\(\S+?)\s+\"\"\)")
 
@@ -72,9 +77,39 @@ def clean_dingtalk_markdown(markdown: str) -> str:
         if unwrapped == result:
             break
         result = unwrapped
-    result = HEADING_LINE.sub(lambda m: SPAN_TAG.sub("", m.group(0)), result)
+
+    def unwrap_heading(match: "re.Match[str]") -> str:
+        line = match.group(0)
+        while True:  # styled spans may be nested; unwrap innermost first
+            unwrapped_line = STYLED_SPAN.sub(r"\1", line)
+            if unwrapped_line == line:
+                return line
+            line = unwrapped_line
+
+    result = HEADING_LINE.sub(unwrap_heading, result)
     result = EMPTY_IMG_TITLE.sub(r"\1)", result)
     return result
+
+
+def _self_test() -> int:
+    """Inline assertions for clean_dingtalk_markdown (run with --self-test)."""
+    # Auto-generated caption line is dropped entirely.
+    assert clean_dingtalk_markdown(
+        '<span style="background-color: rgb(255, 255, 255);">image.png</span>\n正文\n'
+    ) == "正文\n"
+    # Meaningless color wrappers are unwrapped, inner text kept.
+    assert clean_dingtalk_markdown('<span style="color: rgb(38, 38, 38);">正文</span>') == "正文"
+    # Heading spans carrying color/background-color styles are unwrapped.
+    assert clean_dingtalk_markdown(
+        '# <span style="background-color: rgb(245, 247, 240);">第 1 章 标题</span>'
+    ) == "# 第 1 章 标题"
+    # User-authored spans (class/data-*, no color style) must survive.
+    kept = '## <span class="anchor" data-id="x">自写标题</span>'
+    assert clean_dingtalk_markdown(kept) == kept
+    # Empty image title left by the exporter is stripped.
+    assert clean_dingtalk_markdown('![](https://example.com/a.png "")') == "![](https://example.com/a.png)"
+    print("self-test passed")
+    return 0
 
 
 class Throttler:
@@ -229,6 +264,15 @@ def check_auth() -> None:
     )
 
 
+def warn_truncated_pagination(context: str) -> None:
+    """hasMore is true but no pagination token was found: results may be cut."""
+    print(
+        f"[警告] {context} 返回 hasMore 但未找到分页 token（{'/'.join(PAGE_TOKEN_KEYS)} 均为空），结果可能被截断",
+        file=sys.stderr,
+        flush=True,
+    )
+
+
 def list_children(workspace: str, folder: str | None) -> list[dict[str, Any]]:
     """Paginated `dws wiki node list` (50/page); loops until hasMore is false."""
     items: list[dict[str, Any]] = []
@@ -247,6 +291,7 @@ def list_children(workspace: str, folder: str | None) -> list[dict[str, Any]]:
             (str(payload[key]) for key in PAGE_TOKEN_KEYS if payload.get(key)), ""
         )
         if not cursor:  # defensive: avoid infinite loop on unknown token key
+            warn_truncated_pagination(f"wiki node list（folder={folder or '根节点'}）")
             return items
 
 
@@ -270,6 +315,7 @@ def workspace_name(workspace: str) -> str:
                 (str(payload[key]) for key in PAGE_TOKEN_KEYS if payload.get(key)), ""
             )
             if not cursor:
+                warn_truncated_pagination(f"wiki space list（type={space_type}）")
                 break
     return workspace
 
@@ -567,7 +613,8 @@ def download_via_url(asset: Asset) -> None:
         error = proc.stderr.strip() or f"curl exited {proc.returncode}"
         if RATE_LIMIT.search(error):
             THROTTLE.penalize()
-            GATE.shrink()
+            if "GATE" in globals():
+                GATE.shrink()
         raise RuntimeError(error)
     if not temp.exists() or temp.stat().st_size == 0:
         raise RuntimeError("empty response")
@@ -772,4 +819,6 @@ def main() -> int:
 
 
 if __name__ == "__main__":
+    if "--self-test" in sys.argv[1:]:
+        raise SystemExit(_self_test())
     raise SystemExit(main())
