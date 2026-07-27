@@ -121,18 +121,10 @@ QwenWorkGuide
 
 感谢以下作者共同参与上游《千问办公绿皮书》（[wangxiaoshuai1998/QwenWorkGuide](https://github.com/wangxiaoshuai1998/QwenWorkGuide)）的创作与维护。点击名片可查看原图并扫描二维码。
 
-<p align="center">
-  <a href="./assets/authors/jia-mu-wei-lai-pai.png"><img src="./assets/authors/jia-mu-wei-lai-pai.png" alt="甲木未来派" width="48%"></a>
-  <a href="./assets/authors/mo-yu-xiao-li.png"><img src="./assets/authors/mo-yu-xiao-li.png" alt="摸鱼小李" width="48%"></a>
-</p>
+
 
 <p align="center">
-  <a href="./assets/authors/dai-shu-di-ai-ke-zhan.png"><img src="./assets/authors/dai-shu-di-ai-ke-zhan.png" alt="袋鼠帝AI客栈" width="48%"></a>
-  <a href="./assets/authors/cang-he.png"><img src="./assets/authors/cang-he.png" alt="苍何" width="48%"></a>
-</p>
-
-<p align="center">
-  <a href="./assets/authors/liu-cong-nlp.png"><img src="./assets/authors/liu-cong-nlp.png" alt="刘聪NLP" width="48%"></a>
+  <a href="./assets/authors/wangxiaoshuai.jpg"><img src="./assets/authors/wangxiaoshuai.jpg" alt="王小帅" width="48%"></a>
 </p>
 
 ## 声明
