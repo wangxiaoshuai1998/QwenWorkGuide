@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/wangxiaoshuai1998/QwenWorkGuide">
+  <a href="https://qwenwork.guide/">
     <img src="./assets/qwenwork-guide-banner.png" alt="千问办公绿皮书：首页预览" width="100%">
   </a>
 </p>
@@ -10,11 +10,11 @@
 
 <p align="center">
   简体中文 · <a href="./README_en.md">English</a> ·
-  <a href="https://github.com/wangxiaoshuai1998/QwenWorkGuide">在线阅读</a> ·
+  <a href="https://qwenwork.guide/">在线阅读</a> ·
   <a href="https://github.com/wangxiaoshuai1998/QwenWorkGuide/tree/main/docs/cases">社区案例集</a> ·
   <a href="https://github.com/wangxiaoshuai1998/QwenWorkGuide/tree/main/docs/help">帮你解决</a> ·
   <a href="./docs/reading-guide.md">阅读指南</a> ·
-  <a href="./CONTRIBUTING.md">参与共创</a>
+  <a href="https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/main/CONTRIBUTING.md">参与共创</a>
 </p>
 
 > 这不是官方功能说明书的改写，而是一本以真实任务为主线的实战读本。当前内容为第一篇「使用手册」（篇导读 + 第 1～4 章），帮你从初识千问办公开始，跑通 Web 端与桌面端的完整使用链路，并把账号设置调到最顺手；后续篇章持续更新。
@@ -25,7 +25,7 @@
 
 ## 在线阅读
 
-推荐访问 **[wangxiaoshuai1998/QwenWorkGuide](https://github.com/wangxiaoshuai1998/QwenWorkGuide)** 阅读。网站提供完整侧边栏、全文搜索、章节目录、深色模式、流程图和移动端适配。
+推荐访问 **[qwenwork.guide](https://qwenwork.guide/)** 阅读。网站提供完整侧边栏、全文搜索、章节目录、深色模式、流程图和移动端适配。
 
 GitHub 适合了解项目和参与贡献；真正阅读绿皮书时，网站体验更完整。
 
@@ -36,7 +36,7 @@ GitHub 适合了解项目和参与贡献；真正阅读绿皮书时，网站体�
 | 章节 | 内容 |
 | --- | --- |
 | 篇导读 | 阅读路线、章节总览与学习目标 |
-| 第 1 章 初识千问办公 | 核心能力、与传统 AI 对话的区别、典型使用场景 |
+| 第 1 章 初识千问办公 | 核心能力、与传统 AI 对话区别、典型使用场景 |
 | 第 2 章 Web 端使用链路 | 登录进入、创建任务、多轮沟通、网盘与网页发布 |
 | 第 3 章 桌面端使用链路 | 下载安装、登录账号、熟悉界面并提交第一个本地任务 |
 | 第 4 章 通用设置 | 个人资料、语言与外观、订阅及积分使用管理 |
@@ -57,7 +57,15 @@ GitHub 适合了解项目和参与贡献；真正阅读绿皮书时，网站体�
 
 具有代表性和复用价值的问题，我们会尝试制作成完整的开源 Case，写清所用 Skill、安装与使用方法、任务描述、操作过程和最终效果，并发布到[社区案例集](https://github.com/wangxiaoshuai1998/QwenWorkGuide/tree/main/docs/cases)，帮助更多遇到类似问题的人。
 
-## 本地阅读与开发
+## 技术栈
+
+- **VitePress** v1.6.4 — 静态网站生成引擎
+- **Vue 3** — 前端渲染基础（由 VitePress 隐式依赖）
+- **Mermaid** — 流程图与图表渲染
+- **Algolia DocSearch** — 站内搜索
+- **Node.js** 22（推荐）
+
+## 本地开发
 
 需要 Node.js 20～24，推荐 Node.js 22。
 
@@ -72,6 +80,17 @@ npm run dev
 npm run docs:build
 npm run docs:preview
 ```
+
+## 部署
+
+本站使用 **VitePress + Cloudflare Pages + GitHub Pages** 部署。
+
+- **Cloudflare Pages**：连接仓库 `main` 分支，每次推送自动构建部署
+- **构建命令**：`npm run docs:build`
+- **输出目录**：`docs/.vitepress/dist`
+- **Node.js 版本**：22
+
+详细配置见 [DEPLOYMENT.md](./DEPLOYMENT.md)。
 
 ## 参与共创
 
@@ -88,7 +107,15 @@ npm run docs:preview
 
 投稿时，在 `docs/cases/submissions/` 下为案例新建独立目录，使用 [Case 正文模板](./.github/CASE_TEMPLATE.md)编写内容，并通过 [Case PR 模板](./.github/PULL_REQUEST_TEMPLATE/case.md)提交。审核合并后，案例会自动出现在网站左侧目录；具有代表性的经典案例经过进一步复现和编辑后，可能进入绿皮书正式章节。
 
-完整流程请阅读 [Case 投稿指南](https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/main/docs/community/case-contributing.md)和[贡献指南](./CONTRIBUTING.md)。准备或提交 PR 后，也可以按网站提示进行交流联系，交流选题并获得内容完善建议。
+完整流程请阅读 [Case 投稿指南](https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/main/docs/community/case-contributing.md)和[贡献指南](https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/main/CONTRIBUTING.md)。
+
+## 社区交流
+
+加入千问办公交流联系（备注：千问办公 共创），联系人 **wangxiaoshuai**。
+
+准备或提交 PR 后，也可以按网站提示进行交流联系，交流选题并获得内容完善建议。
+
+如有问题或建议，欢迎前往 [Issues](https://github.com/wangxiaoshuai1998/QwenWorkGuide/issues) 提交。
 
 ## 目录结构
 
@@ -103,7 +130,7 @@ QwenWorkGuide
 │  ├─ cases/
 │  │  └─ submissions/              # 社区提交的独立 Case
 │  ├─ community/                   # Case 投稿与社区共创指南
-│  ├─ help/                        # “帮你解决”场景问卷页面
+│  ├─ help/                        # "帮你解决"场景问卷页面
 │  ├─ public/                      # 网站图片、二维码等静态资源
 │  ├─ index.md                     # 网站首页
 │  └─ reading-guide.md             # 阅读指南
@@ -113,15 +140,9 @@ QwenWorkGuide
 └─ README_en.md                    # English README
 ```
 
-## 部署
-
-本站使用 **VitePress + Cloudflare Pages + GitHub**。Cloudflare Pages 连接本仓库的 `main` 分支后，每次推送都会自动构建部署。配置见 [DEPLOYMENT.md](./DEPLOYMENT.md)。
-
 ## 作者们
 
 感谢以下作者共同参与上游《千问办公绿皮书》（[wangxiaoshuai1998/QwenWorkGuide](https://github.com/wangxiaoshuai1998/QwenWorkGuide)）的创作与维护。点击名片可查看原图并扫描二维码。
-
-
 
 <p align="center">
   <a href="./assets/authors/wangxiaoshuai.jpg"><img src="./assets/authors/wangxiaoshuai.jpg" alt="王小帅" width="48%"></a>
@@ -130,7 +151,6 @@ QwenWorkGuide
 ## 声明
 
 本项目是社区维护的千问办公实战知识库。涉及产品功能、界面、价格、可用范围和安全策略等时效性信息时，请以千问办公官方渠道为准。
-
 
 ## 开源协议
 
