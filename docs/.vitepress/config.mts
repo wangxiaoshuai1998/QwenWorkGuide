@@ -10,7 +10,7 @@ export default defineConfig({
     lang: "zh-CN",
     title: "千问办公绿皮书",
     titleTemplate: ":title · 千问办公绿皮书",
-    description: "从安装使用到 AI 工作系统：27 章千问办公实战指南与团队落地方法。",
+    description: "从初识千问办公到用顺手：千问办公使用手册与实战指南。",
     cleanUrls: true,
     lastUpdated: true,
     srcExclude: ["**/source.md", "plans/**"],

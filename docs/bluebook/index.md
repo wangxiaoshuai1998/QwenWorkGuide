@@ -1,20 +1,20 @@
 ---
-title: WorkBuddy 使用手册与实战指南｜27 章完整目录
+title: 千问办公使用手册与实战指南｜四章完整目录
 titleTemplate: false
-description: WorkBuddy 中文使用手册与实战指南，共 27 章，涵盖安装入门、真实案例、Skills、连接器、自动化、多智能体与团队落地。
+description: 千问办公中文使用手册与实战指南，共 4 章，涵盖产品初识、Web 端使用链路、桌面端使用链路与通用设置。
 breadcrumbTitle: 千问办公绿皮书
 ---
 
-# WorkBuddy 使用手册与实战指南
+# 千问办公使用手册与实战指南
 
-**27 章完整目录：从安装入门到 AI 工作系统**
+**四章完整目录：从初识千问办公到用顺手**
 
-这是一本以真实任务为主线的 WorkBuddy 中文使用手册。你可以从下载安装和第一个任务开始，再进入 Skills、连接器、移动办公、知识管理、专业诊断、内容自动化和多 Agent 团队，最终把一次成功沉淀为团队可复用的 AI 工作系统。
+这是一本以真实任务为主线的千问办公中文使用手册。你可以从认识千问办公的核心能力开始，分别掌握 Web 端与桌面端的完整使用链路，再通过通用设置把个人资料、偏好与环境调整到最适合自己的状态。
 
 ## 章节目录
 
-- [第一篇 使用手册：先把 WorkBuddy 用起来](%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20WorkBuddy%20%E7%94%A8%E8%B5%B7%E6%9D%A5/index.md)
-- [第二篇 案例篇：从一项任务到一支 AI 团队](%E7%AC%AC%E4%BA%8C%E7%AF%87%20%E6%A1%88%E4%BE%8B%E7%AF%87%EF%BC%9A%E4%BB%8E%E4%B8%80%E9%A1%B9%E4%BB%BB%E5%8A%A1%E5%88%B0%E4%B8%80%E6%94%AF%20AI%20%E5%9B%A2%E9%98%9F/index.md)
-- [第三篇 进阶篇：把案例变成自己的工作系统](%E7%AC%AC%E4%B8%89%E7%AF%87%20%E8%BF%9B%E9%98%B6%E7%AF%87%EF%BC%9A%E6%8A%8A%E6%A1%88%E4%BE%8B%E5%8F%98%E6%88%90%E8%87%AA%E5%B7%B1%E7%9A%84%E5%B7%A5%E4%BD%9C%E7%B3%BB%E7%BB%9F/index.md)
-- [第四篇 岗位与行业落地](%E7%AC%AC%E5%9B%9B%E7%AF%87%20%E5%B2%97%E4%BD%8D%E4%B8%8E%E8%A1%8C%E4%B8%9A%E8%90%BD%E5%9C%B0/index.md)
-- [附录](%E9%99%84%E5%BD%95/index.md)
+- [第一篇 使用手册：先把 千问办公 用起来](%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20%E5%8D%83%E9%97%AE%E5%8A%9E%E5%85%AC%20%E7%94%A8%E8%B5%B7%E6%9D%A5/index.md)
+  - [第1章 初识 千问办公](%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20%E5%8D%83%E9%97%AE%E5%8A%9E%E5%85%AC%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC1%E7%AB%A0%20%E5%88%9D%E8%AF%86%20%E5%8D%83%E9%97%AE%E5%8A%9E%E5%85%AC/index.md)
+  - [第2章 Web端使用链路](%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20%E5%8D%83%E9%97%AE%E5%8A%9E%E5%85%AC%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC2%E7%AB%A0%20Web%E7%AB%AF%E4%BD%BF%E7%94%A8%E9%93%BE%E8%B7%AF/index.md)
+  - [第3章 桌面端使用链路](%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20%E5%8D%83%E9%97%AE%E5%8A%9E%E5%85%AC%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC3%E7%AB%A0%20%E6%A1%8C%E9%9D%A2%E7%AB%AF%E4%BD%BF%E7%94%A8%E9%93%BE%E8%B7%AF/index.md)
+  - [第4章 通用设置](%E7%AC%AC%E4%B8%80%E7%AF%87%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20%E5%8D%83%E9%97%AE%E5%8A%9E%E5%85%AC%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC4%E7%AB%A0%20%E9%80%9A%E7%94%A8%E8%AE%BE%E7%BD%AE/index.md)
