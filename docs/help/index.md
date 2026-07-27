@@ -15,23 +15,8 @@ pageClass: help-you-page
     <p class="help-hero__lead">把你的真实问题告诉我们。我们会阅读每一份场景问卷，评估千问办公是否能够解决；如果需要补充信息，我们会联系你进一步沟通。</p>
     <p>具有代表性和复用价值的问题，我们会尝试做成完整 Case，写清使用的 Skill、操作过程、任务描述和最终效果，并开源到社区案例集，帮助更多遇到同类问题的人。</p>
     <div class="help-hero__actions">
-      <a class="help-button help-button--primary" href="#scenario-survey">扫码填写问卷</a>
-      <a class="help-button" href="/cases/">查看开源 Case</a>
+      <a class="help-button help-button--primary" href="/cases/">查看开源 Case</a>
     </div>
-  </div>
-
-  <div id="scenario-survey" class="help-survey-card">
-    <div class="help-survey-card__heading">
-      <span>01</span>
-      <div>
-        <strong>千问办公场景收集调查问卷</strong>
-        <small>扫码后填写你的真实需求</small>
-      </div>
-    </div>
-    <a href="/help/qwenwork-scenario-survey.png" target="_blank" rel="noreferrer" aria-label="查看千问办公场景收集调查问卷二维码大图">
-      <img src="/help/qwenwork-scenario-survey.png" alt="千问办公场景收集调查问卷二维码" loading="eager">
-    </a>
-    <p>使用手机扫码填写；如果你正在手机上阅读，可以点击图片查看大图后长按识别。</p>
   </div>
 </div>
 
@@ -167,70 +152,6 @@ pageClass: help-you-page
   color: var(--vp-c-bg) !important;
 }
 
-.help-survey-card {
-  width: min(100%, 560px);
-  margin: 0 auto;
-  padding: 20px;
-  border: 2px solid var(--vp-c-text-1);
-  border-radius: 14px;
-  background: var(--vp-c-bg-soft);
-  box-shadow: 12px 12px 0 var(--wb-acid);
-}
-
-.help-survey-card__heading {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 16px;
-}
-
-.help-survey-card__heading > span {
-  display: grid;
-  width: 42px;
-  height: 42px;
-  place-items: center;
-  flex: 0 0 auto;
-  background: var(--vp-c-text-1);
-  color: var(--vp-c-bg);
-  font-family: "Silkscreen", monospace;
-}
-
-.help-survey-card__heading div {
-  display: grid;
-  gap: 2px;
-}
-
-.help-survey-card__heading strong {
-  font-size: 16px;
-}
-
-.help-survey-card__heading small,
-.help-survey-card > p {
-  color: var(--vp-c-text-3);
-}
-
-.help-survey-card a {
-  display: block;
-  overflow: hidden;
-  border-radius: 10px;
-  background: #eef8ff;
-}
-
-.help-survey-card img {
-  display: block;
-  width: 100%;
-  max-height: 560px;
-  margin: 0;
-  object-fit: contain;
-}
-
-.help-survey-card > p {
-  margin: 14px 2px 0;
-  font-size: 13px;
-  line-height: 1.6;
-  text-align: center;
-}
-
 .help-process {
   padding: 52px 0;
   border-top: 2px solid var(--vp-c-text-1);
@@ -352,10 +273,6 @@ pageClass: help-you-page
 
   .help-submit-guide {
     gap: 12px;
-  }
-
-  .help-survey-card {
-    box-shadow: 7px 7px 0 var(--wb-acid);
   }
 }
 </style>
