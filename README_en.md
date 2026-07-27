@@ -1,5 +1,5 @@
 ﻿<p align="center">
-  <a href="https://qwenwork.guide/">
+  <a href="https://qwenwork.ink/">
     <img src="./assets/qwenwork-guide-banner.png" alt="QwenWork Guide homepage preview" width="100%">
   </a>
 </p>
@@ -10,7 +10,7 @@
 
 <p align="center">
   English · <a href="./README.md">简体中文</a> ·
-  <a href="https://qwenwork.guide/">Read Online</a> ·
+  <a href="https://qwenwork.ink/">Read Online</a> ·
   <a href="https://github.com/wangxiaoshuai1998/QwenWorkGuide/tree/main/docs/cases">Community Cases</a> ·
   <a href="https://github.com/wangxiaoshuai1998/QwenWorkGuide/tree/main/docs/help">Help</a> ·
   <a href="./docs/reading-guide.md">Reading Guide</a> ·
@@ -25,7 +25,7 @@ This project originates from the open-source WorkBuddy Bluebook ([wangxiaoshuai1
 
 ## Read Online
 
-The recommended reading experience is **[qwenwork.guide](https://qwenwork.guide/)**. The website provides full navigation, local search, page outlines, dark mode, rendered diagrams, and mobile support.
+The recommended reading experience is **[qwenwork.ink](https://qwenwork.ink/)**. The website provides full navigation, local search, page outlines, dark mode, rendered diagrams, and mobile support.
 
 The book is currently written primarily in Simplified Chinese. English contributions and translation proposals are welcome.
 

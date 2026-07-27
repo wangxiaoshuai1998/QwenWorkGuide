@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://qwenwork.guide/">
+  <a href="https://qwenwork.ink/">
     <img src="./assets/qwenwork-guide-banner.png" alt="千问办公绿皮书：首页预览" width="100%">
   </a>
 </p>
@@ -10,7 +10,7 @@
 
 <p align="center">
   简体中文 · <a href="./README_en.md">English</a> ·
-  <a href="https://qwenwork.guide/">在线阅读</a> ·
+  <a href="https://qwenwork.ink/">在线阅读</a> ·
   <a href="https://github.com/wangxiaoshuai1998/QwenWorkGuide/tree/main/docs/cases">社区案例集</a> ·
   <a href="https://github.com/wangxiaoshuai1998/QwenWorkGuide/tree/main/docs/help">帮你解决</a> ·
   <a href="./docs/reading-guide.md">阅读指南</a> ·
@@ -25,7 +25,7 @@
 
 ## 在线阅读
 
-推荐访问 **[qwenwork.guide](https://qwenwork.guide/)** 阅读。网站提供完整侧边栏、全文搜索、章节目录、深色模式、流程图和移动端适配。
+推荐访问 **[qwenwork.ink](https://qwenwork.ink/)** 阅读。网站提供完整侧边栏、全文搜索、章节目录、深色模式、流程图和移动端适配。
 
 GitHub 适合了解项目和参与贡献；真正阅读绿皮书时，网站体验更完整。
 
