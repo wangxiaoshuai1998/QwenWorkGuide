@@ -34,6 +34,8 @@ export const bluebookSidebar: DefaultTheme.Sidebar = {
         child(part1, "第2章 Web端使用链路"),
         child(part1, "第3章 桌面端使用链路"),
         child(part1, "第4章 通用设置"),
+        child(part1, "第5章 网页端核心功能"),
+        child(part1, "第6章 桌面端核心功能"),
       ],
     },
   ],

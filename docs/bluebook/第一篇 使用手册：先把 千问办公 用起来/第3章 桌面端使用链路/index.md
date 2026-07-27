@@ -101,3 +101,6 @@ QwenWork 主窗口由两部分组成：左侧是垂直的导航侧边栏，右�
 | 澄清（Clarification） | 任务开始前的简短确认，用来对齐模糊的需求。 | 对话中，刚提交任务之后。 |
 | 任务监控（Task Monitor） | 实时展示计划、工具调用、使用的技能和被操作文件的执行面板。 | 任务运行时，工作区右侧。 |
 | <span style="color: rgb(64, 61, 56); background-color: rgb(249, 251, 248);">产物（Artifacts）</span> | <span style="color: rgb(64, 61, 56); background-color: rgb(249, 251, 248);">任务输出的具体文件——表格、幻灯片、报告、代码等。</span> | <span style="color: rgb(64, 61, 56); background-color: rgb(249, 251, 248);">任务结束后的对话区，以及历史 任务列表中。</span> |
+
+
+<span style="color: rgb(73, 70, 65); background-color: rgb(245, 247, 240);">***来源：千文办公 官方指南。***</span>
