@@ -1,4 +1,4 @@
-User-agent: *
+﻿User-agent: *
 Allow: /
 
-Sitemap: https://qwenwork.homes/sitemap.xml
+Sitemap: https://qwenwork.ink/sitemap.xml

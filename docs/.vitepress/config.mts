@@ -1,10 +1,10 @@
-import { defineConfig } from "vitepress";
+﻿import { defineConfig } from "vitepress";
 
 import { siteSidebar } from "./sidebar";
 import { configureMermaidMarkdown } from "./mermaid-markdown";
 import { createPageDescription, createSeoHead } from "./seo";
 
-const siteUrl = process.env.VITEPRESS_SITE_URL || "https://qwenwork.homes";
+const siteUrl = process.env.VITEPRESS_SITE_URL || "https://qwenwork.ink";
 const base = process.env.VITEPRESS_BASE || "/";
 
 export default defineConfig({

@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+﻿name: Deploy to GitHub Pages
 
 on:
   push:
@@ -32,7 +32,7 @@ jobs:
       - name: Build site
         run: npm run docs:build
         env:
-          VITEPRESS_SITE_URL: https://qwenwork.homes
+          VITEPRESS_SITE_URL: https://qwenwork.ink
           VITEPRESS_BASE: /QwenWorkGuide/
 
       - name: Upload Pages artifact

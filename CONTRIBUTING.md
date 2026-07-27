@@ -1,4 +1,4 @@
-# 贡献指南
+﻿# 贡献指南
 
 感谢你愿意一起完善《WorkBuddy 实战蓝皮书》。我们希望每次贡献都能帮助读者更快完成一个真实任务，并留下可以验证、复用和迁移的方法。
 
@@ -41,7 +41,7 @@ docs/cases/submissions/<case-slug>/
 
 复制 `.github/CASE_TEMPLATE.md` 作为正文起点，并在创建 PR 时使用 `.github/PULL_REQUEST_TEMPLATE/case.md`。案例必须描述场景、使用的 Skills、操作过程、实际效果、验收标准和安全边界。
 
-案例集合首页会在构建时自动读取这些目录，不需要手工修改 `docs/cases/index.md`。完整说明见网站的 [Case 投稿指南](https://qwenwork.homes/community/case-contributing)。
+案例集合首页会在构建时自动读取这些目录，不需要手工修改 `docs/cases/index.md`。完整说明见网站的 [Case 投稿指南](https://qwenwork.ink/community/case-contributing)。
 
 ## 本地验证
 

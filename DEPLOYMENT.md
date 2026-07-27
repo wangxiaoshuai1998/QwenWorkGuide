@@ -1,4 +1,4 @@
-# Cloudflare Pages 部署
+﻿# Cloudflare Pages 部署
 
 本站采用 VitePress 静态构建，并通过 Cloudflare Pages 的 GitHub 集成持续部署。
 
@@ -21,7 +21,7 @@
 在 Cloudflare Pages 的生产环境变量中设置：
 
 ```text
-VITEPRESS_SITE_URL=https://qwenwork.homes
+VITEPRESS_SITE_URL=https://qwenwork.ink
 ```
 
 仓库默认值同样使用正式域名，避免缺少环境变量时 canonical、Open Graph
@@ -45,7 +45,7 @@ npm run docs:preview
 
 ## 自定义域名
 
-正式自定义域名为 `https://qwenwork.homes`。如未来更换域名，需要同步更新
+正式自定义域名为 `https://qwenwork.ink`。如未来更换域名，需要同步更新
 `VITEPRESS_SITE_URL`、`docs/public/robots.txt`、README 在线阅读链接和各搜索引擎站点属性。
 
 `docs/public/_headers` 会为带内容指纹的 `/assets/*` 设置一年不可变缓存，
