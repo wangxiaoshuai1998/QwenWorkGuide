@@ -11,11 +11,11 @@ pageClass: community-cases-page
 
 这里收录由 WorkBuddy 用户提交的真实实践。每个案例都会说明它解决了什么场景、使用了哪些 Skills、在 WorkBuddy 中怎样执行，以及最终交付了什么结果。
 
-社区案例通过完整性、安全性和可读性审核后即可发布；经过进一步复现和编辑的经典任务，未来可能被收录进《WorkBuddy 实战蓝皮书》正文。
+社区案例通过完整性、安全性和可读性审核后即可发布；经过进一步复现和编辑的经典任务，未来可能被收录进《WorkBuddy 实战绿皮书》正文。
 
 ## 如何提交 Case
 
-1. 先搜索左侧的社区 Case 和[蓝皮书目录](/bluebook/)，确认场景或任务没有重复。
+1. 先搜索左侧的社区 Case 和[绿皮书目录](/bluebook/)，确认场景或任务没有重复。
 2. 阅读[Case 投稿指南](/community/case-contributing)，复制标准模板。
 3. 在 `docs/cases/submissions/` 下新增一个 Case 文件夹。
 4. 写清场景、使用的 Skills、操作过程、实际效果和验收标准。
@@ -27,20 +27,20 @@ pageClass: community-cases-page
 
 <div class="case-intro-actions">
   <a class="case-intro-button case-intro-button--primary" href="/community/case-contributing">提交你的 Case</a>
-  <a class="case-intro-button" href="/bluebook/">阅读蓝皮书</a>
+  <a class="case-intro-button" href="/bluebook/">阅读绿皮书</a>
 </div>
 
 <section class="case-co-create" aria-labelledby="case-co-create-title">
   <div class="case-co-create__copy">
     <p class="case-co-create__label">CONTRIBUTOR COMMUNITY</p>
     <h2 id="case-co-create-title">提交 PR 后，加入 WorkBuddy 共创群</h2>
-    <p>如果你正在准备或已经提交 Case PR，欢迎添加微信。我们会邀请你进入 WorkBuddy 共创群，一起讨论案例结构、复现过程、审核建议和蓝皮书后续选题。</p>
+    <p>如果你正在准备或已经提交 Case PR，欢迎添加微信。我们会邀请你进入 WorkBuddy 共创群，一起讨论案例结构、复现过程、审核建议和绿皮书后续选题。</p>
     <strong>添加微信时，请备注：workbuddy共创</strong>
     <ul>
       <li>交流 Case 选题，避免重复提交。</li>
       <li>讨论 Skill、操作步骤和结果证明。</li>
       <li>获取 PR 审核和内容完善建议。</li>
-      <li>参与经典 Case 进入蓝皮书正文的共创。</li>
+      <li>参与经典 Case 进入绿皮书正文的共创。</li>
     </ul>
   </div>
   <a class="case-co-create__qr" href="/cases/workbuddy-co-create-wechat.png" target="_blank" rel="noreferrer" aria-label="查看 WorkBuddy 共创联系人微信二维码大图">
@@ -50,8 +50,8 @@ pageClass: community-cases-page
 </section>
 
 <div class="case-editor-note">
-  <strong>从社区案例到蓝皮书正文</strong>
-  <p>我们会持续观察案例的可复现性、代表性和读者反馈。通过二次验证的经典任务，将在保留原作者署名的前提下进入蓝皮书正式章节。</p>
+  <strong>从社区案例到绿皮书正文</strong>
+  <p>我们会持续观察案例的可复现性、代表性和读者反馈。通过二次验证的经典任务，将在保留原作者署名的前提下进入绿皮书正式章节。</p>
 </div>
 
 <style>

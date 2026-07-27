@@ -3,7 +3,7 @@ import { resolve } from "node:path";
 
 import type { HeadConfig, PageData, TransformContext } from "vitepress";
 
-const SITE_NAME = "WorkBuddy 实战蓝皮书";
+const SITE_NAME = "千问办公绿皮书";
 const SITE_ALTERNATE_NAME = "WorkBuddy Guide";
 const ORGANIZATION_NAME = "WorkBuddy Guide Contributors";
 const GITHUB_URL = "https://github.com/AlephAITech/WorkBuddyGuide";
@@ -134,7 +134,7 @@ function breadcrumbName(segment: string): string {
   }
 
   const labels: Record<string, string> = {
-    bluebook: "WorkBuddy 实战蓝皮书",
+    bluebook: "千问办公绿皮书",
     cases: "社区案例集",
     community: "社区共创",
     help: "帮你解决",
@@ -308,12 +308,12 @@ export function createSeoHead(
     ["meta", { property: "og:image:type", content: "image/png" }],
     ["meta", { property: "og:image:width", content: "1280" }],
     ["meta", { property: "og:image:height", content: "720" }],
-    ["meta", { property: "og:image:alt", content: "WorkBuddy 实战蓝皮书首页预览" }],
+    ["meta", { property: "og:image:alt", content: "千问办公绿皮书首页预览" }],
     ["meta", { name: "twitter:card", content: "summary_large_image" }],
     ["meta", { name: "twitter:title", content: title }],
     ["meta", { name: "twitter:description", content: description }],
     ["meta", { name: "twitter:image", content: socialImageUrl }],
-    ["meta", { name: "twitter:image:alt", content: "WorkBuddy 实战蓝皮书首页预览" }],
+    ["meta", { name: "twitter:image:alt", content: "千问办公绿皮书首页预览" }],
     [
       "script",
       { type: "application/ld+json" },

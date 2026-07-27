@@ -2,7 +2,7 @@
 title: WorkBuddy 使用手册与实战指南｜27 章完整目录
 titleTemplate: false
 description: WorkBuddy 中文使用手册与实战指南，共 27 章，涵盖安装入门、真实案例、Skills、连接器、自动化、多智能体与团队落地。
-breadcrumbTitle: WorkBuddy 实战蓝皮书
+breadcrumbTitle: 千问办公绿皮书
 ---
 
 # WorkBuddy 使用手册与实战指南
