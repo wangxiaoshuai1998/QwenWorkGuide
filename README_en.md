@@ -19,7 +19,7 @@
 
 ## Background / Upstream
 
-This project originates from the open-source WorkBuddy Bluebook ([AlephAITech/WorkBuddyGuide](https://github.com/AlephAITech/WorkBuddyGuide)) and has been rebuilt on top of its site framework as the QwenWork Guide. The book content is exported from a DingTalk knowledge base and maintained around real QwenWork workflows.
+This project originates from the open-source WorkBuddy Bluebook ([wangxiaoshuai1998/QwenWorkGuide](https://github.com/wangxiaoshuai1998/QwenWorkGuide)) and has been rebuilt on top of its site framework as the QwenWork Guide. The book content is exported from a DingTalk knowledge base and maintained around real QwenWork workflows.
 
 ## Read Online
 
@@ -72,7 +72,7 @@ Contributions are welcome, including:
 - improvements to navigation, search, design, and accessibility;
 - English translations.
 
-Read the [Contribution Guide](./CONTRIBUTING_en.md) or open an [Issue](https://github.com/AlephAITech/WorkBuddyGuide/issues).
+Read the [Contribution Guide](./CONTRIBUTING_en.md) or open an [Issue](https://github.com/wangxiaoshuai1998/QwenWorkGuide/issues).
 
 ## Deployment
 
@@ -80,7 +80,7 @@ The site uses **VitePress + Cloudflare Pages + GitHub**. Cloudflare Pages builds
 
 ## Authors
 
-Thanks to the authors who created and maintain the upstream WorkBuddy Bluebook ([AlephAITech/WorkBuddyGuide](https://github.com/AlephAITech/WorkBuddyGuide)). Click a card to view the full-size image and scan its QR code.
+Thanks to the authors who created and maintain the upstream QwenWork Guide ([wangxiaoshuai1998/QwenWorkGuide](https://github.com/wangxiaoshuai1998/QwenWorkGuide)). Click a card to view the full-size image and scan its QR code.
 
 <p align="center">
   <a href="./assets/authors/jia-mu-wei-lai-pai.png"><img src="./assets/authors/jia-mu-wei-lai-pai.png" alt="甲木未来派" width="48%"></a>

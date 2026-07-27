@@ -5,8 +5,8 @@ import type { HeadConfig, PageData, TransformContext } from "vitepress";
 
 const SITE_NAME = "千问办公绿皮书";
 const SITE_ALTERNATE_NAME = "QwenWork Guide";
-const ORGANIZATION_NAME = "WorkBuddy Guide Contributors";
-const GITHUB_URL = "https://github.com/AlephAITech/WorkBuddyGuide";
+const ORGANIZATION_NAME = "QwenWork Guide Contributors";
+const GITHUB_URL = "https://github.com/wangxiaoshuai1998/QwenWorkGuide";
 const DEFAULT_DESCRIPTION =
   "千问办公中文使用手册与实战指南：涵盖产品初识、Web 端与桌面端使用链路、通用设置。";
 

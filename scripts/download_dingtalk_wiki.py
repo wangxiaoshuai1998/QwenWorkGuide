@@ -170,7 +170,7 @@ def cli_json(args: list[str], retries: int = 3) -> dict[str, Any]:
     last_error = ""
     for attempt in range(1, retries + 1):
         THROTTLE.wait()
-        proc = subprocess.run(command, text=True, capture_output=True)
+        proc = subprocess.run(command, text=True, capture_output=True, encoding="utf-8")
         if proc.returncode == 0:
             try:
                 payload = json.loads(proc.stdout)
@@ -513,6 +513,7 @@ def read_markdown(node: Node) -> tuple[str, str]:
         ],
         text=True,
         capture_output=True,
+        encoding="utf-8",
     )
     if proc.returncode == 0 and target.exists() and target.stat().st_size > 0:
         return target.read_text(encoding="utf-8"), "doc export"
@@ -608,6 +609,7 @@ def download_via_url(asset: Asset) -> None:
         ],
         text=True,
         capture_output=True,
+        encoding="utf-8",
     )
     if proc.returncode != 0:
         error = proc.stderr.strip() or f"curl exited {proc.returncode}"

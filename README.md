@@ -21,7 +21,7 @@
 
 ## 项目背景
 
-本项目源自开源项目 WorkBuddy Bluebook（[AlephAITech/WorkBuddyGuide](https://github.com/AlephAITech/WorkBuddyGuide)），在其站点框架基础上重构为「千问办公绿皮书」。正文内容基于钉钉知识库导出，围绕千问办公的真实使用链路编写与维护。
+本项目源自开源项目 WorkBuddy Bluebook（[wangxiaoshuai1998/QwenWorkGuide](https://github.com/wangxiaoshuai1998/QwenWorkGuide)），在其站点框架基础上重构为「千问办公绿皮书」。正文内容基于钉钉知识库导出，围绕千问办公的真实使用链路编写与维护。
 
 ## 在线阅读
 
@@ -119,7 +119,7 @@ QwenWorkGuide
 
 ## 作者们
 
-感谢以下作者共同参与上游《WorkBuddy 蓝皮书》（[AlephAITech/WorkBuddyGuide](https://github.com/AlephAITech/WorkBuddyGuide)）的创作与维护。点击名片可查看原图并扫描二维码。
+感谢以下作者共同参与上游《千问办公绿皮书》（[wangxiaoshuai1998/QwenWorkGuide](https://github.com/wangxiaoshuai1998/QwenWorkGuide)）的创作与维护。点击名片可查看原图并扫描二维码。
 
 <p align="center">
   <a href="./assets/authors/jia-mu-wei-lai-pai.png"><img src="./assets/authors/jia-mu-wei-lai-pai.png" alt="甲木未来派" width="48%"></a>

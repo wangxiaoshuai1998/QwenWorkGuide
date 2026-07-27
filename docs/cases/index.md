@@ -35,7 +35,7 @@ pageClass: community-cases-page
     <p class="case-co-create__label">CONTRIBUTOR COMMUNITY</p>
     <h2 id="case-co-create-title">提交 PR 后，加入千问办公交流联系</h2>
     <p>如果你正在准备或已经提交 Case PR，欢迎添加微信。我们会通过千问办公交流联系，一起讨论案例结构、复现过程、审核建议和绿皮书后续选题。</p>
-    <strong>添加微信时，请备注：workbuddy共创</strong>
+    <strong>添加微信时，请备注：千问办公 共创</strong>
     <ul>
       <li>交流 Case 选题，避免重复提交。</li>
       <li>讨论 Skill、操作步骤和结果证明。</li>
@@ -44,8 +44,8 @@ pageClass: community-cases-page
     </ul>
   </div>
   <a class="case-co-create__qr" href="/cases/workbuddy-co-create-wechat.png" target="_blank" rel="noreferrer" aria-label="查看千问办公共创联系人微信二维码大图">
-    <img src="/cases/workbuddy-co-create-wechat.png" alt="刘聪NLP 微信二维码，添加时备注 workbuddy共创" loading="lazy">
-    <span>扫码添加微信 · 备注“workbuddy共创”</span>
+    <img src="/cases/workbuddy-co-create-wechat.png" alt="千问办公共创联系人微信二维码，添加时备注 千问办公 共创" loading="lazy">
+    <span>扫码添加微信 · 备注“千问办公 共创”</span>
   </a>
 </section>
 

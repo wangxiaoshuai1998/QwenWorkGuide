@@ -18,7 +18,7 @@
 
 ## 最轻量的方式：提交 Issue
 
-如果暂时不想修改文件，可以在 [GitHub Issues](https://github.com/AlephAITech/WorkBuddyGuide/issues) 中说明：
+如果暂时不想修改文件，可以在 [GitHub Issues](https://github.com/wangxiaoshuai1998/QwenWorkGuide/issues) 中说明：
 
 1. 哪一页需要调整。
 2. 现在的问题是什么。
@@ -33,7 +33,7 @@
 4. 本地运行 `npm install` 和 `npm run docs:build`。
 5. 提交 Pull Request，并说明改动、原因和验证方式。
 
-完整规范见仓库根目录的 [CONTRIBUTING.md](https://github.com/AlephAITech/WorkBuddyGuide/blob/main/CONTRIBUTING.md)。
+完整规范见仓库根目录的 [CONTRIBUTING.md](https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/main/CONTRIBUTING.md)。
 
 ## 内容原则
 
@@ -45,27 +45,11 @@
 
 ## 联系我们
 
-如果你想交流共创想法、提交案例，或者参与绿皮书后续维护，可以扫描二维码联系我们。点击图片可查看大图。
+如果你想交流共创想法、提交案例，或者参与绿皮书后续维护，欢迎加入千问办公交流联系。点击图片可查看大图。
 
 <div class="wb-contact-grid">
-  <a class="wb-contact-card" href="/community/contacts/liu-cong-nlp.jpg" target="_blank" rel="noreferrer">
-    <img src="/community/contacts/liu-cong-nlp.jpg" alt="刘聪NLP 微信二维码" loading="lazy">
-    <span>刘聪NLP</span>
-  </a>
-  <a class="wb-contact-card" href="/community/contacts/dai-shu-di.jpg" target="_blank" rel="noreferrer">
-    <img src="/community/contacts/dai-shu-di.jpg" alt="袋鼠帝微信二维码" loading="lazy">
-    <span>袋鼠帝</span>
-  </a>
-  <a class="wb-contact-card" href="/community/contacts/jia-mu.jpg" target="_blank" rel="noreferrer">
-    <img src="/community/contacts/jia-mu.jpg" alt="甲木微信二维码" loading="lazy">
-    <span>甲木</span>
-  </a>
-  <a class="wb-contact-card" href="/community/contacts/joy.jpg" target="_blank" rel="noreferrer">
-    <img src="/community/contacts/joy.jpg" alt="Joy 微信二维码" loading="lazy">
-    <span>Joy</span>
-  </a>
-  <a class="wb-contact-card" href="/community/contacts/wangxiaoshuai.jpg" target="_blank" rel="noreferrer">
-    <img src="/community/contacts/wangxiaoshuai.jpg" alt="wangxiaoshuai 微信二维码" loading="lazy">
+  <a class="wb-contact-card" href="/community/contacts/wangxiaoshuai-wechat.jpg" target="_blank" rel="noreferrer">
+    <img src="/community/contacts/wangxiaoshuai-wechat.jpg" alt="wangxiaoshuai 微信二维码" loading="lazy">
     <span>wangxiaoshuai</span>
   </a>
 </div>

@@ -25,7 +25,7 @@ outline: false
 ## 提交步骤
 
 1. 搜索案例集和绿皮书，确认任务没有重复。
-2. Fork [AlephAITech/WorkBuddyGuide](https://github.com/AlephAITech/WorkBuddyGuide) 仓库。
+2. Fork [wangxiaoshuai1998/QwenWorkGuide](https://github.com/wangxiaoshuai1998/QwenWorkGuide) 仓库。
 3. 复制 `.github/CASE_TEMPLATE.md` 中的案例模板。
 4. 新建 `docs/cases/submissions/<case-slug>/index.md`。
 5. 将截图等素材放进同目录的 `assets/` 文件夹。
@@ -39,7 +39,7 @@ docs/cases/submissions/daily-ai-news/
 ├── index.md
 └── assets/
     ├── cover.png
-    └── workbuddy-result.png
+    └── qwenwork-result.png
 ```
 
 你不需要修改案例集合首页。网站构建时会自动读取所有 Case 的标题、分类、Skills、作者和简介。

@@ -171,7 +171,7 @@ import PixelIconSprite from "./PixelIconSprite.vue";
       </div>
       <div class="wb-community__actions">
         <a class="wb-button wb-button--acid" href="/community/contributing">参与共创</a>
-        <a class="wb-button wb-button--dark-outline" href="https://github.com/AlephAITech/WorkBuddyGuide">前往 GitHub</a>
+        <a class="wb-button wb-button--dark-outline" href="https://github.com/wangxiaoshuai1998/QwenWorkGuide">前往 GitHub</a>
       </div>
       <PixelIcon name="book" class="wb-community__icon" />
     </section>

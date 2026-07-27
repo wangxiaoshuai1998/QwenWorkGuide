@@ -1,6 +1,6 @@
 # Contribution Guide
 
-Thank you for helping improve the WorkBuddy Bluebook. A useful contribution should help readers complete a real task faster and leave behind a method that can be checked, reused, and adapted.
+Thank you for helping improve the QwenWork Guide. A useful contribution should help readers complete a real task faster and leave behind a method that can be checked, reused, and adapted.
 
 ## Good Contributions
 

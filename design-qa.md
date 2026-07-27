@@ -1,4 +1,4 @@
-# WorkBuddy Guide Design QA
+# QwenWork Guide Design QA
 
 ## Visual sources
 

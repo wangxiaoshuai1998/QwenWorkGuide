@@ -46,7 +46,7 @@ export default defineConfig({
         {
           name: "keywords",
           content:
-            "千问办公,QwenWork,QwenWork Guide,AI 办公,AI Agent,AI 工作系统,自动化,职场 AI,WorkBuddy",
+            "千问办公,QwenWork,QwenWork Guide,AI 办公,AI Agent,AI 工作系统,自动化,职场 AI"
         },
       ],
     ],

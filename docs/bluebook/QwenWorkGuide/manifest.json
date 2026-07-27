@@ -1,0 +1,176 @@
+{
+  "workspace_id": "w0oXWj28Mp90gz1J",
+  "root_node_id": "",
+  "generated_at": "2026-07-27T17:59:39.872076+00:00",
+  "page_count": 20,
+  "file_upload_count": 0,
+  "file_upload_pages": [],
+  "asset_count": 30,
+  "assets_downloaded": 30,
+  "assets_skipped": 0,
+  "export_failures": [],
+  "asset_failures": [],
+  "tree": {
+    "title": "QwenWorkGuide",
+    "node_id": "",
+    "content_type": "",
+    "export_method": "folder",
+    "path": "QwenWorkGuide",
+    "children": [
+      {
+        "title": "第一篇 使用手册：先把 千问办公 用起来",
+        "node_id": "vy20BglGWOvv4oaNfggjk9Oe8A7depqY",
+        "content_type": "ALIDOC",
+        "export_method": "doc read",
+        "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来",
+        "children": [
+          {
+            "title": "第1章 初识 千问办公",
+            "node_id": "QOG9lyrgJP99vomkUvve6krp8zN67Mw4",
+            "content_type": "ALIDOC",
+            "export_method": "doc read",
+            "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第1章 初识 千问办公",
+            "children": []
+          },
+          {
+            "title": "第2章 Web端使用链路",
+            "node_id": "m9bN7RYPWd33YzK5IKja76lM8Zd1wyK0",
+            "content_type": "ALIDOC",
+            "export_method": "doc read",
+            "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第2章 Web端使用链路",
+            "children": []
+          },
+          {
+            "title": "第3章 桌面端使用链路",
+            "node_id": "93NwLYZXWyQQq1YasNGLlOAqWkyEqBQm",
+            "content_type": "ALIDOC",
+            "export_method": "doc read",
+            "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第3章 桌面端使用链路",
+            "children": []
+          },
+          {
+            "title": "第4章 通用设置",
+            "node_id": "ydxXB52LJqQQq1zjsKZLwxPNJqjMp697",
+            "content_type": "ALIDOC",
+            "export_method": "doc read",
+            "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第4章 通用设置",
+            "children": []
+          },
+          {
+            "title": "第5章 网页端核心功能",
+            "node_id": "Y1OQX0akWmQQqYkrsbjdAE6xWGlDd3mE",
+            "content_type": "ALIDOC",
+            "export_method": "doc read",
+            "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第5章 网页端核心功能",
+            "children": []
+          },
+          {
+            "title": "第6章 桌面端核心功能",
+            "node_id": "N7dx2rn0Jbbb0plPiZNo2r02JMGjLRb3",
+            "content_type": "ALIDOC",
+            "export_method": "doc read",
+            "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能",
+            "children": [
+              {
+                "title": "6.1 系统设置",
+                "node_id": "KGZLxjv9VGyyB1jKf6ZQ6ZwN86EDybno",
+                "content_type": "ALIDOC",
+                "export_method": "doc read",
+                "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.1 系统设置",
+                "children": []
+              },
+              {
+                "title": "6.2 意识",
+                "node_id": "YndMj49yWj55wRMKsRb5b5Q583pmz5aA",
+                "content_type": "ALIDOC",
+                "export_method": "doc read",
+                "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.2 意识",
+                "children": []
+              },
+              {
+                "title": "6.3 应用快照",
+                "node_id": "20eMKjyp81vvBXwzferDrAeBWxAZB1Gv",
+                "content_type": "ALIDOC",
+                "export_method": "doc read",
+                "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.3 应用快照",
+                "children": []
+              },
+              {
+                "title": "6.4 电脑操控",
+                "node_id": "m9bN7RYPWd33YzK5IKj2RxaA8Zd1wyK0",
+                "content_type": "ALIDOC",
+                "export_method": "doc read",
+                "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.4 电脑操控",
+                "children": []
+              },
+              {
+                "title": "6.5 模型选择",
+                "node_id": "ZX6GRezwJlQQqbNvsg03gZkN8dqbropQ",
+                "content_type": "ALIDOC",
+                "export_method": "doc read",
+                "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.5 模型选择",
+                "children": []
+              },
+              {
+                "title": "6.6 语音输入",
+                "node_id": "R1zknDm0WRggDolpU0zlz4ANVBQEx5rG",
+                "content_type": "ALIDOC",
+                "export_method": "doc read",
+                "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.6 语音输入",
+                "children": []
+              },
+              {
+                "title": "6.7 IM 频道",
+                "node_id": "YMyQA2dXW7NNBmwRfZ1gdpAd8zlwrZgb",
+                "content_type": "ALIDOC",
+                "export_method": "doc read",
+                "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.7 IM 频道",
+                "children": []
+              },
+              {
+                "title": "6.8 定时任务",
+                "node_id": "qnYMoO1rWxQQq10Zsj9rYynjV47Z3je9",
+                "content_type": "ALIDOC",
+                "export_method": "doc read",
+                "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.8 定时任务",
+                "children": []
+              },
+              {
+                "title": "6.9 Hooks",
+                "node_id": "7NkDwLng8Zzz29lRcN3qEmvB8KMEvZBY",
+                "content_type": "ALIDOC",
+                "export_method": "doc read",
+                "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.9 Hooks",
+                "children": []
+              },
+              {
+                "title": "6.10 连接器",
+                "node_id": "14lgGw3P8vQQq162sgZ6ON7aJ5daZ90D",
+                "content_type": "ALIDOC",
+                "export_method": "doc read",
+                "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.10 连接器",
+                "children": []
+              },
+              {
+                "title": "6.11 技能",
+                "node_id": "2Amq4vjg89XXo7rbumxleE6yJ3kdP0wQ",
+                "content_type": "ALIDOC",
+                "export_method": "doc read",
+                "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.11 技能",
+                "children": []
+              },
+              {
+                "title": "6.12 专家套件",
+                "node_id": "14lgGw3P8vQQq162sgZ6kmKQJ5daZ90D",
+                "content_type": "ALIDOC",
+                "export_method": "doc read",
+                "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.12 专家套件",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
