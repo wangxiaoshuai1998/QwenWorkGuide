@@ -41,6 +41,41 @@ MD_LINK = re.compile(r"(?<!!)\[([^\]\n]*)\]\((https?://[^\s)]+)\)")
 DENTRY_UUID = re.compile(r"(?:dentryUuid|dentry_uuid|dentryId)=([A-Za-z0-9_-]+)")
 PAGE_TOKEN_KEYS = ("pageToken", "nextToken", "nextCursor", "cursor")
 
+# --- DingTalk markdown dialect cleanup (applied to index.md only) ---
+# Meaningless color wrappers: <span style="color: rgb(...)">…</span> or the
+# degenerate <span style="color: ;">…</span>. Inner text is kept as-is.
+COLOR_SPAN = re.compile(
+    r"<span style=\"color:\s*(?:rgb\([^)\"]*\))?\s*;?\s*\">((?:(?!</?span\b).)*?)</span>"
+)
+# Auto-generated image captions occupying a whole line, e.g.
+# <span style="background-color: rgb(255, 255, 255);">image.png</span>
+CAPTION_LINE = re.compile(
+    r"^[ \t]*<span style=\"background-color:[^\"\n]*\">[^<\n]*</span>[ \t]*\n?",
+    re.M,
+)
+# Heading lines that still carry HTML span wrappers after color cleanup.
+HEADING_LINE = re.compile(r"^#{1,6}[ \t].*$", re.M)
+SPAN_TAG = re.compile(r"</?span\b[^>]*>")
+# Empty image title left by the exporter: ![](url "") -> ![](url)
+EMPTY_IMG_TITLE = re.compile(r"(!\[[^\]\n]*\]\(\S+?)\s+\"\"\)")
+
+
+def clean_dingtalk_markdown(markdown: str) -> str:
+    """Strip DingTalk export dialect noise from markdown (conservative).
+
+    Only the well-known machine-generated patterns above are touched; any
+    other HTML the author wrote intentionally is left untouched.
+    """
+    result = CAPTION_LINE.sub("", markdown)
+    while True:  # color spans may be nested; unwrap innermost first
+        unwrapped = COLOR_SPAN.sub(r"\1", result)
+        if unwrapped == result:
+            break
+        result = unwrapped
+    result = HEADING_LINE.sub(lambda m: SPAN_TAG.sub("", m.group(0)), result)
+    result = EMPTY_IMG_TITLE.sub(r"\1)", result)
+    return result
+
 
 class Throttler:
     """Global adaptive backoff shared by every CLI call and download."""
@@ -154,6 +189,7 @@ class Node:
     parent: "Node | None" = None
     children: list["Node"] = field(default_factory=list)
     directory: Path | None = None
+    export_method: str = "folder"
 
     @property
     def title(self) -> str:
@@ -438,6 +474,28 @@ def read_markdown(node: Node) -> tuple[str, str]:
     raise RuntimeError("; ".join(errors))
 
 
+def write_file_upload_placeholder(node: Node) -> None:
+    """Uploaded files (pdf/docx/jpg/mp4/…) are not readable via `dws doc read`;
+    emit a placeholder index.md instead of failing the whole page."""
+    assert node.directory is not None
+    extension = str(node.data.get("extension") or "") or "未知类型"
+    doc_url = str(node.data.get("docUrl") or "")
+    lines = [
+        f"# {node.title}",
+        "",
+        f"> 本节点是知识库中的上传文件（类型：{extension}），不是钉钉在线文档，",
+        "> 因此无法导出为 Markdown 正文。",
+        "",
+        f"- 文件名：{node.title}",
+        f"- 文件类型：{extension}",
+    ]
+    if doc_url:
+        lines.append(f"- 在线地址：{doc_url}")
+    (node.directory / "index.md").write_text(
+        "\n".join(lines) + "\n", encoding="utf-8"
+    )
+
+
 def export_page(node: Node) -> list[Asset]:
     assert node.directory is not None
     node.directory.mkdir(parents=True, exist_ok=True)
@@ -447,20 +505,39 @@ def export_page(node: Node) -> list[Asset]:
     source_markdown = ""
     if not node.is_virtual_root:
         content_type = str(node.data.get("contentType") or "")
-        if content_type == "ALIDOC" or not node.children:
+        extension = str(node.data.get("extension") or "").lower()
+        if content_type == "ALIDOC" or extension == "adoc":
             source_markdown, method = read_markdown(node)
-    assets = parse_assets(node, source_markdown)
+        elif not node.children:
+            # Leaf without doc content: an uploaded file (pdf/docx/jpg/mp4/…).
+            method = "file_upload"
+    node.export_method = method
 
-    (node.directory / "source.md").write_text(source_markdown, encoding="utf-8")
-    (node.directory / "index.md").write_text(
-        localize_markdown(source_markdown, node, assets), encoding="utf-8"
-    )
     metadata = {
         **node.data,
         "export_method": method,
         "exported_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
-        "asset_count": len(assets),
     }
+
+    if method == "file_upload":
+        write_file_upload_placeholder(node)
+        metadata["extension"] = node.data.get("extension")
+        metadata["docUrl"] = node.data.get("docUrl")
+        metadata["asset_count"] = 0
+        (node.directory / "metadata.json").write_text(
+            json.dumps(metadata, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        return []
+
+    assets = parse_assets(node, source_markdown)
+
+    (node.directory / "source.md").write_text(source_markdown, encoding="utf-8")
+    (node.directory / "index.md").write_text(
+        localize_markdown(clean_dingtalk_markdown(source_markdown), node, assets),
+        encoding="utf-8",
+    )
+    metadata["asset_count"] = len(assets)
     (node.directory / "metadata.json").write_text(
         json.dumps(metadata, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
@@ -542,6 +619,7 @@ def tree_manifest(root: Node, base: Path) -> dict[str, Any]:
             "title": node.title,
             "node_id": node.node_id,
             "content_type": node.data.get("contentType"),
+            "export_method": node.export_method,
             "path": node.directory.relative_to(base).as_posix(),
             "children": [serialize(child) for child in node.children],
         }
@@ -647,11 +725,22 @@ def main() -> int:
                 print(f"      素材进度 {index}/{len(all_assets)}", flush=True)
 
     print("[4/4] 写入清单并校验", flush=True)
+    file_upload_pages = [
+        {
+            "page": node.title,
+            "node_id": node.node_id,
+            "extension": node.data.get("extension"),
+        }
+        for node in nodes
+        if node.export_method == "file_upload"
+    ]
     manifest = {
         "workspace_id": args.workspace,
         "root_node_id": args.root or "",
         "generated_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         "page_count": len(nodes),
+        "file_upload_count": len(file_upload_pages),
+        "file_upload_pages": file_upload_pages,
         "asset_count": len(all_assets),
         "assets_downloaded": downloaded,
         "assets_skipped": skipped,
@@ -673,6 +762,7 @@ def main() -> int:
     summary = {
         "pages_expected": len(nodes),
         "pages_missing": missing_pages,
+        "file_uploads": len(file_upload_pages),
         "assets_expected": len(all_assets),
         "assets_failed": len(asset_failures),
         "export_failures": len(export_failures),
