@@ -13,17 +13,17 @@ withDefaults(
   <figure class="wb-group-qr" :class="{ 'is-screen-menu': screenMenu }">
     <div class="wb-group-qr__frame">
       <img
-        src="/community/workbuddy-wechat-group.jpg?v=20260726"
+        src="/community/contacts/wangxiaoshuai-wechat.jpg"
         width="396"
         height="396"
-        alt="千问办公微信交流群二维码"
+        alt="添加微信交流联系"
         loading="lazy"
         decoding="async"
       />
     </div>
     <figcaption>
-      <span>WECHAT GROUP</span>
-      微信扫码加入交流群
+      <span>WECHAT CONTACT</span>
+      微信扫码添加好友交流
     </figcaption>
   </figure>
 </template>
