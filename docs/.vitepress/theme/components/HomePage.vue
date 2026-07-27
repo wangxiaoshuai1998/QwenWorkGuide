@@ -10,9 +10,10 @@ import PixelIconSprite from "./PixelIconSprite.vue";
       <div class="wb-hero__stage">
         <div class="wb-hero__copy">
           <p class="wb-pixel-label">OPEN-SOURCE · 27 CHAPTERS · 2026</p>
-          <h1 id="wb-hero-title" class="wb-hero__title--bluebook">WorkBuddy蓝皮书</h1>
+          <h1 id="wb-hero-title" class="wb-hero__title--bluebook">千问办公绿皮书</h1>
           <p class="wb-hero__summary">
-            WorkBuddy能干嘛？一套以真实工作为主线的WorkBuddy实践路径。带你从0到1先用起来，再从1到100把每次成功沉淀为可复用的工作系统，真正把AI变成生产力！
+            千问办公——你的全能AI同事，对话即可交付。<br />
+            不止于聊天，更懂你的工作。从文档生成到数据分析，从PPT制作到视频剪辑，一句话，AI全流程搞定。
           </p>
           <div class="wb-hero__actions">
             <a class="wb-button wb-button--primary" href="/bluebook/">
@@ -37,7 +38,7 @@ import PixelIconSprite from "./PixelIconSprite.vue";
           <span class="wb-icon-card wb-icon-card--work">
             <PixelIcon name="briefcase" />
           </span>
-          <div class="wb-hero__metrics" aria-label="蓝皮书内容规模">
+          <div class="wb-hero__metrics" aria-label="绿皮书内容规模">
             <span><b>27</b> CHAPTERS</span>
             <span><b>4</b> PARTS</span>
             <span><b>∞</b> WORKFLOWS</span>
@@ -45,7 +46,7 @@ import PixelIconSprite from "./PixelIconSprite.vue";
         </div>
       </div>
 
-      <div class="wb-value-strip" aria-label="蓝皮书价值">
+      <div class="wb-value-strip" aria-label="绿皮书价值">
         <div class="wb-value-strip__item">
           <PixelIcon name="check-box" />
           <span><b>真实任务</b><small>REAL TASKS</small></span>
@@ -156,7 +157,7 @@ import PixelIconSprite from "./PixelIconSprite.vue";
       <div class="wb-system__intro">
         <p class="wb-pixel-label">FROM TASK TO TEAM</p>
         <h2 id="wb-system-title">一次成功，不该只发生一次。</h2>
-        <p>蓝皮书真正关心的不是“AI 会什么”，而是如何把一个结果沉淀成稳定、可协作、可复用的工作系统。</p>
+        <p>绿皮书真正关心的不是“AI 会什么”，而是如何把一个结果沉淀成稳定、可协作、可复用的工作系统。</p>
       </div>
       <ol class="wb-system__steps">
         <li><b>01</b><strong>TASK</strong><span>完成一个真实任务</span></li>
@@ -169,7 +170,7 @@ import PixelIconSprite from "./PixelIconSprite.vue";
     <section class="wb-community" aria-labelledby="wb-community-title">
       <div>
         <p class="wb-pixel-label">BUILD IN PUBLIC · LEARN IN PUBLIC</p>
-        <h2 id="wb-community-title">这本蓝皮书，也可以由你继续写下去。</h2>
+        <h2 id="wb-community-title">这本绿皮书，也可以由你继续写下去。</h2>
       </div>
       <div class="wb-community__actions">
         <a class="wb-button wb-button--acid" href="/community/contributing">参与共创</a>

@@ -8,9 +8,9 @@ const siteUrl = process.env.VITEPRESS_SITE_URL || "https://workbuddy.homes";
 
 export default defineConfig({
     lang: "zh-CN",
-    title: "WorkBuddy 实战蓝皮书",
-    titleTemplate: ":title · WorkBuddy 实战蓝皮书",
-    description: "从安装使用到 AI 工作系统：27 章 WorkBuddy 实战指南与团队落地方法。",
+    title: "千问办公绿皮书",
+    titleTemplate: ":title · 千问办公绿皮书",
+    description: "从安装使用到 AI 工作系统：27 章千问办公实战指南与团队落地方法。",
     cleanUrls: true,
     lastUpdated: true,
     srcExclude: ["**/source.md", "plans/**"],
@@ -30,7 +30,7 @@ export default defineConfig({
     transformHead: (context) => createSeoHead(siteUrl, context),
     head: [
       ["link", { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" }],
-      ["meta", { name: "theme-color", content: "#d8f238" }],
+      ["meta", { name: "theme-color", content: "#4add86" }],
       ["meta", { name: "author", content: "WorkBuddy Guide Contributors" }],
       [
         "meta",
@@ -59,7 +59,7 @@ export default defineConfig({
       },
     },
     themeConfig: {
-      siteTitle: "WorkBuddy Guide",
+      siteTitle: "QwenWork Guide",
       nav: [
         { text: "首页", link: "/" },
         { text: "开始阅读", link: "/bluebook/" },
