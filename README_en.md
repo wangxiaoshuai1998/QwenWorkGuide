@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://workbuddy.homes/">
+  <a href="https://qwenwork.homes/">
     <img src="./assets/workbuddy-guide-banner.png" alt="QwenWork Guide homepage preview" width="100%">
   </a>
 </p>
@@ -10,7 +10,7 @@
 
 <p align="center">
   English · <a href="./README.md">简体中文</a> ·
-  <a href="https://workbuddy.homes/">Read Online</a> ·
+  <a href="https://qwenwork.homes/">Read Online</a> ·
   <a href="./docs/reading-guide.md">Reading Guide</a> ·
   <a href="./CONTRIBUTING_en.md">Contribute</a>
 </p>
@@ -23,7 +23,7 @@ This project originates from the open-source WorkBuddy Bluebook ([AlephAITech/Wo
 
 ## Read Online
 
-The recommended reading experience is **[workbuddy.homes](https://workbuddy.homes/)**. The website provides full navigation, local search, page outlines, dark mode, rendered diagrams, and mobile support.
+The recommended reading experience is **[qwenwork.homes](https://qwenwork.homes/)**. The website provides full navigation, local search, page outlines, dark mode, rendered diagrams, and mobile support.
 
 The book is currently written primarily in Simplified Chinese. English contributions and translation proposals are welcome.
 

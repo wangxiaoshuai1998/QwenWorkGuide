@@ -10,5 +10,5 @@
 /favicon.svg
   Cache-Control: public, max-age=2592000
 
-https://workbuddy-guide.pages.dev/*
+https://qwenwork.pages.dev/*
   X-Robots-Tag: noindex, follow

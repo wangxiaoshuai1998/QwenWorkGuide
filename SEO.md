@@ -20,11 +20,11 @@ These require ownership of the relevant search-engine accounts and are not
 stored in the repository:
 
 1. Add the production site to Google Search Console.
-2. Submit `https://workbuddy.homes/sitemap.xml`.
+2. Submit `https://qwenwork.homes/sitemap.xml`.
 3. Add the site to Bing Webmaster Tools and submit the same sitemap.
 4. Add the site to Baidu Search Resource Platform for mainland-China discovery.
-5. Keep `https://workbuddy.homes` as the only canonical origin. Permanently
-   redirect the legacy `*.pages.dev` hostname and `www.workbuddy.homes` to it.
+5. Keep `https://qwenwork.homes` as the only canonical origin. Permanently
+   redirect the legacy `*.pages.dev` hostname and `www.qwenwork.homes` to it.
 
 Do not add verification tokens as placeholders. Add the exact token supplied by
 the relevant search platform only when account ownership is available.

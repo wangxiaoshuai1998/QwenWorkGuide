@@ -4,9 +4,11 @@ import { siteSidebar } from "./sidebar";
 import { configureMermaidMarkdown } from "./mermaid-markdown";
 import { createPageDescription, createSeoHead } from "./seo";
 
-const siteUrl = process.env.VITEPRESS_SITE_URL || "https://workbuddy.homes";
+const siteUrl = process.env.VITEPRESS_SITE_URL || "https://qwenwork.homes";
+const base = process.env.VITEPRESS_BASE || "/";
 
 export default defineConfig({
+    base,
     lang: "zh-CN",
     title: "千问办公绿皮书",
     titleTemplate: ":title · 千问办公绿皮书",
