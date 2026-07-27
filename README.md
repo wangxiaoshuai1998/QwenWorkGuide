@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/wangxiaoshuai1998/QwenWorkGuide">
-    <img src="./assets/workbuddy-guide-banner.png" alt="千问办公绿皮书：首页预览" width="100%">
+    <img src="./assets/qwenwork-guide-banner.png" alt="千问办公绿皮书：首页预览" width="100%">
   </a>
 </p>
 

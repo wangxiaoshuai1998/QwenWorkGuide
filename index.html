@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>电商运营数据看板</title>
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --orange:#FF5000;--orange-light:#FF7A33;--orange-dark:#CC4000;
+  --bg-primary:#0a0e1a;--bg-secondary:#111827;--bg-card:#1a2235;
+  --border-color:rgba(255,80,0,.18);--text-primary:#f0f2f5;
+  --text-secondary:#9ca3af;--glow:rgba(255,80,0,.35);
+}
+html,body{width:100%;height:100%;overflow:hidden;background:#050810;font-family:'Segoe UI','Microsoft YaHei',sans-serif}
+#scale-wrapper{position:absolute;top:50%;left:50%;transform-origin:center center}
+#dashboard{width:1920px;height:1080px;background:var(--bg-primary);position:relative;overflow:hidden;
+  background-image:radial-gradient(ellipse at 20% 50%,rgba(255,80,0,.04) 0%,transparent 50%),
+  radial-gradient(ellipse at 80% 20%,rgba(255,122,51,.03) 0%,transparent 40%)}
+/* Header */
+.header{height:72px;display:flex;align-items:center;justify-content:space-between;padding:0 40px;
+  border-bottom:1px solid var(--border-color);background:linear-gradient(180deg,rgba(255,80,0,.06) 0%,transparent 100%)}
+.header-left{display:flex;align-items:center;gap:16px}
+.header-logo{width:38px;height:38px;border-radius:8px;background:linear-gradient(135deg,var(--orange),var(--orange-light));
+  display:flex;align-items:center;justify-content:center;font-weight:900;font-size:18px;color:#fff}
+.header-title{font-size:26px;font-weight:700;color:var(--text-primary);letter-spacing:2px}
+.header-sub{font-size:13px;color:var(--text-secondary);margin-top:2px}
+.header-right{display:flex;align-items:center;gap:24px}
+.header-time{font-size:15px;color:var(--text-secondary);font-variant-numeric:tabular-nums}
+.btn-fullscreen{background:rgba(255,80,0,.12);border:1px solid var(--border-color);color:var(--orange-light);
+  padding:8px 18px;border-radius:6px;cursor:pointer;font-size:13px;transition:all .25s}
+.btn-fullscreen:hover{background:rgba(255,80,0,.25);box-shadow:0 0 12px var(--glow)}
+/* KPI Row */
+.kpi-row{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;padding:20px 40px 10px}
+.kpi-card{background:var(--bg-card);border:1px solid var(--border-color);border-radius:12px;padding:20px 24px;
+  position:relative;overflow:hidden;transition:transform .3s,box-shadow .3s}
+.kpi-card:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(255,80,0,.12)}
+.kpi-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;
+  background:linear-gradient(90deg,var(--orange),var(--orange-light),transparent)}
+.kpi-label{font-size:13px;color:var(--text-secondary);margin-bottom:8px}
+.kpi-value{font-size:32px;font-weight:800;color:var(--text-primary);font-variant-numeric:tabular-nums}
+.kpi-value .unit{font-size:15px;font-weight:400;color:var(--text-secondary);margin-left:4px}
+.kpi-trend{font-size:12px;margin-top:8px;display:flex;align-items:center;gap:4px}
+.kpi-trend.up{color:#34d399}.kpi-trend.down{color:#f87171}
+.kpi-spark{position:absolute;right:16px;bottom:12px;width:80px;height:36px;opacity:.6}
+/* Chart Grid */
+.chart-grid{display:grid;grid-template-columns:1fr 1fr 1fr;grid-template-rows:1fr 1fr;gap:20px;padding:16px 40px 24px;height:calc(1080px - 72px - 118px)}
+.chart-panel{background:var(--bg-card);border:1px solid var(--border-color);border-radius:12px;padding:16px 20px;
+  display:flex;flex-direction:column;position:relative;overflow:hidden}
+.chart-panel::after{content:'';position:absolute;top:-50%;right:-50%;width:100%;height:100%;
+  background:radial-gradient(circle,rgba(255,80,0,.03) 0%,transparent 70%);pointer-events:none}
+.panel-title{font-size:14px;font-weight:600;color:var(--text-primary);margin-bottom:12px;
+  padding-left:12px;border-left:3px solid var(--orange);display:flex;align-items:center;justify-content:space-between}
+.panel-title .tag{font-size:11px;color:var(--orange-light);background:rgba(255,80,0,.1);padding:2px 8px;border-radius:4px}
+.chart-body{flex:1;min-height:0}
+/* Animations */
+@keyframes fadeInUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.6}}
+.animate-in{animation:fadeInUp .6s ease-out both}
+.animate-in:nth-child(1){animation-delay:.05s}.animate-in:nth-child(2){animation-delay:.1s}
+.animate-in:nth-child(3){animation-delay:.15s}.animate-in:nth-child(4){animation-delay:.2s}
+.live-dot{width:8px;height:8px;border-radius:50%;background:#34d399;display:inline-block;margin-right:6px;animation:pulse 2s infinite}
+@media (prefers-reduced-motion:reduce){
+  .animate-in{animation:none!important}
+  .live-dot{animation:none!important}
+  .kpi-card:hover{transform:none;box-shadow:none}
+}
+</style>
+</head>
+<body>
+<div id="scale-wrapper">
+<div id="dashboard">
+  <header class="header">
+    <div class="header-left">
+      <div class="header-logo">橙</div>
+      <div>
+        <div class="header-title">橙云电商 · 实时运营看板</div>
+        <div class="header-sub"><span class="live-dot"></span>数据每 5 秒自动刷新</div>
+      </div>
+    </div>
+    <div class="header-right">
+      <div class="header-time" id="headerTime"></div>
+      <button class="btn-fullscreen" id="btnFullscreen">全屏</button>
+    </div>
+  </header>
+  <section class="kpi-row">
+    <div class="kpi-card animate-in"><div class="kpi-label">今日成交额</div><div class="kpi-value" id="kpiGmv">0<span class="unit">万元</span></div><div class="kpi-trend up" id="kpiGmvTrend"></div><canvas class="kpi-spark" id="sparkGmv"></canvas></div>
+    <div class="kpi-card animate-in"><div class="kpi-label">今日订单量</div><div class="kpi-value" id="kpiOrders">0<span class="unit">单</span></div><div class="kpi-trend up" id="kpiOrdersTrend"></div><canvas class="kpi-spark" id="sparkOrders"></canvas></div>
+    <div class="kpi-card animate-in"><div class="kpi-label">实时在线用户</div><div class="kpi-value" id="kpiUsers">0<span class="unit">人</span></div><div class="kpi-trend up" id="kpiUsersTrend"></div><canvas class="kpi-spark" id="sparkUsers"></canvas></div>
+    <div class="kpi-card animate-in"><div class="kpi-label">整体转化率</div><div class="kpi-value" id="kpiCvr">0<span class="unit">%</span></div><div class="kpi-trend down" id="kpiCvrTrend"></div><canvas class="kpi-spark" id="sparkCvr"></canvas></div>
+  </section>
+  <section class="chart-grid">
+    <div class="chart-panel animate-in" style="grid-column:span 2"><div class="panel-title">成交趋势（近24小时）<span class="tag">实时</span></div><div class="chart-body" id="chartTrend"></div></div>
+    <div class="chart-panel animate-in"><div class="panel-title">品类销售占比</div><div class="chart-body" id="chartPie"></div></div>
+    <div class="chart-panel animate-in"><div class="panel-title">各区域销售额 TOP8</div><div class="chart-body" id="chartRegion"></div></div>
+    <div class="chart-panel animate-in"><div class="panel-title">流量来源分析</div><div class="chart-body" id="chartRadar"></div></div>
+    <div class="chart-panel animate-in"><div class="panel-title">转化漏斗</div><div class="chart-body" id="chartFunnel"></div></div>
+  </section>
+</div>
+</div>
+<script>
+(function(){
+"use strict";
+var reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+/* === Scale === */
+var wrapper=document.getElementById('scale-wrapper');
+function applyScale(){
+  var sw=window.innerWidth,sh=window.innerHeight;
+  var scale=Math.min(sw/1920,sh/1080);
+  wrapper.style.width='1920px';wrapper.style.height='1080px';
+  wrapper.style.transform='translate(-50%,-50%) scale('+scale+')';
+}
+applyScale();
+window.addEventListener('resize',function(){applyScale();resizeCharts();});
+/* === Fullscreen === */
+var btnFs=document.getElementById('btnFullscreen');
+btnFs.addEventListener('click',function(){
+  if(!document.fullscreenElement){document.documentElement.requestFullscreen();btnFs.textContent='退出全屏';}
+  else{document.exitFullscreen();btnFs.textContent='全屏';}
+});
+document.addEventListener('fullscreenchange',function(){if(!document.fullscreenElement)btnFs.textContent='全屏';});
+/* === Clock === */
+function updateClock(){
+  var d=new Date();
+  document.getElementById('headerTime').textContent=d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate())+' '+pad(d.getHours())+':'+pad(d.getMinutes())+':'+pad(d.getSeconds());
+}
+function pad(n){return n<10?'0'+n:n;}
+updateClock();setInterval(updateClock,1000);
+/* === Utility === */
+function rand(a,b){return Math.floor(Math.random()*(b-a+1))+a;}
+function randF(a,b){return +(Math.random()*(b-a)+a).toFixed(2);}
+/* === KPI Animated Counter === */
+function animateValue(el,target,decimals,suffix){
+  if(reducedMotion){el.innerHTML=(decimals?target.toFixed(decimals):Math.round(target).toLocaleString())+'<span class="unit">'+suffix+'</span>';return;}
+  var start=0,duration=1200,startTime=null;
+  function step(ts){
+    if(!startTime)startTime=ts;
+    var p=Math.min((ts-startTime)/duration,1);
+    var eased=1-Math.pow(1-p,3);
+    var val=start+(target-start)*eased;
+    el.innerHTML=(decimals?val.toFixed(decimals):Math.round(val).toLocaleString())+'<span class="unit">'+suffix+'</span>';
+    if(p<1)requestAnimationFrame(step);
+  }
+  requestAnimationFrame(step);
+}
+var kpiData={gmv:randF(1800,2600),orders:rand(32000,58000),users:rand(8000,15000),cvr:randF(3.2,6.8)};
+animateValue(document.getElementById('kpiGmv'),kpiData.gmv,1,'万元');
+animateValue(document.getElementById('kpiOrders'),kpiData.orders,0,'单');
+animateValue(document.getElementById('kpiUsers'),kpiData.users,0,'人');
+animateValue(document.getElementById('kpiCvr'),kpiData.cvr,2,'%');
+document.getElementById('kpiGmvTrend').innerHTML='&#9650; +'+randF(8,18)+'% 较昨日';
+document.getElementById('kpiOrdersTrend').innerHTML='&#9650; +'+randF(5,14)+'% 较昨日';
+document.getElementById('kpiUsersTrend').innerHTML='&#9650; +'+randF(3,12)+'% 较昨日';
+document.getElementById('kpiCvrTrend').innerHTML='&#9660; -'+randF(0.2,1.5)+'% 较昨日';
+document.getElementById('kpiCvrTrend').className='kpi-trend down';
+/* === Sparklines === */
+function drawSpark(canvasId,color){
+  var c=document.getElementById(canvasId);if(!c)return;
+  var ctx=c.getContext('2d');c.width=80;c.height=36;
+  var pts=[];for(var i=0;i<12;i++)pts.push(rand(8,32));
+  ctx.clearRect(0,0,80,36);ctx.beginPath();ctx.strokeStyle=color;ctx.lineWidth=1.5;
+  for(var j=0;j<pts.length;j++){var x=j*(80/11),y=36-pts[j];j===0?ctx.moveTo(x,y):ctx.lineTo(x,y);}
+  ctx.stroke();
+  ctx.lineTo(80,36);ctx.lineTo(0,36);ctx.closePath();
+  var grad=ctx.createLinearGradient(0,0,0,36);grad.addColorStop(0,color.replace(')',',0.3)').replace('rgb','rgba'));grad.addColorStop(1,'transparent');
+  ctx.fillStyle=grad;ctx.fill();
+}
+drawSpark('sparkGmv','rgb(255,80,0)');drawSpark('sparkOrders','rgb(255,122,51)');
+drawSpark('sparkUsers','rgb(52,211,153)');drawSpark('sparkCvr','rgb(248,113,113)');
+/* === ECharts Theme === */
+var axisStyle={axisLine:{lineStyle:{color:'rgba(255,255,255,.15)'}},axisTick:{show:false},
+  axisLabel:{color:'#9ca3af',fontSize:11},splitLine:{lineStyle:{color:'rgba(255,255,255,.06)'}}};
+var tooltipStyle={backgroundColor:'rgba(17,24,39,.95)',borderColor:'rgba(255,80,0,.3)',
+  textStyle:{color:'#f0f2f5',fontSize:12}};
+/* === Charts === */
+var charts=[];
+function initChart(domId){var el=document.getElementById(domId);var c=echarts.init(el,null,{renderer:'canvas'});charts.push(c);return c;}
+function resizeCharts(){charts.forEach(function(c){c.resize();});}
+/* Trend Chart */
+var trendChart=initChart('chartTrend');
+var hours=[];for(var h=0;h<24;h++)hours.push(pad(h)+':00');
+var gmvSeries=[],orderSeries=[];
+for(var i=0;i<24;i++){gmvSeries.push(rand(40,160));orderSeries.push(rand(800,3200));}
+trendChart.setOption({
+  tooltip:Object.assign({trigger:'axis'},tooltipStyle),
+  legend:{data:['成交额(万)','订单量'],textStyle:{color:'#9ca3af',fontSize:11},top:0,right:10},
+  grid:{left:50,right:50,top:36,bottom:28},
+  xAxis:Object.assign({type:'category',data:hours,boundaryGap:false},axisStyle),
+  yAxis:[
+    Object.assign({type:'value',name:'万元',nameTextStyle:{color:'#9ca3af',fontSize:11}},axisStyle),
+    Object.assign({type:'value',name:'订单',nameTextStyle:{color:'#9ca3af',fontSize:11},splitLine:{show:false}},axisStyle)
+  ],
+  series:[
+    {name:'成交额(万)',type:'line',smooth:true,symbol:'none',data:gmvSeries,
+      lineStyle:{color:'#FF5000',width:2.5},
+      areaStyle:{color:new echarts.graphic.LinearGradient(0,0,0,1,[{offset:0,color:'rgba(255,80,0,.35)'},{offset:1,color:'rgba(255,80,0,.02)'}])}},
+    {name:'订单量',type:'line',smooth:true,symbol:'none',yAxisIndex:1,data:orderSeries,
+      lineStyle:{color:'#FF7A33',width:2,type:'dashed'},
+      areaStyle:{color:new echarts.graphic.LinearGradient(0,0,0,1,[{offset:0,color:'rgba(255,122,51,.15)'},{offset:1,color:'transparent'}])}}
+  ],
+  animationDuration:reducedMotion?0:1500,animationEasing:'cubicOut'
+});
+/* Pie Chart */
+var pieChart=initChart('chartPie');
+pieChart.setOption({
+  tooltip:Object.assign({trigger:'item',formatter:'{b}: {c}万 ({d}%)'},tooltipStyle),
+  series:[{
+    type:'pie',radius:['42%','72%'],center:['50%','54%'],
+    label:{color:'#9ca3af',fontSize:11,formatter:'{b}\n{d}%'},
+    labelLine:{lineStyle:{color:'rgba(255,255,255,.2)'}},
+    itemStyle:{borderColor:'#1a2235',borderWidth:2},
+    data:[
+      {value:rand(300,500),name:'服饰鞋包',itemStyle:{color:'#FF5000'}},
+      {value:rand(200,400),name:'数码家电',itemStyle:{color:'#FF7A33'}},
+      {value:rand(150,350),name:'美妆个护',itemStyle:{color:'#FFA366'}},
+      {value:rand(100,300),name:'食品生鲜',itemStyle:{color:'#34d399'}},
+      {value:rand(80,250),name:'家居家装',itemStyle:{color:'#60a5fa'}},
+      {value:rand(60,200),name:'母婴玩具',itemStyle:{color:'#a78bfa'}}
+    ],
+    emphasis:{itemStyle:{shadowBlur:20,shadowColor:'rgba(255,80,0,.4)'}},
+    animationType:reducedMotion?'none':'scale',animationDuration:reducedMotion?0:1200
+  }]
+});
+/* Region Bar */
+var regionChart=initChart('chartRegion');
+var regions=['广东','浙江','江苏','上海','北京','山东','四川','湖北'];
+var regionVals=regions.map(function(){return rand(200,900);}).sort(function(a,b){return a-b;});
+regionChart.setOption({
+  tooltip:Object.assign({trigger:'axis',axisPointer:{type:'shadow'}},tooltipStyle),
+  grid:{left:60,right:30,top:10,bottom:24},
+  xAxis:Object.assign({type:'value'},axisStyle),
+  yAxis:Object.assign({type:'category',data:regions},axisStyle),
+  series:[{type:'bar',data:regionVals,barWidth:14,
+    itemStyle:{borderRadius:[0,7,7,0],
+      color:new echarts.graphic.LinearGradient(0,0,1,0,[{offset:0,color:'rgba(255,80,0,.7)'},{offset:1,color:'#FF5000'}])},
+    emphasis:{itemStyle:{color:'#FF7A33'}},
+    animationDuration:reducedMotion?0:1000,animationEasing:'cubicOut'}]
+});
+/* Radar Chart */
+var radarChart=initChart('chartRadar');
+radarChart.setOption({
+  tooltip:tooltipStyle,
+  radar:{indicator:[
+    {name:'搜索流量',max:100},{name:'推荐流量',max:100},{name:'直播流量',max:100},
+    {name:'社交分享',max:100},{name:'付费推广',max:100},{name:'自然访问',max:100}
+  ],axisName:{color:'#9ca3af',fontSize:11},
+  splitArea:{areaStyle:{color:['rgba(255,80,0,.02)','rgba(255,80,0,.04)']}},
+  splitLine:{lineStyle:{color:'rgba(255,255,255,.08)'}},
+  axisLine:{lineStyle:{color:'rgba(255,255,255,.1)'}}},
+  series:[{type:'radar',
+    data:[
+      {value:[rand(60,95),rand(55,90),rand(50,88),rand(40,80),rand(45,85),rand(50,90)],name:'本期',
+        lineStyle:{color:'#FF5000',width:2},areaStyle:{color:'rgba(255,80,0,.2)'},itemStyle:{color:'#FF5000'}},
+      {value:[rand(50,80),rand(45,75),rand(40,70),rand(35,65),rand(40,72),rand(42,78)],name:'上期',
+        lineStyle:{color:'#60a5fa',width:1.5,type:'dashed'},areaStyle:{color:'rgba(96,165,250,.08)'},itemStyle:{color:'#60a5fa'}}
+    ],animationDuration:reducedMotion?0:1200}]
+});
+/* Funnel Chart */
+var funnelChart=initChart('chartFunnel');
+funnelChart.setOption({
+  tooltip:Object.assign({trigger:'item',formatter:'{b}: {c}%'},tooltipStyle),
+  series:[{type:'funnel',left:'12%',right:'12%',top:10,bottom:10,
+    minSize:'18%',maxSize:'100%',sort:'descending',gap:4,
+    label:{show:true,position:'inside',color:'#fff',fontSize:12,formatter:'{b}\n{c}%'},
+    itemStyle:{borderWidth:0},
+    data:[
+      {value:100,name:'曝光',itemStyle:{color:'rgba(255,80,0,.9)'}},
+      {value:rand(55,72),name:'点击',itemStyle:{color:'rgba(255,100,30,.85)'}},
+      {value:rand(30,48),name:'加购',itemStyle:{color:'rgba(255,122,51,.8)'}},
+      {value:rand(15,28),name:'下单',itemStyle:{color:'rgba(255,150,80,.75)'}},
+      {value:rand(8,16),name:'支付',itemStyle:{color:'rgba(52,211,153,.8)'}}
+    ],animationDuration:reducedMotion?0:1000}]
+});
+/* === Live Data Simulation === */
+if(!reducedMotion){
+  setInterval(function(){
+    gmvSeries.shift();gmvSeries.push(rand(40,160));
+    orderSeries.shift();orderSeries.push(rand(800,3200));
+    trendChart.setOption({series:[{data:gmvSeries},{data:orderSeries}]});
+    var newUsers=rand(8000,15000);
+    animateValue(document.getElementById('kpiUsers'),newUsers,0,'人');
+  },5000);
+}
+})();
+</script>
+</body>
+</html>

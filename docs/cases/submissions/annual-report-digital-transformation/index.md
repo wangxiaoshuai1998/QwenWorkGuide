@@ -149,7 +149,7 @@ tags:
 
 **千问办公中的交付总结**：专家团完成后给出交付清单——HTML 咨询报告、10 个 ECharts 图表合并预览页、六大理论框架整合分析文档（约 1.5 万字）、11 份年报原文、4 个可复现 Python 脚本、8 个中间分析数据文件（JSON/CSV），并提炼出三大论文级亮点发现，如「叙事解耦」现象（叙事强度与研发投入相关性 r=-0.275）、某亏损年度的「战略叙事韧性」（业绩大幅亏损当年叙事强度不降反升）。
 
-![千问办公中的交付总结：交付物清单、报告结构与亮点发现](./assets/workbuddy-result.png)
+![千问办公中的交付总结：交付物清单、报告结构与亮点发现](./assets/qwenwork-result.png)
 
 > 📎 报告原文（已匿名化，可在线打开）：[company-deep-research-report.html](/cases/submissions/annual-report-digital-transformation/company-deep-research-report.html)
 

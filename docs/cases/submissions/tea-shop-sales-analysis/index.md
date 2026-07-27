@@ -138,9 +138,9 @@ tags:
 
 **执行过程**：千问办公接到任务指令后开始执行（左图）；清洗完成后，它会先汇报发现了哪些脏数据问题、做了哪些处理假设，由人确认口径后再继续（右图）。
 
-![在千问办公中下达任务指令](./assets/workbuddy-task.jpg)
+![在千问办公中下达任务指令](./assets/qwenwork-task.jpg)
 
-![千问办公汇报发现的脏数据问题与处理结果](./assets/workbuddy-cleaning.jpg)
+![千问办公汇报发现的脏数据问题与处理结果](./assets/qwenwork-cleaning.jpg)
 
 ## 验收标准
 

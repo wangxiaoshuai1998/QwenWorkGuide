@@ -1,6 +1,6 @@
 ﻿<p align="center">
   <a href="https://qwenwork.ink/">
-    <img src="./assets/workbuddy-guide-banner.png" alt="QwenWork Guide homepage preview" width="100%">
+    <img src="./assets/qwenwork-guide-banner.png" alt="QwenWork Guide homepage preview" width="100%">
   </a>
 </p>
 

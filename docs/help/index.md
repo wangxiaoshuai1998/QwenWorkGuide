@@ -28,8 +28,8 @@ pageClass: help-you-page
         <small>扫码后填写你的真实需求</small>
       </div>
     </div>
-    <a href="/help/workbuddy-scenario-survey.png" target="_blank" rel="noreferrer" aria-label="查看千问办公场景收集调查问卷二维码大图">
-      <img src="/help/workbuddy-scenario-survey.png" alt="千问办公场景收集调查问卷二维码" loading="eager">
+    <a href="/help/qwenwork-scenario-survey.png" target="_blank" rel="noreferrer" aria-label="查看千问办公场景收集调查问卷二维码大图">
+      <img src="/help/qwenwork-scenario-survey.png" alt="千问办公场景收集调查问卷二维码" loading="eager">
     </a>
     <p>使用手机扫码填写；如果你正在手机上阅读，可以点击图片查看大图后长按识别。</p>
   </div>

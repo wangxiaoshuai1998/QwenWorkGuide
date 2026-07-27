@@ -211,7 +211,7 @@ https://github.com/JZCreative/2025showreel
 ## 安全与限制
 
 - **本地文件访问**：千问办公需要读取本地素材文件夹，确保路径正确且文件无敏感信息。
-- **GitHub 推送**：推送前确认 `.gitignore` 排除了 `node_modules`、构建产物和 `.workbuddy` 工作区数据。
+- **GitHub 推送**：推送前确认 `.gitignore` 排除了 `node_modules`、构建产物和 `.qwenwork` 工作区数据。
 - **GitHub API**：启用 Pages 需要 personal access token，不要将 token 提交到仓库。
 - **媒体版权**：确保推送的视频和截图拥有发布权限，本项目中的作品均为自有内容。
 - **在线预览**：GitHub Pages 为公开访问，确认内容可以公开展示。

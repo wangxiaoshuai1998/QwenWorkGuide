@@ -219,7 +219,7 @@ export function createSeoHead(
   }
 
   const canonicalUrl = absolutePageUrl(siteUrl, page);
-  const socialImageUrl = new URL("/og/workbuddy-guide.png", `${siteUrl}/`).href;
+  const socialImageUrl = new URL("/og/qwenwork-guide.png", `${siteUrl}/`).href;
   const description = pageData.description
     ? truncateDescription(pageData.description)
     : extractDescription(
