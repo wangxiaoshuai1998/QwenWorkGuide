@@ -1,0 +1,30 @@
+name: 内容建议 / Content request
+description: 建议新增或改进教程、案例、路线图和资料
+title: "[Content] "
+labels: ["content"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: 相关页面 / Related page
+      description: 请填写页面链接或章节名称。
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题或建议 / Problem or suggestion
+      description: 这项改进能帮助谁解决什么问题？
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议内容 / Proposed change
+      description: 如果可以，请给出建议结构、示例或预期结果。
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: 参考资料 / Sources
+      description: 涉及产品事实时，请附官方链接、截图或核对日期。

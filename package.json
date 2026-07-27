@@ -1,0 +1,28 @@
+{
+  "name": "workbuddy-guide-dingtalk",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "WorkBuddy 实战蓝皮书（钉钉版）：从安装使用到 AI 工作系统",
+  "engines": {
+    "node": ">=20 <25"
+  },
+  "scripts": {
+    "dev": "vitepress dev docs --host 127.0.0.1",
+    "docs:dev": "vitepress dev docs --host 127.0.0.1",
+    "test": "vitest run",
+    "build": "vitepress build docs",
+    "docs:build": "vitepress build docs",
+    "preview": "vitepress preview docs --host 127.0.0.1",
+    "docs:preview": "vitepress preview docs --host 127.0.0.1"
+  },
+  "devDependencies": {
+    "@fontsource/silkscreen": "^5.2.8",
+    "@vitejs/plugin-vue": "^6.0.7",
+    "@vue/test-utils": "^2.4.11",
+    "happy-dom": "^20.10.6",
+    "mermaid": "11.16.0",
+    "vitepress": "1.6.4",
+    "vitest": "^4.1.10"
+  }
+}

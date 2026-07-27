@@ -1,0 +1,16 @@
+.DS_Store
+node_modules/
+__pycache__/
+*.pyc
+
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+
+# Keep implementation plans local; publish only product code and content.
+docs/plans/
+
+# Keep the lossless Feishu export locally, but publish only reader-facing pages.
+docs/bluebook/**/source.md
+docs/bluebook/**/source.xml
+docs/bluebook/**/metadata.json
+docs/bluebook/manifest.json
