@@ -21,7 +21,7 @@
 
 ## 项目背景
 
-本项目源自开源项目 WorkBuddy Bluebook（[wangxiaoshuai1998/QwenWorkGuide](https://github.com/wangxiaoshuai1998/QwenWorkGuide)），在其站点框架基础上重构为「千问办公绿皮书」。正文内容基于钉钉知识库导出，围绕千问办公的真实使用链路编写与维护。
+本项目源自开源项目 QwenWork Greenbook（[wangxiaoshuai1998/QwenWorkGuide](https://github.com/wangxiaoshuai1998/QwenWorkGuide)），在其站点框架基础上重构为「千问办公绿皮书」。正文内容基于钉钉知识库导出，围绕千问办公的真实使用链路编写与维护。
 
 ## 在线阅读
 
