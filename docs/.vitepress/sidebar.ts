@@ -7,6 +7,9 @@ const route = (...segments: string[]): string =>
   encodeURI(`/bluebook/${segments.map((segment) => segment.trim()).join("/")}/`);
 
 const part1 = "第一篇 使用手册：先把 千问办公 用起来";
+const part2 = "第二部分 实战案例 从具体任务，走向AI Native";
+const part3 = "第三部分 进阶使用案例";
+const part4 = "第四部分 认知与方法论";
 
 const item = (directory: string, text = directory): DefaultTheme.SidebarItem => ({
   text,
@@ -52,8 +55,38 @@ export const bluebookSidebar: DefaultTheme.Sidebar = {
             child(`${part1}/第6章 桌面端核心功能`, "6.10 连接器"),
             child(`${part1}/第6章 桌面端核心功能`, "6.11 技能"),
             child(`${part1}/第6章 桌面端核心功能`, "6.12 专家套件"),
+            child(`${part1}/第6章 桌面端核心功能`, "6.13 工作台-写作"),
+            child(`${part1}/第6章 桌面端核心功能`, "6.14 工作台-幻灯片"),
+            child(`${part1}/第6章 桌面端核心功能`, "6.15 工作台-设计"),
           ],
         },
+        child(part1, "第7章 概念普及：理解AI是怎么干活的"),
+      ],
+    },
+    {
+      text: "第二部分 · 实战案例",
+      collapsed: false,
+      items: [
+        item(part2, "本篇导读"),
+        child(part2, "电商运营-电商经营数据大屏「官方案例」"),
+        child(part2, "自媒体-上传录音，克隆自己的声音做口播"),
+      ],
+    },
+    {
+      text: "第三部分 · 进阶使用案例",
+      collapsed: false,
+      items: [
+        item(part3, "本篇导读"),
+        child(part3, "自媒体运营-公众号排版推送"),
+      ],
+    },
+    {
+      text: "第四部分 · 认知与方法论",
+      collapsed: false,
+      items: [
+        item(part4, "本篇导读"),
+        child(part4, "把真实任务变成 AI 工作流：一套可复用的方法论"),
+        child(part4, "怎么写出一个skill"),
       ],
     },
   ],

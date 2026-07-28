@@ -1,12 +1,12 @@
 {
   "workspace_id": "w0oXWj28Mp90gz1J",
   "root_node_id": "",
-  "generated_at": "2026-07-27T17:59:39.872076+00:00",
-  "page_count": 20,
+  "generated_at": "2026-07-28T15:14:55.533861+00:00",
+  "page_count": 32,
   "file_upload_count": 0,
   "file_upload_pages": [],
-  "asset_count": 30,
-  "assets_downloaded": 30,
+  "asset_count": 87,
+  "assets_downloaded": 87,
   "assets_skipped": 0,
   "export_failures": [],
   "asset_failures": [],
@@ -18,18 +18,18 @@
     "path": "QwenWorkGuide",
     "children": [
       {
-        "title": "第一篇 使用手册：先把 千问办公 用起来",
+        "title": "第一部分 使用手册：先把 千问办公 用起来",
         "node_id": "vy20BglGWOvv4oaNfggjk9Oe8A7depqY",
         "content_type": "ALIDOC",
         "export_method": "doc read",
-        "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来",
+        "path": "QwenWorkGuide/第一部分 使用手册：先把 千问办公 用起来",
         "children": [
           {
             "title": "第1章 初识 千问办公",
             "node_id": "QOG9lyrgJP99vomkUvve6krp8zN67Mw4",
             "content_type": "ALIDOC",
             "export_method": "doc read",
-            "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第1章 初识 千问办公",
+            "path": "QwenWorkGuide/第一部分 使用手册：先把 千问办公 用起来/第1章 初识 千问办公",
             "children": []
           },
           {
@@ -37,7 +37,7 @@
             "node_id": "m9bN7RYPWd33YzK5IKja76lM8Zd1wyK0",
             "content_type": "ALIDOC",
             "export_method": "doc read",
-            "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第2章 Web端使用链路",
+            "path": "QwenWorkGuide/第一部分 使用手册：先把 千问办公 用起来/第2章 Web端使用链路",
             "children": []
           },
           {
@@ -45,7 +45,7 @@
             "node_id": "93NwLYZXWyQQq1YasNGLlOAqWkyEqBQm",
             "content_type": "ALIDOC",
             "export_method": "doc read",
-            "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第3章 桌面端使用链路",
+            "path": "QwenWorkGuide/第一部分 使用手册：先把 千问办公 用起来/第3章 桌面端使用链路",
             "children": []
           },
           {
@@ -53,7 +53,7 @@
             "node_id": "ydxXB52LJqQQq1zjsKZLwxPNJqjMp697",
             "content_type": "ALIDOC",
             "export_method": "doc read",
-            "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第4章 通用设置",
+            "path": "QwenWorkGuide/第一部分 使用手册：先把 千问办公 用起来/第4章 通用设置",
             "children": []
           },
           {
@@ -61,7 +61,7 @@
             "node_id": "Y1OQX0akWmQQqYkrsbjdAE6xWGlDd3mE",
             "content_type": "ALIDOC",
             "export_method": "doc read",
-            "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第5章 网页端核心功能",
+            "path": "QwenWorkGuide/第一部分 使用手册：先把 千问办公 用起来/第5章 网页端核心功能",
             "children": []
           },
           {
@@ -69,14 +69,14 @@
             "node_id": "N7dx2rn0Jbbb0plPiZNo2r02JMGjLRb3",
             "content_type": "ALIDOC",
             "export_method": "doc read",
-            "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能",
+            "path": "QwenWorkGuide/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能",
             "children": [
               {
                 "title": "6.1 系统设置",
                 "node_id": "KGZLxjv9VGyyB1jKf6ZQ6ZwN86EDybno",
                 "content_type": "ALIDOC",
                 "export_method": "doc read",
-                "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.1 系统设置",
+                "path": "QwenWorkGuide/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.1 系统设置",
                 "children": []
               },
               {
@@ -84,7 +84,7 @@
                 "node_id": "YndMj49yWj55wRMKsRb5b5Q583pmz5aA",
                 "content_type": "ALIDOC",
                 "export_method": "doc read",
-                "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.2 意识",
+                "path": "QwenWorkGuide/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.2 意识",
                 "children": []
               },
               {
@@ -92,7 +92,7 @@
                 "node_id": "20eMKjyp81vvBXwzferDrAeBWxAZB1Gv",
                 "content_type": "ALIDOC",
                 "export_method": "doc read",
-                "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.3 应用快照",
+                "path": "QwenWorkGuide/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.3 应用快照",
                 "children": []
               },
               {
@@ -100,7 +100,7 @@
                 "node_id": "m9bN7RYPWd33YzK5IKj2RxaA8Zd1wyK0",
                 "content_type": "ALIDOC",
                 "export_method": "doc read",
-                "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.4 电脑操控",
+                "path": "QwenWorkGuide/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.4 电脑操控",
                 "children": []
               },
               {
@@ -108,7 +108,7 @@
                 "node_id": "ZX6GRezwJlQQqbNvsg03gZkN8dqbropQ",
                 "content_type": "ALIDOC",
                 "export_method": "doc read",
-                "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.5 模型选择",
+                "path": "QwenWorkGuide/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.5 模型选择",
                 "children": []
               },
               {
@@ -116,7 +116,7 @@
                 "node_id": "R1zknDm0WRggDolpU0zlz4ANVBQEx5rG",
                 "content_type": "ALIDOC",
                 "export_method": "doc read",
-                "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.6 语音输入",
+                "path": "QwenWorkGuide/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.6 语音输入",
                 "children": []
               },
               {
@@ -124,7 +124,7 @@
                 "node_id": "YMyQA2dXW7NNBmwRfZ1gdpAd8zlwrZgb",
                 "content_type": "ALIDOC",
                 "export_method": "doc read",
-                "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.7 IM 频道",
+                "path": "QwenWorkGuide/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.7 IM 频道",
                 "children": []
               },
               {
@@ -132,7 +132,7 @@
                 "node_id": "qnYMoO1rWxQQq10Zsj9rYynjV47Z3je9",
                 "content_type": "ALIDOC",
                 "export_method": "doc read",
-                "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.8 定时任务",
+                "path": "QwenWorkGuide/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.8 定时任务",
                 "children": []
               },
               {
@@ -140,7 +140,7 @@
                 "node_id": "7NkDwLng8Zzz29lRcN3qEmvB8KMEvZBY",
                 "content_type": "ALIDOC",
                 "export_method": "doc read",
-                "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.9 Hooks",
+                "path": "QwenWorkGuide/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.9 Hooks",
                 "children": []
               },
               {
@@ -148,7 +148,7 @@
                 "node_id": "14lgGw3P8vQQq162sgZ6ON7aJ5daZ90D",
                 "content_type": "ALIDOC",
                 "export_method": "doc read",
-                "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.10 连接器",
+                "path": "QwenWorkGuide/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.10 连接器",
                 "children": []
               },
               {
@@ -156,7 +156,7 @@
                 "node_id": "2Amq4vjg89XXo7rbumxleE6yJ3kdP0wQ",
                 "content_type": "ALIDOC",
                 "export_method": "doc read",
-                "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.11 技能",
+                "path": "QwenWorkGuide/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.11 技能",
                 "children": []
               },
               {
@@ -164,10 +164,109 @@
                 "node_id": "14lgGw3P8vQQq162sgZ6kmKQJ5daZ90D",
                 "content_type": "ALIDOC",
                 "export_method": "doc read",
-                "path": "QwenWorkGuide/第一篇 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.12 专家套件",
+                "path": "QwenWorkGuide/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.12 专家套件",
+                "children": []
+              },
+              {
+                "title": "6.13 工作台-写作",
+                "node_id": "Obva6QBXJwQQq10zsML01pd0Wn4qY5Pr",
+                "content_type": "ALIDOC",
+                "export_method": "doc read",
+                "path": "QwenWorkGuide/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.13 工作台-写作",
+                "children": []
+              },
+              {
+                "title": "6.14 工作台-幻灯片",
+                "node_id": "ZgpG2NdyVXppX4lniP79wAroVMwvDqPk",
+                "content_type": "ALIDOC",
+                "export_method": "doc read",
+                "path": "QwenWorkGuide/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.14 工作台-幻灯片",
+                "children": []
+              },
+              {
+                "title": "6.15 工作台-设计",
+                "node_id": "dpYLaezmVN44KoZjiPKvedGQ8rMqPxX6",
+                "content_type": "ALIDOC",
+                "export_method": "doc read",
+                "path": "QwenWorkGuide/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.15 工作台-设计",
                 "children": []
               }
             ]
+          },
+          {
+            "title": "第7章 概念普及：理解AI是怎么干活的",
+            "node_id": "MNDoBb60VL55Bo2gsmnAY5R4JlemrZQ3",
+            "content_type": "ALIDOC",
+            "export_method": "doc read",
+            "path": "QwenWorkGuide/第一部分 使用手册：先把 千问办公 用起来/第7章 概念普及：理解AI是怎么干活的",
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "第二部分 实战案例 从具体任务，走向AI Native",
+        "node_id": "R1zknDm0WRggDolpU0dGl3jbVBQEx5rG",
+        "content_type": "ALIDOC",
+        "export_method": "doc read",
+        "path": "QwenWorkGuide/第二部分 实战案例 从具体任务，走向AI Native",
+        "children": [
+          {
+            "title": "电商运营-电商经营数据大屏「官方案例」",
+            "node_id": "YndMj49yWj55wRMKsRgayyxm83pmz5aA",
+            "content_type": "ALIDOC",
+            "export_method": "doc read",
+            "path": "QwenWorkGuide/第二部分 实战案例 从具体任务，走向AI Native/电商运营-电商经营数据大屏「官方案例」",
+            "children": []
+          },
+          {
+            "title": "自媒体-上传录音，克隆自己的声音做口播",
+            "node_id": "QG53mjyd8044Bk52iwzZaQEo86zbX04v",
+            "content_type": "ALIDOC",
+            "export_method": "doc read",
+            "path": "QwenWorkGuide/第二部分 实战案例 从具体任务，走向AI Native/自媒体-上传录音，克隆自己的声音做口播",
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "第三部分 进阶使用案例",
+        "node_id": "XPwkYGxZV3DDB2wac9rMjownJAgozOKL",
+        "content_type": "ALIDOC",
+        "export_method": "doc read",
+        "path": "QwenWorkGuide/第三部分 进阶使用案例",
+        "children": [
+          {
+            "title": "自媒体运营-公众号排版推送",
+            "node_id": "lyQod3RxJKwwBopDhoYxpKKyJkb4Mw9r",
+            "content_type": "ALIDOC",
+            "export_method": "doc read",
+            "path": "QwenWorkGuide/第三部分 进阶使用案例/自媒体运营-公众号排版推送",
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "第四部分 认知与方法论",
+        "node_id": "QOG9lyrgJP99vomkUvPQ1jaP8zN67Mw4",
+        "content_type": "ALIDOC",
+        "export_method": "doc read",
+        "path": "QwenWorkGuide/第四部分 认知与方法论",
+        "children": [
+          {
+            "title": "把真实任务变成 AI 工作流：一套可复用的方法论",
+            "node_id": "ydxXB52LJqQQq1zjsK2lbM1KJqjMp697",
+            "content_type": "ALIDOC",
+            "export_method": "doc read",
+            "path": "QwenWorkGuide/第四部分 认知与方法论/把真实任务变成 AI 工作流：一套可复用的方法论",
+            "children": []
+          },
+          {
+            "title": "怎么写出一个skill",
+            "node_id": "XPwkYGxZV3DDB2wac9rMaejjJAgozOKL",
+            "content_type": "ALIDOC",
+            "export_method": "doc read",
+            "path": "QwenWorkGuide/第四部分 认知与方法论/怎么写出一个skill",
+            "children": []
           }
         ]
       }
