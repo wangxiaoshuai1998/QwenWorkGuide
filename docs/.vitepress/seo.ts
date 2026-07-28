@@ -134,7 +134,7 @@ function breadcrumbName(segment: string): string {
   }
 
   const labels: Record<string, string> = {
-    bluebook: "千问办公绿皮书",
+    greenbook: "千问办公绿皮书",
     cases: "社区案例集",
     community: "社区共创",
     help: "帮你解决",
@@ -227,7 +227,7 @@ export function createSeoHead(
         `${pageData.title}：${context.description || DEFAULT_DESCRIPTION}`,
       );
   const isHome = page === "index.md";
-  const isBluebookPage = page.startsWith("bluebook/");
+  const isGreenbookPage = page.startsWith("greenbook/");
   const modifiedTime = pageData.lastUpdated
     ? new Date(pageData.lastUpdated).toISOString()
     : undefined;
@@ -262,18 +262,18 @@ export function createSeoHead(
   const pageEntity = isHome
     ? null
     : {
-        "@type": isBluebookPage ? "Article" : "WebPage",
+        "@type": isGreenbookPage ? "Article" : "WebPage",
         "@id": `${canonicalUrl}#webpage`,
         url: canonicalUrl,
         name: pageData.title,
-        ...(isBluebookPage ? { headline: pageData.title } : {}),
+        ...(isGreenbookPage ? { headline: pageData.title } : {}),
         description,
         inLanguage: "zh-CN",
         isPartOf: { "@id": `${siteUrl}/#website` },
         breadcrumb: breadcrumbs
           ? { "@id": `${canonicalUrl}#breadcrumb` }
           : undefined,
-        ...(isBluebookPage
+        ...(isGreenbookPage
           ? {
               mainEntityOfPage: canonicalUrl,
               image: [socialImageUrl],
@@ -300,7 +300,7 @@ export function createSeoHead(
     ["link", { rel: "canonical", href: canonicalUrl }],
     ["meta", { property: "og:locale", content: "zh_CN" }],
     ["meta", { property: "og:site_name", content: SITE_NAME }],
-    ["meta", { property: "og:type", content: isBluebookPage ? "article" : "website" }],
+    ["meta", { property: "og:type", content: isGreenbookPage ? "article" : "website" }],
     ["meta", { property: "og:title", content: title }],
     ["meta", { property: "og:description", content: description }],
     ["meta", { property: "og:url", content: canonicalUrl }],
@@ -321,7 +321,7 @@ export function createSeoHead(
     ],
   ];
 
-  if (modifiedTime && isBluebookPage) {
+  if (modifiedTime && isGreenbookPage) {
     head.push([
       "meta",
       { property: "article:modified_time", content: modifiedTime },

@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 import type { DefaultTheme } from "vitepress";
 
 const route = (...segments: string[]): string =>
-  encodeURI(`/bluebook/${segments.map((segment) => segment.trim()).join("/")}/`);
+  encodeURI(`/greenbook/${segments.map((segment) => segment.trim()).join("/")}/`);
 
 const part1 = "第一篇 使用手册：先把 千问办公 用起来";
 const part2 = "第二部分 实战案例 从具体任务，走向AI Native";
@@ -25,9 +25,9 @@ const child = (
   link: route(parent, directory),
 });
 
-export const bluebookSidebar: DefaultTheme.Sidebar = {
-  "/bluebook/": [
-    { text: "绿皮书总览", link: "/bluebook/" },
+export const greenbookSidebar: DefaultTheme.Sidebar = {
+  "/greenbook/": [
+    { text: "绿皮书总览", link: "/greenbook/" },
     {
       text: "第一篇 · 使用手册",
       collapsed: false,
@@ -132,7 +132,7 @@ const casesSidebar: DefaultTheme.SidebarItem[] = [
 ];
 
 export const siteSidebar: DefaultTheme.Sidebar = {
-  ...bluebookSidebar,
+  ...greenbookSidebar,
   "/cases/": casesSidebar,
   "/community/case-contributing": casesSidebar,
 };

@@ -43,7 +43,7 @@ GitHub 适合了解项目和参与贡献；真正阅读绿皮书时，网站体�
 
 ## 推荐阅读方式
 
-- **第一次使用**：从[第 1 章](./docs/bluebook/第一篇%20使用手册：先把%20千问办公%20用起来/第1章%20初识%20千问办公/index.md)开始，按顺序读完第一篇。
+- **第一次使用**：从[第 1 章](./docs/greenbook/第一篇%20使用手册：先把%20千问办公%20用起来/第1章%20初识%20千问办公/index.md)开始，按顺序读完第一篇。
 - **想直接上手**：先看第 2 章（Web 端）或第 3 章（桌面端），跑通第一个任务后再回头补齐其他章节。
 - **关注后续内容**：案例篇、进阶篇等后续篇章会持续更新，欢迎 Watch 本仓库或关注[社区案例集](https://github.com/wangxiaoshuai1998/QwenWorkGuide/tree/main/docs/cases)。
 
@@ -94,7 +94,7 @@ npm run docs:preview
 
 ## 参与共创
 
-我们优先收集真实、可复现的千问办公使用案例。提交 Case 前，请先搜索[社区案例集](https://github.com/wangxiaoshuai1998/QwenWorkGuide/tree/main/docs/cases)和[绿皮书目录](https://github.com/wangxiaoshuai1998/QwenWorkGuide/tree/main/docs/bluebook)，确认场景或任务没有重复。若目标相同但使用了不同的 Skill、方法或交付形式，请在 PR 中说明差异。
+我们优先收集真实、可复现的千问办公使用案例。提交 Case 前，请先搜索[社区案例集](https://github.com/wangxiaoshuai1998/QwenWorkGuide/tree/main/docs/cases)和[绿皮书目录](https://github.com/wangxiaoshuai1998/QwenWorkGuide/tree/main/docs/greenbook)，确认场景或任务没有重复。若目标相同但使用了不同的 Skill、方法或交付形式，请在 PR 中说明差异。
 
 每个案例至少需要写清：
 
@@ -126,7 +126,7 @@ QwenWorkGuide
 │  └─ PULL_REQUEST_TEMPLATE/       # Pull Request 模板
 ├─ docs/
 │  ├─ .vitepress/                  # 网站配置、主题、导航与 SEO
-│  ├─ bluebook/                    # 绿皮书正式章节
+│  ├─ greenbook/                    # 绿皮书正式章节
 │  ├─ cases/
 │  │  └─ submissions/              # 社区提交的独立 Case
 │  ├─ community/                   # Case 投稿与社区共创指南

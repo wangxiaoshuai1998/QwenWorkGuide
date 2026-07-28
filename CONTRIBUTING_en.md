@@ -21,7 +21,7 @@ Thank you for helping improve the QwenWork Guide. A useful contribution should h
 
 ## Editing the Book
 
-Each page lives under `docs/bluebook/`:
+Each page lives under `docs/greenbook/`:
 
 - `index.md` is the reader-facing page.
 - `assets/` contains page images, GIFs, videos, and attachments.

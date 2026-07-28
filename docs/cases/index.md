@@ -15,7 +15,7 @@ pageClass: community-cases-page
 
 ## 如何提交 Case
 
-1. 先搜索左侧的社区 Case 和[绿皮书目录](/bluebook/)，确认场景或任务没有重复。
+1. 先搜索左侧的社区 Case 和[绿皮书目录](/greenbook/)，确认场景或任务没有重复。
 2. 阅读[Case 投稿指南](/community/case-contributing)，复制标准模板。
 3. 在 `docs/cases/submissions/` 下新增一个 Case 文件夹。
 4. 写清场景、使用的 Skills、操作过程、实际效果和验收标准。
@@ -27,7 +27,7 @@ pageClass: community-cases-page
 
 <div class="case-intro-actions">
   <a class="case-intro-button case-intro-button--primary" href="/community/case-contributing">提交你的 Case</a>
-  <a class="case-intro-button" href="/bluebook/">阅读绿皮书</a>
+  <a class="case-intro-button" href="/greenbook/">阅读绿皮书</a>
 </div>
 
 <section class="case-co-create" aria-labelledby="case-co-create-title">

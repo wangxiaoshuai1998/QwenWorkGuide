@@ -228,7 +228,7 @@ button {
   letter-spacing: -0.07em;
 }
 
-.wb-hero__copy .wb-hero__title--bluebook {
+.wb-hero__copy .wb-hero__title--greenbook {
   font-size: clamp(52px, 4.7vw, 70px);
   letter-spacing: -0.06em;
   white-space: nowrap;
@@ -1076,7 +1076,7 @@ body.wb-lightbox-open {
     font-size: clamp(54px, 9vw, 72px);
   }
 
-  .wb-hero__copy .wb-hero__title--bluebook {
+  .wb-hero__copy .wb-hero__title--greenbook {
     font-size: clamp(48px, 8vw, 64px);
   }
 
@@ -1141,7 +1141,7 @@ body.wb-lightbox-open {
     line-height: 1.06;
   }
 
-  .wb-hero__copy .wb-hero__title--bluebook {
+  .wb-hero__copy .wb-hero__title--greenbook {
     font-size: clamp(31px, 8.5vw, 36px);
   }
 

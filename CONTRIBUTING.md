@@ -21,7 +21,7 @@
 
 ## 修改正文
 
-每个页面位于 `docs/bluebook/` 的对应目录中：
+每个页面位于 `docs/greenbook/` 的对应目录中：
 
 - `index.md`：网站展示的正文。
 - `assets/`：该页使用的图片、GIF、视频或附件。
