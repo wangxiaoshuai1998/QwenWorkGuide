@@ -32,7 +32,7 @@
 
 <span style="color: rgb(73, 70, 65);">首次启动 QwenWork 时，会出现欢迎页提示你登录。左侧是 登录/注册 按钮、语言切换，以及用于配置代理的 网络设置 入口；右侧展示产品标语。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/WgZOZA5GYaAw8qLX/img/3b7e3225-b264-4d4e-af87-4c09a4407d80.webp?Expires=1785260301&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=5V6hUdx8Gi7ik%2B8OFnJ4pRfopUc%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/WgZOZA5GYaAw8qLX/img/3b7e3225-b264-4d4e-af87-4c09a4407d80.webp?Expires=1785348733&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=4sJ02YgYINHYY77cvwZxxFkm4ac%3D "")
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
@@ -44,7 +44,7 @@
 
 <span style="color: rgb(73, 70, 65);">QwenWork 主窗口由两部分组成：左侧是垂直的导航侧边栏，右侧是承载对话、任务监控和产物的工作区。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/WgZOZA5GYaAw8qLX/img/e6c2eaef-549c-4015-b0fa-6057953261f3.webp?Expires=1785260301&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=iZljD7R56B4cOuvQuSlp6Bg0DCA%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/WgZOZA5GYaAw8qLX/img/e6c2eaef-549c-4015-b0fa-6057953261f3.webp?Expires=1785348733&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Xo1aKQ9FBjmS7HZk5fAmSOl8I18%3D "")
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
@@ -60,7 +60,7 @@
 
 <span style="color: rgb(85, 81, 75); background-color: rgb(248, 249, 251);">帮我调研一下目前市面上的 AI 桌面助手产品，包括 QwenWork、 Cursor、Windsurf、GitHub Copilot。 分别整理每个产品的核心功能、定价模式和目标用户。 汇总成一张对比表格，并导出为 Excel 文件。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/WgZOZA5GYaAw8qLX/img/7daf838b-52e6-408f-ba82-59d1515c56e9.webp?Expires=1785260301&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=ttfi9uzDl5mMaPJ65ctsPUMi0Lk%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/WgZOZA5GYaAw8qLX/img/7daf838b-52e6-408f-ba82-59d1515c56e9.webp?Expires=1785348733&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=EGDLB3Wjb2nl5diSt%2F%2F3Hss77o8%3D "")
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
@@ -76,7 +76,7 @@
 
 <span style="color: rgb(73, 70, 65);">任务执行过程中，工作区会一分为二：左侧仍是对话，展示 AI 的解释和阶段性回复；右侧的 任务监控 会实时显示真正的执行内容——任务计划、产物、当下使用的 技能 & MCP 服务。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/WgZOZA5GYaAw8qLX/img/16a060a4-ea4c-4d59-980e-2e7e9fb33b08.webp?Expires=1785260301&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=TB18I6JAgHlBl2pJY2%2BcmNdoTlQ%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/WgZOZA5GYaAw8qLX/img/16a060a4-ea4c-4d59-980e-2e7e9fb33b08.webp?Expires=1785348733&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=V7mjpkSXtC4l%2Fd5X4c0OBK0b%2FPI%3D "")
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
@@ -86,7 +86,7 @@
 
 <span style="color: rgb(73, 70, 65);">任务结束后，QwenWork 会同时给你两件东西：一段在对话里的总结，说明它都做了什么；以及一个或多个 产物——具体的可下载文件，比如这次要的 Excel 表格。产物是真实的本地文件，直接创建并保存在你电脑上，可随时打开、编辑或转移。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/WgZOZA5GYaAw8qLX/img/dcae26ec-4ab0-4e20-a553-780d086c509d.webp?Expires=1785260301&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=lZlGcDldPuXszIht%2B6IDlDvxb94%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/WgZOZA5GYaAw8qLX/img/dcae26ec-4ab0-4e20-a553-780d086c509d.webp?Expires=1785348733&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=ACyixk1yuXxEyCbv3pPNpkqiga0%3D "")
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 

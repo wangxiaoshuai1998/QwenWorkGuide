@@ -25,7 +25,7 @@
 - <span style="color: rgb(73, 70, 65);">定时任务：重复执行任务</span>
 - <span style="color: rgb(73, 70, 65);">企业后台：支持企业对成员进行用量管控和组织管理。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Q35O85pV3QoDLl9V/img/05db6be4-1a9a-4fb5-b9a5-996fc57fc181.webp?Expires=1785260303&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=9%2BR%2BrDx%2FPaFJs87WAFMMWVGgjwE%3D "")<span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Q35O85pV3QoDLl9V/img/05db6be4-1a9a-4fb5-b9a5-996fc57fc181.webp?Expires=1785348735&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=lPimjXlO97qET6l1gHxZKYBMzbE%3D "")<span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
 <span style="color: rgb(73, 70, 65);">用户可以通过「我的网盘」集中存储、管理和调用任务文件，可通过「我的网页」查看、编辑和管理已创建的网页成果，并将常用内容持续沉淀和复用。此外，平台支持用户通过「扩展」安装专家套件、技能和连接器：专家套件提供面向特定岗位或场景的完整能力组合，技能用于执行专业化工作流，连接器则负责接入外部平台、账号和数据。用户在使用云端AI时，还可以通过「定时任务」将重复工作交由系统在云端自动执行。</span>
 
@@ -125,7 +125,7 @@
 
 <span style="color: rgb(73, 70, 65);">定时任务可以让 QwenWork 按照预设时间自动执行工作。创建任务后，即使关闭浏览器或退出登录，任务也会继续在云端按计划运行，无需每次手动发起。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Q35O85pV3QoDLl9V/img/c1c5b375-ae26-4123-a798-0318fa811606.webp?Expires=1785260303&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=HKszryPUFhgq2Pii3%2F0zGbBwsq4%3D "")<span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Q35O85pV3QoDLl9V/img/c1c5b375-ae26-4123-a798-0318fa811606.webp?Expires=1785348735&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=uDTz2agft8z3%2FIwiI5mZHHB%2F99E%3D "")<span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
 <span style="color: rgb(73, 70, 65);">你可以用定时任务处理具有固定时间或重复规律的工作，例如：</span>
 - <span style="color: rgb(73, 70, 65);">每天生成行业资讯简报；</span>

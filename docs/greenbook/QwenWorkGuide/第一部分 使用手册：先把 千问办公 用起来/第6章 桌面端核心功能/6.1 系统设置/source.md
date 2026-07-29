@@ -4,7 +4,7 @@
 
 <span style="color: rgb(73, 70, 65);">点击左侧侧边栏底部的 ⚙ 设置图标进入设置面板。设置分为三个分组：通用、扩展与集成、高级设置。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Pd6l2ZVXGaaBAl7M/img/011aca4f-6bff-4d0e-ad06-1578f8b77df1.webp?Expires=1785260304&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=BmIa3RrPnvjR6Fs0pALtYO80URU%3D "")<span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Pd6l2ZVXGaaBAl7M/img/011aca4f-6bff-4d0e-ad06-1578f8b77df1.webp?Expires=1785348737&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=RDq87Gtf5wbpfuT5RlCbmzIIpac%3D "")<span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
 ## <span style="color: rgb(24, 24, 27);">**通用**</span>
 

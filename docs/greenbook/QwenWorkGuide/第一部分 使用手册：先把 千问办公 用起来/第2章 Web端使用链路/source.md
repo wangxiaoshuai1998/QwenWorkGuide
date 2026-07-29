@@ -15,10 +15,10 @@
 ### <span style="color: rgb(24, 24, 27);">**1.1 使用入口**</span>
 
 <span style="color: rgb(73, 70, 65);">千问办公提供三个使用入口：</span>
-- <span style="color: rgb(73, 70, 65);">网页端：在浏览器打开</span>  [qwenwork.cn](https://qwenwork.cn/)<span style="color: rgb(73, 70, 65);">，使用钉钉扫码或中国大陆手机号登录。</span>
+- <span style="color: rgb(73, 70, 65);">网页端：在浏览器打开</span>  [qwenwork.cn/app](https://qwenwork.cn/app)<span style="color: rgb(73, 70, 65);">，使用钉钉扫码或中国大陆手机号登录。</span>
 - <span style="color: rgb(73, 70, 65);">钉钉内：通过钉钉底部导航栏进入千问办公。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/jP2lRY2pG3YAJO8g/img/390c1842-cfe6-4bd2-b18c-f027d8671a33.webp?Expires=1785260300&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=T9nYnX8Y%2FWcZ5MdgLylVXhfMunQ%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/jP2lRY2pG3YAJO8g/img/390c1842-cfe6-4bd2-b18c-f027d8671a33.webp?Expires=1785348732&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=o1GFnzNjPEDG83vSnlBXQtMZMPM%3D "")
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
@@ -47,7 +47,7 @@
 
 <span style="color: rgb(73, 70, 65);">千问办公以“任务对话”为主要工作方式。一个任务可以包含多轮交流、附件、执行过程和最终产物。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/jP2lRY2pG3YAJO8g/img/88c8c1ae-67a5-4386-b9de-b5cd3549f860.webp?Expires=1785260300&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=d%2BIh6uchokGClaAge01OeQrzgv0%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/jP2lRY2pG3YAJO8g/img/88c8c1ae-67a5-4386-b9de-b5cd3549f860.webp?Expires=1785348732&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=AJezIpg1VFT1z6ewYQHvDqO%2Fuxc%3D "")
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
@@ -135,7 +135,7 @@
 
 <span style="color: rgb(73, 70, 65);">我的网盘是千问办公内置的云端文件空间。你上传的资料、需要长期保存的文件，以及千问办公生成的成果，都可以在这里管理。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/jP2lRY2pG3YAJO8g/img/d96f88c5-8aab-476b-a15b-d207fcc7505d.webp?Expires=1785260300&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=fDrDPA6ItvnuFFGcFFwohJX1p8A%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/jP2lRY2pG3YAJO8g/img/d96f88c5-8aab-476b-a15b-d207fcc7505d.webp?Expires=1785348732&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=ShsDYCOEK%2BPzvTAR%2F9I6FbrTLxA%3D "")
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
@@ -203,7 +203,7 @@
 
 <span style="color: rgb(73, 70, 65);">QwenWork Pages 是内置的网站托管服务。你可以在任务对话中创建并发布静态网页或动态网页，无需自行准备服务器、默认域名或 CDN。同时，你可以在「我的网页」中查看并管理自己发布的网页。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/jP2lRY2pG3YAJO8g/img/6c8bdee7-1ecd-4b97-8c47-131601365227.webp?Expires=1785260300&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Uds6LuGVuUGvQUK1lZ8FhruZdRQ%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/jP2lRY2pG3YAJO8g/img/6c8bdee7-1ecd-4b97-8c47-131601365227.webp?Expires=1785348732&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=f27RcpwPyMX5UOweY2%2FvguzI5b8%3D "")
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 

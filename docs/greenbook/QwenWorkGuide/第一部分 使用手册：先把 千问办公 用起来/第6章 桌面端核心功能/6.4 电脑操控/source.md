@@ -50,7 +50,7 @@
 
 <span style="color: rgb(73, 70, 65);">进入 扩展 → 连接器，找到「计算机控制」卡片并点击开启。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/MAeqxe6KAm1aDO8j/img/4bc396ea-e810-488f-a480-6725e99961c7.webp?Expires=1785260307&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=fWMWNxKEoy6zwExl5IGnVodRlps%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/MAeqxe6KAm1aDO8j/img/4bc396ea-e810-488f-a480-6725e99961c7.webp?Expires=1785348739&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=r6nOu8Lby%2FzyAjb4tcq1sgyczVI%3D "")
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 

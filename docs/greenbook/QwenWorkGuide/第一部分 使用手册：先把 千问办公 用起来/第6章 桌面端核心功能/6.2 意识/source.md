@@ -6,7 +6,7 @@
 
 <span style="color: rgb(73, 70, 65);">意识页面入口在左侧导航的「意识」图标，进入后包含两个主开关、进化动态面板，以及所有意识文件的管理入口。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/vBPlN5X1xyG39OdG/img/d7c64931-39ca-4b88-8337-7e42eaffade6.webp?Expires=1785260305&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=bPdUkXGdrxLFjM%2Ffsc0fFvW8lZs%3D "")<span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/vBPlN5X1xyG39OdG/img/d7c64931-39ca-4b88-8337-7e42eaffade6.webp?Expires=1785348738&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=jonx9FczbURTgaWIJXJwqwnHQPs%3D "")<span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
 ## <span style="color: rgb(24, 24, 27);">**主开关**</span>
 - <span style="color: rgb(73, 70, 65);">意识模式：主开关。启用后 QwenWork 将按照你定制的风格工作，并拥有跨会话记忆与技能进化能力。</span>

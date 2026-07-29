@@ -4,7 +4,7 @@
 
 <span style="color: rgb(73, 70, 65);">千问办公是阿里巴巴全新推出的一站式 AI 办公平台，不止于对话，更注重交付——用户仅需一句话，即可完成数据分析、PPT生成、视频剪辑、网页搭建等复杂任务，直接获得可用成果。目前已全面覆盖桌面端、网页端，并深度接入钉钉生态，依托个人云盘、IM、连接器等模块打通数据与设备，让AI真正融入工作流，随时随地响应办公需求。</span>
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ABmOoW58eR5aWOaw/img/e4d12569-2dac-4206-a7b0-aa4875de4e9b.png?Expires=1785260299&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=iOa78O1I84361LmhY9PSN3%2BhHmQ%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ABmOoW58eR5aWOaw/img/e4d12569-2dac-4206-a7b0-aa4875de4e9b.png?Expires=1785348731&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=R71HMbLV0ldcYmtOq4KJmUyn2Us%3D "")
 
 ### <span style="color: rgb(24, 24, 27);">**核心能力**</span>
 - <span style="color: rgb(73, 70, 65);">旗舰模型驱动：基于千问系列大模型，拥有百万级超长上下文记忆、原生多模态感知能力，以及业界领先的代码生成与理解能力，为复杂办公任务提供强劲的智能内核。支持多模态内容理解，满足多种创作任务的需求。</span>
@@ -40,17 +40,17 @@
 
 <span style="color: rgb(73, 70, 65);">用户在钉钉工作台内可直接唤起千问办公，无需额外跳转或单独登录。AI原生的数据分析、PPT生成、视频剪辑、网页搭建等核心能力，在钉内即可完整调用。用户通过自然语言对话，即可让AI处理文档、提炼信息、生成内容或完成创作任务，所有操作在钉钉界面内闭环完成。AI深度理解对话上下文，支持多轮交互与任务迭代优化，让办公协作更智能、更高效。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ABmOoW58eR5aWOaw/img/461706e8-f4e8-4d05-a1a3-a39996251ec3.webp?Expires=1785260299&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=bzSOmf%2Fu4fpoG7AESuRj8UoRC6k%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ABmOoW58eR5aWOaw/img/461706e8-f4e8-4d05-a1a3-a39996251ec3.webp?Expires=1785348731&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=7EsSVxi2bER3HlP2WQbSr8r3%2By0%3D "")
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
 ### <span style="color: rgb(24, 24, 27);">**提供桌面端，打通您的本地文件系统，与您的办公场景无缝衔接。**</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ABmOoW58eR5aWOaw/img/94227b4b-da8a-407d-be86-55312bdf13ac.webp?Expires=1785260299&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=6m4xPgyaEhLI4Ig1Sk%2F8P32nFRo%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ABmOoW58eR5aWOaw/img/94227b4b-da8a-407d-be86-55312bdf13ac.webp?Expires=1785348731&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=TesYuX%2BaBHAE9YVK2V7Y1jZ4eeM%3D "")
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ABmOoW58eR5aWOaw/img/c27bd8fa-79f3-4d8a-9ddb-7588982815cd.webp?Expires=1785260299&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Fzf0rt39oz4cXB4hl9saTqzd6kI%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ABmOoW58eR5aWOaw/img/c27bd8fa-79f3-4d8a-9ddb-7588982815cd.webp?Expires=1785348731&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=qbPtdfp%2FSEJvlOt0Grse3P7tHkc%3D "")
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
@@ -58,7 +58,7 @@
 
 ### <span style="color: rgb(24, 24, 27);">**网页端即开即用，通过浏览器随时随地、开启办公。**</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ABmOoW58eR5aWOaw/img/22cf9a72-ec58-44cf-8d27-4f6f9e6d9fea.webp?Expires=1785260299&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=IKcGug7%2BapEMIbtnzfwupCChNMo%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ABmOoW58eR5aWOaw/img/22cf9a72-ec58-44cf-8d27-4f6f9e6d9fea.webp?Expires=1785348731&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=5ezSotFsnSv7bcHeqcED0z185Go%3D "")
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 

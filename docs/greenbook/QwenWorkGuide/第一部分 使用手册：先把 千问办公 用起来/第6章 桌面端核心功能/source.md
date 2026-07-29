@@ -1,6 +1,6 @@
 # **第6章 桌面端核心功能**
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ABmOoW58B1xwVOaw/img/b600a767-2f0d-464d-9d54-2e7e1712b2a0.webp?Expires=1785260303&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=RG5CyUW90TyC4j5pr9H1T58lPIc%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ABmOoW58B1xwVOaw/img/b600a767-2f0d-464d-9d54-2e7e1712b2a0.webp?Expires=1785348736&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=kvsWWJJn0s7GzTAJ6YRR7DGAvCg%3D "")
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 

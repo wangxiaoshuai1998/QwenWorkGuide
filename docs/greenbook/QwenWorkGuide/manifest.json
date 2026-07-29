@@ -1,13 +1,13 @@
 {
   "workspace_id": "w0oXWj28Mp90gz1J",
   "root_node_id": "",
-  "generated_at": "2026-07-28T15:38:42.922965+00:00",
-  "page_count": 32,
+  "generated_at": "2026-07-29T16:12:51.647503+00:00",
+  "page_count": 45,
   "file_upload_count": 0,
   "file_upload_pages": [],
-  "asset_count": 87,
-  "assets_downloaded": 0,
-  "assets_skipped": 87,
+  "asset_count": 122,
+  "assets_downloaded": 58,
+  "assets_skipped": 64,
   "export_failures": [],
   "asset_failures": [],
   "tree": {
@@ -211,6 +211,54 @@
         "path": "QwenWorkGuide/第二部分 实战案例 从具体任务，走向AI Native",
         "children": [
           {
+            "title": "实战指南｜Excel 表格数据处理",
+            "node_id": "r1R7q3QmWeyy3Z4rfNK5MDgEWxkXOEP2",
+            "content_type": "ALIDOC",
+            "export_method": "doc read",
+            "path": "QwenWorkGuide/第二部分 实战案例 从具体任务，走向AI Native/实战指南｜Excel 表格数据处理",
+            "children": []
+          },
+          {
+            "title": "实战指南｜4个场景教你用 千问办公 告别重复工作",
+            "node_id": "a9E05BDRVQDD9onXcDZkb5MnW63zgkYA",
+            "content_type": "ALIDOC",
+            "export_method": "doc read",
+            "path": "QwenWorkGuide/第二部分 实战案例 从具体任务，走向AI Native/实战指南｜4个场景教你用 千问办公 告别重复工作",
+            "children": []
+          },
+          {
+            "title": "实战指南｜数据分析全流程实战教程",
+            "node_id": "o14dA3GK8gOOxm9BcnvlwyYn89ekBD76",
+            "content_type": "ALIDOC",
+            "export_method": "doc read",
+            "path": "QwenWorkGuide/第二部分 实战案例 从具体任务，走向AI Native/实战指南｜数据分析全流程实战教程",
+            "children": []
+          },
+          {
+            "title": "实战指南｜5个技巧教你用 TRAE 做复杂数据分析",
+            "node_id": "dpYLaezmVN44KoZjiPNMv9ZB8rMqPxX6",
+            "content_type": "ALIDOC",
+            "export_method": "doc read",
+            "path": "QwenWorkGuide/第二部分 实战案例 从具体任务，走向AI Native/实战指南｜5个技巧教你用 TRAE 做复杂数据分析",
+            "children": []
+          },
+          {
+            "title": "【文档类】｜高效整理资料、加工文档",
+            "node_id": "KGZLxjv9VGyyB1jKf6qP2Rrw86EDybno",
+            "content_type": "ALIDOC",
+            "export_method": "doc read",
+            "path": "QwenWorkGuide/第二部分 实战案例 从具体任务，走向AI Native/【文档类】｜高效整理资料、加工文档",
+            "children": []
+          },
+          {
+            "title": "【文档类】｜快速写好通知/请示/公告等材料",
+            "node_id": "Qnp9zOoBVBRRBovqsPlajBKOV1DK0g6l",
+            "content_type": "ALIDOC",
+            "export_method": "doc read",
+            "path": "QwenWorkGuide/第二部分 实战案例 从具体任务，走向AI Native/【文档类】｜快速写好通知／请示／公告等材料",
+            "children": []
+          },
+          {
             "title": "电商运营-电商经营数据大屏「官方案例」",
             "node_id": "YndMj49yWj55wRMKsRgayyxm83pmz5aA",
             "content_type": "ALIDOC",
@@ -224,6 +272,14 @@
             "content_type": "ALIDOC",
             "export_method": "doc read",
             "path": "QwenWorkGuide/第二部分 实战案例 从具体任务，走向AI Native/自媒体-上传录音，克隆自己的声音做口播",
+            "children": []
+          },
+          {
+            "title": "[实战案例]｜如何用 Remotion Skills 做视频",
+            "node_id": "ZgpG2NdyVXppX4lniP5mG76kVMwvDqPk",
+            "content_type": "ALIDOC",
+            "export_method": "doc read",
+            "path": "QwenWorkGuide/第二部分 实战案例 从具体任务，走向AI Native/[实战案例]｜如何用 Remotion Skills 做视频",
             "children": []
           }
         ]
@@ -241,6 +297,38 @@
             "content_type": "ALIDOC",
             "export_method": "doc read",
             "path": "QwenWorkGuide/第三部分 进阶使用案例/自媒体运营-公众号排版推送",
+            "children": []
+          },
+          {
+            "title": "内容创作者｜从选题到复盘全流程",
+            "node_id": "o14dA3GK8gOOxm9BcnvlognK89ekBD76",
+            "content_type": "ALIDOC",
+            "export_method": "doc read",
+            "path": "QwenWorkGuide/第三部分 进阶使用案例/内容创作者｜从选题到复盘全流程",
+            "children": []
+          },
+          {
+            "title": "内容创作者｜图片设计、生成和编辑",
+            "node_id": "amweZ92PV6jjBaw7sMRGmZm5VxEKBD6p",
+            "content_type": "ALIDOC",
+            "export_method": "doc read",
+            "path": "QwenWorkGuide/第三部分 进阶使用案例/内容创作者｜图片设计、生成和编辑",
+            "children": []
+          },
+          {
+            "title": "[实战案例]｜从 UI 到可交付前端原型",
+            "node_id": "ZgpG2NdyVXppX4lniP5mbvMRVMwvDqPk",
+            "content_type": "ALIDOC",
+            "export_method": "doc read",
+            "path": "QwenWorkGuide/第三部分 进阶使用案例/[实战案例]｜从 UI 到可交付前端原型",
+            "children": []
+          },
+          {
+            "title": "实战指南｜由需求直接生成原型图",
+            "node_id": "R1zknDm0WRggDolpU0dX2w9KVBQEx5rG",
+            "content_type": "ALIDOC",
+            "export_method": "doc read",
+            "path": "QwenWorkGuide/第三部分 进阶使用案例/实战指南｜由需求直接生成原型图",
             "children": []
           }
         ]
@@ -266,6 +354,22 @@
             "content_type": "ALIDOC",
             "export_method": "doc read",
             "path": "QwenWorkGuide/第四部分 认知与方法论/怎么写出一个skill",
+            "children": []
+          },
+          {
+            "title": "【IP 配图 Skill 必看】全网独一份的架构详解",
+            "node_id": "dQPGYqjpJY22pv67SB9DldMQ8akx1Z5N",
+            "content_type": "ALIDOC",
+            "export_method": "doc read",
+            "path": "QwenWorkGuide/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解",
+            "children": []
+          },
+          {
+            "title": "【自媒体学 AI 必看】公众号排版 skill 详解",
+            "node_id": "20eMKjyp81vvBXwzfeZx0wjrWxAZB1Gv",
+            "content_type": "ALIDOC",
+            "export_method": "doc read",
+            "path": "QwenWorkGuide/第四部分 认知与方法论/【自媒体学 AI 必看】公众号排版 skill 详解",
             "children": []
           }
         ]

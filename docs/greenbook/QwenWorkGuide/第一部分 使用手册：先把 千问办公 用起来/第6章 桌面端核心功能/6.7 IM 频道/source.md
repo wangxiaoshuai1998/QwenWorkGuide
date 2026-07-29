@@ -18,7 +18,7 @@
 
 <span style="color: rgb(73, 70, 65);">所有 IM 频道均在 IM 频道 页面统一管理。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/mxPOG5vdxd6XAnKa/img/ddb2e32e-9726-409a-885e-29dcbac744b1.webp?Expires=1785260309&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=2XXep8ybW3OL%2FU1HlYNlPLsxVZ4%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/mxPOG5vdxd6XAnKa/img/ddb2e32e-9726-409a-885e-29dcbac744b1.webp?Expires=1785348742&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=JpJxxf8A7IJ%2FxyJlc2DVPDvtZ9k%3D "")
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 

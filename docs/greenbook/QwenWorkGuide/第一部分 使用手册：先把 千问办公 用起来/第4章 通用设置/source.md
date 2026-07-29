@@ -2,7 +2,7 @@
 
 <span style="color: rgb(73, 70, 65);">通用设置用于管理个人资料、语言、外观、订阅及积分使用情况。用户可在千问办公客户端内点击「个人头像」或侧边栏「设置」图标入口进入。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/mxPOG5vP9wg69nKa/img/afd7667d-f875-4e01-9d5b-cf134ebce7b6.webp?Expires=1785260302&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=OJ4TecuquwNK%2BqN3HJ82j8H1Ydk%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/mxPOG5vP9wg69nKa/img/afd7667d-f875-4e01-9d5b-cf134ebce7b6.webp?Expires=1785348734&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=y%2FcBNxA%2BvHxAPwX6vG624Np4FAI%3D "")
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
@@ -12,13 +12,13 @@
 
 <span style="color: rgb(73, 70, 65);">展示当前账号的头像、昵称、用户名及绑定手机号。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/mxPOG5vP9wg69nKa/img/e742c7f2-666d-4098-8d1b-0f70e87e6f98.webp?Expires=1785260302&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=lyl2LUDERTDm2Q3U3JwGeSZ9hAc%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/mxPOG5vP9wg69nKa/img/e742c7f2-666d-4098-8d1b-0f70e87e6f98.webp?Expires=1785348734&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=vtwYmDbgwJD5v7E1EUm26btVsRg%3D "")
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
 <span style="color: rgb(73, 70, 65);">点击「编辑」，可修改昵称和用户名。昵称支持 3～20 个字符，仅限字母、数字或下划线；用户名每 30 天仅可修改 1 次。修改完成后，点击「完成」保存。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/mxPOG5vP9wg69nKa/img/cebced9f-ad15-4822-a610-c62115c8a1a5.webp?Expires=1785260302&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=gKoSOpu2zEza%2BozynHqe5ILdtpI%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/mxPOG5vP9wg69nKa/img/cebced9f-ad15-4822-a610-c62115c8a1a5.webp?Expires=1785348734&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Z3bOP9o2cSm%2BTF9V2gvTc%2FewzAc%3D "")
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
@@ -26,7 +26,7 @@
 
 <span style="color: rgb(73, 70, 65);">点击个人资料右侧的「更多」按钮，可选择「重置密码」或「注销账号」。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/mxPOG5vP9wg69nKa/img/2b3ff5f2-d414-4e95-8e1b-13f2f4031c86.webp?Expires=1785260302&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=AZrkrl1h0%2FTbiZbV%2FEQNWIgbh84%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/mxPOG5vP9wg69nKa/img/2b3ff5f2-d414-4e95-8e1b-13f2f4031c86.webp?Expires=1785348734&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Yseaq9F%2B7MyqDjww8uHhDPOBZtc%3D "")
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
@@ -34,7 +34,7 @@
 
 <span style="color: rgb(73, 70, 65);">展示当前订阅版本、到期时间以及当前积分余额及积分构成，包括每日刷新积分、每月订阅积分和长期积分。点击「管理」可管理当前订阅；点击「升级」可升级订阅版本；点击「充值」可购买积分。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/mxPOG5vP9wg69nKa/img/79ecb3cb-df9f-453c-a44b-d8d1819e3dfd.webp?Expires=1785260302&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=AAQ%2FdIRE%2FdDS1KV%2BNJi%2FJ9XhiKs%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/mxPOG5vP9wg69nKa/img/79ecb3cb-df9f-453c-a44b-d8d1819e3dfd.webp?Expires=1785348734&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=viZKK0N2aPq0jmhZNeRmYYPZCBk%3D "")
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
@@ -56,7 +56,7 @@
 
 <span style="color: rgb(73, 70, 65);">个人版用户可查看当前订阅版本、剩余积分及积分到期时间。支持查看用量详情、充值积分；免费版用户还可点击「升级订阅」升级个人套餐。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/mxPOG5vP9wg69nKa/img/f33cc9ca-c075-4ddc-8e77-3f8d6218cac9.webp?Expires=1785260302&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=V0ITRqUokO2pQb9GtC2U41e%2FK%2Fc%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/mxPOG5vP9wg69nKa/img/f33cc9ca-c075-4ddc-8e77-3f8d6218cac9.webp?Expires=1785348734&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=bcKWzz%2Bx6kBL9xG%2Flw9G3yX2tVk%3D "")
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
@@ -64,7 +64,7 @@
 
 <span style="color: rgb(73, 70, 65);">企业版员工可查看个人剩余积分及积分使用情况。当积分不足时，可向所属企业申请积分。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/mxPOG5vP9wg69nKa/img/90bb1a86-be3c-4b99-bea0-9851add20c4c.webp?Expires=1785260302&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=x6DHVSu%2BrYam1NhwW8g6HqWBSPA%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/mxPOG5vP9wg69nKa/img/90bb1a86-be3c-4b99-bea0-9851add20c4c.webp?Expires=1785348734&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=tPCH8ofMhE7lr3f8kHx5j8TWclc%3D "")
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 

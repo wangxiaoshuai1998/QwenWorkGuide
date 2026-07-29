@@ -6,7 +6,7 @@
 
 ## <span style="color: rgb(24, 24, 27);">**工作区**</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgX3pv18DVlWN/img/a0a90b06-c398-4fa1-864f-a358cd5bc3b4.webp?Expires=1785260315&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=rH9w%2FDZanmBPGTF%2F9Q4ch%2B9PB3I%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgX3pv18DVlWN/img/a0a90b06-c398-4fa1-864f-a358cd5bc3b4.webp?Expires=1785348748&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=BNnOfhaz1M8COr7K52GV0Jz5FS0%3D "")
 
 <span style="color: rgb(73, 70, 65);">右侧画布提供 3 个标签：</span>
 
@@ -24,7 +24,7 @@
 
 <span style="color: rgb(73, 70, 65);">在输入框点击工作台切换器（默认 通用），选 幻灯片。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgX3pv18DVlWN/img/c60e538d-7d9a-4ced-8614-effd436da2bc.webp?Expires=1785260315&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=krBvCSZXkVxiAVOIF8oO2NNdEgg%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgX3pv18DVlWN/img/c60e538d-7d9a-4ced-8614-effd436da2bc.webp?Expires=1785348748&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=zuyPTPu6R53Qc8hoEVJEvHKryr8%3D "")
 
 <span style="color: rgb(80, 100, 127); background-color: rgb(248, 249, 251);">**示例**</span>
 
@@ -36,25 +36,25 @@
 
 <span style="color: rgb(73, 70, 65);">也可以点击麦克风使用 \[语音输入\]</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgX3pv18DVlWN/img/61f21089-ef0a-42c1-b38e-16bb61dfba0f.webp?Expires=1785260315&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=QocHVJXrtCIE0omixiFw0ZC%2Fd3Q%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgX3pv18DVlWN/img/61f21089-ef0a-42c1-b38e-16bb61dfba0f.webp?Expires=1785348748&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Y46WGMq%2FQ6r7YuAn4lh3s%2FbZZOM%3D "")
 
 <span style="color: rgb(73, 70, 65);">挑选模版、固定工作目录（可选）</span>
 - <span style="color: rgb(73, 70, 65);">点击输入框下方的「不使用模版」按钮，可以从 35 个内置模版中挑一个作为视觉基调；不选也可以让 Agent 从对话中自动生成主题。</span>
 - <span style="color: rgb(73, 70, 65);">点击「选择工作目录」可把任务绑定到本地一个目录——Agent 会把幻灯片源文件落到该目录下，方便长期管理与协作。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgX3pv18DVlWN/img/cfe66fa4-2292-4ff1-9b82-d2d815c5c59a.webp?Expires=1785260315&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=7eZ%2F5ogwU5bNFKM%2FRyINxNMHiTA%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgX3pv18DVlWN/img/cfe66fa4-2292-4ff1-9b82-d2d815c5c59a.webp?Expires=1785348748&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Ayk1rYpWZSW8G3T93V5AA9uHNUI%3D "")
 
 <span style="color: rgb(73, 70, 65);">回答 Agent 的澄清问题</span>
 
 <span style="color: rgb(73, 70, 65);">Agent 在开工前会就受众、页数、语言等关键参数提几个问题。逐题作答可以让 deck 更贴合你的实际场景；如果不想逐项确认，也可以直接点击底部的「AI 自行决定」。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgX3pv18DVlWN/img/7a1e372a-2f77-413c-85eb-6f663f912c51.webp?Expires=1785260315&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=8URnukC9VUexs%2B35HPBfZa%2BWIco%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgX3pv18DVlWN/img/7a1e372a-2f77-413c-85eb-6f663f912c51.webp?Expires=1785348748&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Kcdm%2BP38uT%2B6YmdSOxOHyexjpe0%3D "")
 
 <span style="color: rgb(73, 70, 65);">确认大纲</span>
 
 <span style="color: rgb(73, 70, 65);">回答完问题后，Agent 会在 大纲 标签下输出一份大纲，每节带一句简介和一个版式标签（封面页、文字大纲、左图右文、双栏、引文等）。点击 接受大纲 创建幻灯片占位；如果对结构或节奏不满意，点 附反馈驳回 让 Agent 在开页之前先调整。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgX3pv18DVlWN/img/c6f5bf58-7779-4fc7-889d-26c3c2145724.webp?Expires=1785260315&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=yyYgY2Gr5U5eFaBYWa%2FyZWJ3fss%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgX3pv18DVlWN/img/c6f5bf58-7779-4fc7-889d-26c3c2145724.webp?Expires=1785348748&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=cxJ2FaMkHr2XZqwVBRV4lK%2FSWn4%3D "")
 
 <span style="color: rgb(73, 70, 65);">查看幻灯片生成过程</span>
 
@@ -64,13 +64,13 @@
 
 <span style="color: rgb(73, 70, 65);">全部页面合成完成后，Agent 会问是否运行后处理步骤——可多选，也可全部跳过直接完成。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgX3pv18DVlWN/img/8334170c-c5ce-4f6d-a204-6023bf334db1.webp?Expires=1785260315&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=oOmBroKjhQpzzgUI7KzJufYvVf4%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgX3pv18DVlWN/img/8334170c-c5ce-4f6d-a204-6023bf334db1.webp?Expires=1785348748&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=G8rSoQougnIPTXToA7G%2BXTZ8TAg%3D "")
 
 <span style="color: rgb(73, 70, 65);">查看最终成果</span>
 
 <span style="color: rgb(73, 70, 65);">所有页面就绪后，画布顶部显示「N / N 张幻灯片已就绪」。右上角「保存为模版 / 放映 / 导出」可直接进入下一步；左侧缩略图列可点选任意页跳转、右侧画布渲染当前页。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgX3pv18DVlWN/img/02e3debb-cb09-4bb0-821f-556c5caec979.webp?Expires=1785260315&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=SZzCUdOEn0tCezIleWmxfg4yank%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgX3pv18DVlWN/img/02e3debb-cb09-4bb0-821f-556c5caec979.webp?Expires=1785348748&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=4NZhosOni0JJjQIIlRzDCr63s9g%3D "")
 
 ## <span style="color: rgb(24, 24, 27);">**继续迭代**</span>
 - <span style="color: rgb(73, 70, 65);">追加任务：在底部输入框继续追加指令，例如</span>  <span style="color: rgb(73, 70, 65);">*"换成对比表格的版式"*</span><span style="color: rgb(73, 70, 65);">——Agent 会在当前步完成后接着处理。</span>

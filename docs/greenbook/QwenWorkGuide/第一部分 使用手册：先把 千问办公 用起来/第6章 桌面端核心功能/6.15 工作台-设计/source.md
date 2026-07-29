@@ -29,7 +29,7 @@
 
 ## <span style="color: rgb(24, 24, 27);">**工作区**</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk25NBEd97q4B/img/f5710ada-a942-440e-9dbd-c8ccc0a73a52.webp?Expires=1785260316&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=vTE00pAelqsA%2FuPIOSMFCGKD%2FPY%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk25NBEd97q4B/img/f5710ada-a942-440e-9dbd-c8ccc0a73a52.webp?Expires=1785348749&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Gg4%2BUVpBkCnjiuPXlvUf3OVMe48%3D "")
 
 <span style="color: rgb(73, 70, 65);">右侧画布提供 5 个标签：</span>
 
@@ -47,7 +47,7 @@
 
 <span style="color: rgb(73, 70, 65);">在 QwenWork 首页底部输入框点击工作台切换器（默认 通用），选 设计。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk25NBEd97q4B/img/85150bd1-d905-4b7c-904b-f550bbc68ee9.webp?Expires=1785260316&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=bpVHD3tB8IIGxlbe2vThudP0xGw%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk25NBEd97q4B/img/85150bd1-d905-4b7c-904b-f550bbc68ee9.webp?Expires=1785348749&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=VgissSGqyYHOwASMG3ZPY2iq3CA%3D "")
 
 <span style="color: rgb(80, 100, 127); background-color: rgb(248, 249, 251);">**示例**</span>
 
@@ -57,7 +57,7 @@
 
 <span style="color: rgb(73, 70, 65);">用自然语言或语音描述需求，尽量明确目的、关键模块和调性，例如：</span><span style="color: rgb(73, 70, 65);">*"设计一个高保真的 AI 产品官网首页，包含品牌导航、强主标题、产品价值说明、主 CTA、辅助 CTA、产品界面预览和客户信任信息。整体现代、可信、精致。"*</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk25NBEd97q4B/img/62e62b15-3418-4e6b-b526-da746d1fcee4.webp?Expires=1785260316&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=0afmG%2Bmik7R8K6IVZRfqeovq3e4%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk25NBEd97q4B/img/62e62b15-3418-4e6b-b526-da746d1fcee4.webp?Expires=1785348749&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=77youQF3nlS0Xb3%2BjP6SBhzYxnE%3D "")
 
 <span style="color: rgb(73, 70, 65);">选择风格参考、固定工作目录（可选）</span>
 
@@ -73,19 +73,19 @@
 - <span style="color: rgb(73, 70, 65);">直接运行：跳过澄清与计划，Agent 用现有上下文直接落到画布。适合需求已足够明确，或只想先快速看到效果的场景。</span>
 - <span style="color: rgb(73, 70, 65);">进入：开启设计计划模式——Agent 会先问问题、再写 Design Plan，确认后才生成。复杂或高保真项目推荐走这条路径。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk25NBEd97q4B/img/9f852310-a9d4-4fc9-90c9-10bda7b48267.webp?Expires=1785260316&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=JR79Q2oiLFeAWTn1QY9z0LTtCcI%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk25NBEd97q4B/img/9f852310-a9d4-4fc9-90c9-10bda7b48267.webp?Expires=1785348749&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=VQIGyFwcNnFVjYzUXdF%2FzaFW0Oc%3D "")
 
 <span style="color: rgb(73, 70, 65);">回答 Agent 的澄清问题</span>
 
 <span style="color: rgb(73, 70, 65);">进入设计计划模式后，Agent 会在 Questions 标签下结构化追问——目标用户、产品定位、保真度、品牌资产等，每题给几个备选项并支持「其他（请填写）」自由输入。回答能让计划贴合实际场景；想跳过细化，可点击底部的 AI 自行决定。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk25NBEd97q4B/img/b032a906-bf50-4f6d-9e96-da5a2cd7d3a9.webp?Expires=1785260316&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=0SWdRmGkASdovayQPOQNbNc%2BgNg%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk25NBEd97q4B/img/b032a906-bf50-4f6d-9e96-da5a2cd7d3a9.webp?Expires=1785348749&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Pmte9oVD1YqhwgAA3EAgHV8qxKs%3D "")
 
 <span style="color: rgb(73, 70, 65);">确认设计计划</span>
 
 <span style="color: rgb(73, 70, 65);">Agent 接着在 计划 标签下输出 Design Plan：开头是设计意图与视觉方向，再是 契约 面板（产物 / 平台 / 输出 / 组件库 / 保真度 / 风格）和 产物 列表（每个文件的目标说明）。审核无误点 运行计划；如需调整，点 要求修改 让 Agent 重写。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk25NBEd97q4B/img/1778c8a6-79a4-45ae-bcb0-236d1da3fd1a.webp?Expires=1785260316&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=gwp0fWbEceRHal2whbdkB%2BwDDOQ%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk25NBEd97q4B/img/1778c8a6-79a4-45ae-bcb0-236d1da3fd1a.webp?Expires=1785348749&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=nTFuVoM1KeKzPtJQGSKiD6L8pVo%3D "")
 
 <span style="color: rgb(73, 70, 65);">查看画布生成过程</span>
 
@@ -95,7 +95,7 @@
 
 <span style="color: rgb(73, 70, 65);">切换到 预览，把设计当作真实界面交互——点击 CTA、查看 hover 状态、走查导航流。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk25NBEd97q4B/img/a5a0a46d-b7f2-4ea3-bb1c-ffea5eed961a.webp?Expires=1785260316&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=bEgqZ%2BYbhOdT%2BaAi5ISvf%2B88p5Y%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk25NBEd97q4B/img/a5a0a46d-b7f2-4ea3-bb1c-ffea5eed961a.webp?Expires=1785348749&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=c1OL4dGDOTmuEg17pSAltzdJBmE%3D "")
 
 ## <span style="color: rgb(24, 24, 27);">**继续迭代**</span>
 

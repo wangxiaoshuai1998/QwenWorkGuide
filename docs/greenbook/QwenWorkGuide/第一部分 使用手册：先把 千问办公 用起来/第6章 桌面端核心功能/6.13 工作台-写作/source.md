@@ -6,7 +6,7 @@
 
 ## <span style="color: rgb(24, 24, 27);">**工作区**</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/vBPlN5X1m2AjXOdG/img/be195fae-cac5-4fcd-b72c-add93476b35b.webp?Expires=1785260314&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=a%2F70e8SdwZlvAk341SNseLtI2Bc%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/vBPlN5X1m2AjXOdG/img/be195fae-cac5-4fcd-b72c-add93476b35b.webp?Expires=1785348747&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=jU%2BOTcHWSR1jCrdwr7BtTgMPGZ8%3D "")
 
 <span style="color: rgb(73, 70, 65);">Document 工作区把 Markdown 文件树和编辑器组合在一起：</span>
 
@@ -21,7 +21,7 @@
 
 <span style="color: rgb(73, 70, 65);">在输入框点击工作台切换器（默认 通用），选 写作。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/vBPlN5X1m2AjXOdG/img/4854a8bc-bb93-4d33-bc90-7f5a6331621a.webp?Expires=1785260314&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=P78PiQbZ%2F7QZdSI1CKfmvgBL41w%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/vBPlN5X1m2AjXOdG/img/4854a8bc-bb93-4d33-bc90-7f5a6331621a.webp?Expires=1785348747&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=JcqrcMpPRUMEeUTy7luQMpy7KcA%3D "")
 
 <span style="color: rgb(80, 100, 127); background-color: rgb(248, 249, 251);">**示例**</span>
 
@@ -31,19 +31,19 @@
 
 <span style="color: rgb(73, 70, 65);">描述主题、受众、调性、要点。如有需要可以点击麦克风使用</span>  [语音输入](https://qwenwork.cn/docs/features/voice-input)<span style="color: rgb(73, 70, 65);">。切换到写作工作台后，输入框下方会出现「\\</span><span style="color: rgb(73, 70, 65);">*\\*</span><span style="color: rgb(73, 70, 65);">选择工作目录\\</span><span style="color: rgb(73, 70, 65);">*\\*</span><span style="color: rgb(73, 70, 65);">」和「\\</span><span style="color: rgb(73, 70, 65);">*\\*</span><span style="color: rgb(73, 70, 65);">语气\\</span><span style="color: rgb(73, 70, 65);">*\\*</span><span style="color: rgb(73, 70, 65);">」两个可选项，可在描述任务时按需配置。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/vBPlN5X1m2AjXOdG/img/a58b5050-e28a-442e-8c27-5590842e2985.webp?Expires=1785260314&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=OXa5mniqCpTkekiYO22Vw3ojlOM%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/vBPlN5X1m2AjXOdG/img/a58b5050-e28a-442e-8c27-5590842e2985.webp?Expires=1785348747&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=E0k32ymKDIOETdD4iUKWc%2F6RJ9E%3D "")
 
 <span style="color: rgb(73, 70, 65);">挑选语气、固定工作目录（可选）</span>
 - <span style="color: rgb(73, 70, 65);">点击「语气」按钮，可在 不指定语气 / 正式 / 轻松 / 技术 / 创意 之间选一种作为整体调性；不选时由 Agent 自行判断。</span>
 - <span style="color: rgb(73, 70, 65);">点击「选择工作目录」可把任务绑定到本地一个目录——Agent 在该目录下读写文件，把过程沉淀到磁盘。适合需要长期迭代或与现有素材结合的文档。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/vBPlN5X1m2AjXOdG/img/b17c835a-c73f-4cae-9b0e-eeace70b7bc6.webp?Expires=1785260314&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Alfi2BV%2FjmPb853kjiy8HL7%2F4EE%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/vBPlN5X1m2AjXOdG/img/b17c835a-c73f-4cae-9b0e-eeace70b7bc6.webp?Expires=1785348747&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=oIids72gipDNLytlP7C4s6hIqwE%3D "")
 
 <span style="color: rgb(73, 70, 65);">阅读或编辑文档</span>
 
 <span style="color: rgb(73, 70, 65);">产物会落到 outputs/ 目录下的 Markdown 文件中。切换到 只读 阅读渲染后的 Markdown，切换到 编辑 直接修改正文。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/vBPlN5X1m2AjXOdG/img/979764de-8285-4830-8ff6-86ea560613fb.webp?Expires=1785260314&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=dgYjyWPrgI8iYB4BcL0UVEv26N4%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/vBPlN5X1m2AjXOdG/img/979764de-8285-4830-8ff6-86ea560613fb.webp?Expires=1785348747&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=eSQCeceGZNQAwoRF4y6d%2F36M2PY%3D "")
 
 ## <span style="color: rgb(24, 24, 27);">**继续迭代**</span>
 - <span style="color: rgb(73, 70, 65);">追加任务：在底部输入框追加指令，例如</span>  <span style="color: rgb(73, 70, 65);">*"补一节关于权限的内容"*</span><span style="color: rgb(73, 70, 65);">——Agent 会就地更新文件中相应位置。</span>

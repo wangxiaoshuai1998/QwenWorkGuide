@@ -67,7 +67,7 @@
 
 <span style="color: rgb(73, 70, 65);">不同模型的 Credits 消耗不同。点击界面右上角的用量图标（⏱），再点击弹出的 查看我的用量 即可查看余额与用量明细。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eLbnj15LAdB5rlaN/img/e77332ca-fcfe-4716-950c-39037f7ecd0c.webp?Expires=1785260307&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=twmjgQGdsitmVQlp1m2yhKlq2S8%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eLbnj15LAdB5rlaN/img/e77332ca-fcfe-4716-950c-39037f7ecd0c.webp?Expires=1785348740&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=bt1pZNyxRk8ApEiUgXCqL4%2B90Q0%3D "")
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 

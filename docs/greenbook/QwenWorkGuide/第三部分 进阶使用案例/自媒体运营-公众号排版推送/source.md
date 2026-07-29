@@ -35,14 +35,14 @@ md2wechat 是 千问办公 的一个内置技能（skill），负责把 Markdown
 操作步骤：
 1. <span style="color: rgb(1, 1, 1);">打开微信开发者平台（developers.weixin.qq.com），用管理员微信扫码登录。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1wvqre519kmypnak/img/0f151961-938a-4323-899f-28dad87a1ef8.jpg?Expires=1785260320&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=SSrxSTCu5KY2mMauxqrIuEOp2RA%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1wvqre519kmypnak/img/0f151961-938a-4323-899f-28dad87a1ef8.jpg?Expires=1785348760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=eRuAKAF9ILya4GCUixQnmwGqmiU%3D "")
 
 <span style="color: rgb(136, 136, 136);">微信开发者平台首页</span>
 2. <span style="color: rgb(1, 1, 1);">进入「公众号」→「基础信息」页面。</span>
 3. <span style="color: rgb(1, 1, 1);">页面上会显示你的 AppID（一串字母数字组合），直接复制。</span>
 4. <span style="color: rgb(1, 1, 1);">往下找到「开发密钥」一栏，点 AppSecret 旁边的「重置」按钮，管理员微信扫码确认后，会显示一串密钥。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1wvqre519kmypnak/img/39fa4859-72a0-44de-b808-118140276eb2.jpg?Expires=1785260320&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=S16yAVabLQpSlPUmMzHNkB%2B5lM0%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1wvqre519kmypnak/img/39fa4859-72a0-44de-b808-118140276eb2.jpg?Expires=1785348760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=oNiJbdxo5qz2XSQ9E%2BX2SL%2Bm7R4%3D "")
 
 <span style="color: rgb(136, 136, 136);">基础信息页 - AppID 与开发密钥位置</span>
 
@@ -60,7 +60,7 @@ md2wechat 是 千问办公 的一个内置技能（skill），负责把 Markdown
 怎么加：
 1. <span style="color: rgb(1, 1, 1);">打开浏览器，百度搜索"ip"，页面顶部会显示你的本机出口 IP（类似 140.205.11.23 这种格式）。</span>
 
-![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1wvqre519kmypnak/img/88ecff4c-e403-4f43-b809-11300a571cf0.jpg?Expires=1785260320&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=F0l9dnHmRYWwLikToYoDnArapgI%3D "")
+![](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1wvqre519kmypnak/img/88ecff4c-e403-4f43-b809-11300a571cf0.jpg?Expires=1785348760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=jmm0mxel0ponz1C6nr1r7xmdMxI%3D "")
 
 <span style="color: rgb(136, 136, 136);">百度搜索 ip - 查看本机出口 IP</span>
 2. <span style="color: rgb(1, 1, 1);">回到</span><span style="color: rgb(87, 107, 149);">微信开发者平台</span><span style="color: rgb(1, 1, 1);">，「基础信息」页面往下找到「API IP 白名单」，点修改。</span>
