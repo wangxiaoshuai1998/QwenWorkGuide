@@ -1,23 +1,23 @@
 <p align="center">
-  <a href="https://qwenwork.ink/">
+  <a href="https://qwenwork.ink/greenbook/">
     <img src="./assets/qwenwork-guide-banner.png" alt="千问办公绿皮书：首页预览" width="100%">
   </a>
 </p>
 
 <h1 align="center">千问办公绿皮书</h1>
 
-<p align="center"><strong>千问办公中文使用手册与实战指南（QwenWork Guide）</strong></p>
+<p align="center"><strong>千问办公中文使用手册与实战指南（QwenWork Greenbook）</strong></p>
 
 <p align="center">
   简体中文 · <a href="./README_en.md">English</a> ·
-  <a href="https://qwenwork.ink/">在线阅读</a> ·
+  <a href="https://qwenwork.ink/greenbook/">在线阅读</a> ·
   <a href="https://github.com/wangxiaoshuai1998/QwenWorkGuide/tree/main/docs/cases">社区案例集</a> ·
   <a href="https://github.com/wangxiaoshuai1998/QwenWorkGuide/tree/main/docs/help">帮你解决</a> ·
   <a href="./docs/reading-guide.md">阅读指南</a> ·
   <a href="https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/main/CONTRIBUTING.md">参与共创</a>
 </p>
 
-> 这不是官方功能说明书的改写，而是一本以真实任务为主线的实战读本。当前内容为第一篇「使用手册」（篇导读 + 第 1～4 章），帮你从初识千问办公开始，跑通 Web 端与桌面端的完整使用链路，并把账号设置调到最顺手；后续篇章持续更新。
+> 这不是官方功能说明书的改写，而是一本以真实任务为主线的实战读本。全书分为四部分：使用手册、实战案例、进阶使用案例、认知与方法论，帮你从初识千问办公到掌握 AI 工作流方法论。
 
 ## 项目背景
 
@@ -25,27 +25,28 @@
 
 ## 在线阅读
 
-推荐访问 **[qwenwork.ink](https://qwenwork.ink/)** 阅读。网站提供完整侧边栏、全文搜索、章节目录、深色模式、流程图和移动端适配。
+推荐访问 **[qwenwork.ink/greenbook](https://qwenwork.ink/greenbook/)** 阅读。网站提供完整侧边栏、全文搜索、章节目录、深色模式、流程图和移动端适配。
 
 GitHub 适合了解项目和参与贡献；真正阅读绿皮书时，网站体验更完整。
 
 ## 你会在这里看到什么
 
-当前已上线 **第一篇 · 使用手册（篇导读 + 第 1～4 章）**，后续篇章持续更新：
+全书分为四部分，内容持续更新：
 
-| 章节 | 内容 |
+| 部分 | 内容 |
 | --- | --- |
-| 篇导读 | 阅读路线、章节总览与学习目标 |
-| 第 1 章 初识千问办公 | 核心能力、与传统 AI 对话区别、典型使用场景 |
-| 第 2 章 Web 端使用链路 | 登录进入、创建任务、多轮沟通、网盘与网页发布 |
-| 第 3 章 桌面端使用链路 | 下载安装、登录账号、熟悉界面并提交第一个本地任务 |
-| 第 4 章 通用设置 | 个人资料、语言与外观、订阅及积分使用管理 |
+| 第一部分 · 使用手册 | 初识千问办公、Web 端与桌面端使用链路、通用设置、网页端与桌面端核心功能、概念普及（共 7 章） |
+| 第二部分 · 实战案例 | Excel 数据处理、数据分析全流程、文档整理与写作、电商数据大屏、声音克隆、Remotion 视频等 |
+| 第三部分 · 进阶使用案例 | 公众号排版推送、内容创作全流程、图片设计生成、UI 到前端原型、需求生成原型图等 |
+| 第四部分 · 认知与方法论 | AI 工作流方法论、如何写 Skill、IP 配图架构详解、公众号排版 Skill 详解 |
 
 ## 推荐阅读方式
 
-- **第一次使用**：从[第 1 章](./docs/greenbook/%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20%E5%8D%83%E9%97%AE%E5%8A%9E%E5%85%AC%20%E7%94%A8%E8%B5%B7%E6%9D%A5/%E7%AC%AC1%E7%AB%A0%20%E5%88%9D%E8%AF%86%20%E5%8D%83%E9%97%AE%E5%8A%9E%E5%85%AC/index.md)开始，按顺序读完第一部分。
+- **第一次使用**：从第一部分第 1 章开始，按顺序读完使用手册。
 - **想直接上手**：先看第 2 章（Web 端）或第 3 章（桌面端），跑通第一个任务后再回头补齐其他章节。
-- **关注后续内容**：案例篇、进阶篇等后续篇章会持续更新，欢迎 Watch 本仓库或关注[社区案例集](https://github.com/wangxiaoshuai1998/QwenWorkGuide/tree/main/docs/cases)。
+- **想看实战案例**：直接前往第二部分或第三部分，选择感兴趣的方向。
+- **想提升认知**：阅读第四部分的方法论和 Skill 详解。
+- **关注后续内容**：各部分持续更新，欢迎 Watch 本仓库或关注[社区案例集](https://github.com/wangxiaoshuai1998/QwenWorkGuide/tree/main/docs/cases)。
 
 更完整的路线见[如何阅读这本绿皮书](./docs/reading-guide.md)。
 
@@ -126,7 +127,7 @@ QwenWorkGuide
 │  └─ PULL_REQUEST_TEMPLATE/       # Pull Request 模板
 ├─ docs/
 │  ├─ .vitepress/                  # 网站配置、主题、导航与 SEO
-│  ├─ greenbook/                    # 绿皮书正式章节
+│  ├─ greenbook/                    # 绿皮书正式章节（四部分）
 │  ├─ cases/
 │  │  └─ submissions/              # 社区提交的独立 Case
 │  ├─ community/                   # Case 投稿与社区共创指南
