@@ -1,13 +1,13 @@
 {
   "workspace_id": "w0oXWj28Mp90gz1J",
   "root_node_id": "",
-  "generated_at": "2026-07-29T16:12:51.647503+00:00",
+  "generated_at": "2026-07-29T16:40:25.913271+00:00",
   "page_count": 45,
   "file_upload_count": 0,
   "file_upload_pages": [],
   "asset_count": 122,
-  "assets_downloaded": 58,
-  "assets_skipped": 64,
+  "assets_downloaded": 0,
+  "assets_skipped": 122,
   "export_failures": [],
   "asset_failures": [],
   "tree": {
@@ -235,11 +235,11 @@
             "children": []
           },
           {
-            "title": "实战指南｜5个技巧教你用 TRAE 做复杂数据分析",
+            "title": "实战指南｜5个技巧教你用 千问 做复杂数据分析",
             "node_id": "dpYLaezmVN44KoZjiPNMv9ZB8rMqPxX6",
             "content_type": "ALIDOC",
             "export_method": "doc read",
-            "path": "QwenWorkGuide/第二部分 实战案例 从具体任务，走向AI Native/实战指南｜5个技巧教你用 TRAE 做复杂数据分析",
+            "path": "QwenWorkGuide/第二部分 实战案例 从具体任务，走向AI Native/实战指南｜5个技巧教你用 千问 做复杂数据分析",
             "children": []
           },
           {

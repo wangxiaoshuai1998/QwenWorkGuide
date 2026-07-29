@@ -71,7 +71,7 @@ export const greenbookSidebar: DefaultTheme.Sidebar = {
         child(part2, "实战指南｜Excel 表格数据处理"),
         child(part2, "实战指南｜4个场景教你用 千问办公 告别重复工作"),
         child(part2, "实战指南｜数据分析全流程实战教程"),
-        child(part2, "实战指南｜5个技巧教你用 TRAE 做复杂数据分析"),
+        child(part2, "实战指南｜5个技巧教你用 千问 做复杂数据分析"),
         child(part2, "【文档类】｜高效整理资料、加工文档"),
         child(part2, "【文档类】｜快速写好通知／请示／公告等材料"),
         child(part2, "电商运营-电商经营数据大屏「官方案例」"),
