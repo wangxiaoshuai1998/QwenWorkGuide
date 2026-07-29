@@ -6,7 +6,7 @@ import type { DefaultTheme } from "vitepress";
 const route = (...segments: string[]): string =>
   encodeURI(`/greenbook/${segments.map((segment) => segment.trim()).join("/")}/`);
 
-const part1 = "第一篇 使用手册：先把 千问办公 用起来";
+const part1 = "第一部分 使用手册：先把 千问办公 用起来";
 const part2 = "第二部分 实战案例 从具体任务，走向AI Native";
 const part3 = "第三部分 进阶使用案例";
 const part4 = "第四部分 认知与方法论";
@@ -29,7 +29,7 @@ export const greenbookSidebar: DefaultTheme.Sidebar = {
   "/greenbook/": [
     { text: "绿皮书总览", link: "/greenbook/" },
     {
-      text: "第一篇 · 使用手册",
+      text: "第一部分 · 使用手册",
       collapsed: false,
       items: [
         item(part1, "本篇导读"),
@@ -68,8 +68,15 @@ export const greenbookSidebar: DefaultTheme.Sidebar = {
       collapsed: false,
       items: [
         item(part2, "本篇导读"),
+        child(part2, "实战指南｜Excel 表格数据处理"),
+        child(part2, "实战指南｜4个场景教你用 千问办公 告别重复工作"),
+        child(part2, "实战指南｜数据分析全流程实战教程"),
+        child(part2, "实战指南｜5个技巧教你用 TRAE 做复杂数据分析"),
+        child(part2, "【文档类】｜高效整理资料、加工文档"),
+        child(part2, "【文档类】｜快速写好通知／请示／公告等材料"),
         child(part2, "电商运营-电商经营数据大屏「官方案例」"),
         child(part2, "自媒体-上传录音，克隆自己的声音做口播"),
+        child(part2, "[实战案例]｜如何用 Remotion Skills 做视频"),
       ],
     },
     {
@@ -78,6 +85,10 @@ export const greenbookSidebar: DefaultTheme.Sidebar = {
       items: [
         item(part3, "本篇导读"),
         child(part3, "自媒体运营-公众号排版推送"),
+        child(part3, "内容创作者｜从选题到复盘全流程"),
+        child(part3, "内容创作者｜图片设计、生成和编辑"),
+        child(part3, "[实战案例]｜从 UI 到可交付前端原型"),
+        child(part3, "实战指南｜由需求直接生成原型图"),
       ],
     },
     {
@@ -87,6 +98,8 @@ export const greenbookSidebar: DefaultTheme.Sidebar = {
         item(part4, "本篇导读"),
         child(part4, "把真实任务变成 AI 工作流：一套可复用的方法论"),
         child(part4, "怎么写出一个skill"),
+        child(part4, "【IP 配图 Skill 必看】全网独一份的架构详解"),
+        child(part4, "【自媒体学 AI 必看】公众号排版 skill 详解"),
       ],
     },
   ],
