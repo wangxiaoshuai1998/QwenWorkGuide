@@ -40,7 +40,7 @@ import PixelIconSprite from "./PixelIconSprite.vue";
           </span>
           <div class="wb-hero__metrics" aria-label="绿皮书内容规模">
             <span><b>4</b> CHAPTERS</span>
-            <span><b>1</b> PART</span>
+            <span><b>4</b> PARTS</span>
             <span><b>∞</b> WORKFLOWS</span>
           </div>
         </div>
@@ -76,46 +76,46 @@ import PixelIconSprite from "./PixelIconSprite.vue";
       </div>
 
       <div class="wb-reading-grid">
-        <a class="wb-reading-card" href="/greenbook/第一篇%20使用手册：先把%20千问办公%20用起来/第1章%20初识%20千问办公/">
-          <span class="wb-reading-card__icon"><PixelIcon name="user" /></span>
+        <a class="wb-reading-card" href="/greenbook/%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%9A%E5%85%88%E6%8A%8A%20%E5%8D%83%E9%97%AE%E5%8A%9E%E5%85%AC%20%E7%94%A8%E8%B5%B7%E6%9D%A5/">
+          <span class="wb-reading-card__icon"><PixelIcon name="book" /></span>
           <span class="wb-reading-card__content">
-            <small>PART 01 · CH. 01</small>
-            <strong>初识千问办公：不止对话，更重交付</strong>
-            <span>核心能力、与传统 AI 对话的区别，以及典型使用场景。</span>
-            <em><b>新手推荐</b><b>五分钟了解</b></em>
+            <small>PART 01</small>
+            <strong>使用手册：先把千问办公用起来</strong>
+            <span>初识千问办公、Web/桌面端使用链路、通用设置、核心功能。</span>
+            <em><b>新手推荐</b><b>从零上手</b></em>
           </span>
           <PixelIcon name="arrow-right" class="wb-reading-card__arrow" />
         </a>
 
-        <a class="wb-reading-card" href="/greenbook/第一篇%20使用手册：先把%20千问办公%20用起来/第2章%20Web端使用链路/">
+        <a class="wb-reading-card" href="/greenbook/%E7%AC%AC%E4%BA%8C%E9%83%A8%E5%88%86%20%E5%AE%9E%E6%88%98%E6%A1%88%E4%BE%8B%20%E4%BB%8E%E5%85%B7%E4%BD%93%E4%BB%BB%E5%8A%A1%EF%BC%8C%E8%B5%B0%E5%90%91AI%20Native/">
           <span class="wb-reading-card__icon"><PixelIcon name="briefcase" /></span>
           <span class="wb-reading-card__content">
-            <small>PART 01 · CH. 02</small>
-            <strong>Web 端使用链路：跑通第一个任务</strong>
-            <span>登录进入、创建任务、多轮沟通、网盘与网页发布。</span>
-            <em><b>浏览器即用</b><b>任务驱动</b></em>
+            <small>PART 02</small>
+            <strong>实战案例：从具体任务，走向AI Native</strong>
+            <span>电商数据大屏、声音克隆、文档写作、数据分析等真实场景。</span>
+            <em><b>任务驱动</b><b>即学即用</b></em>
           </span>
           <PixelIcon name="arrow-right" class="wb-reading-card__arrow" />
         </a>
 
-        <a class="wb-reading-card" href="/greenbook/第一篇%20使用手册：先把%20千问办公%20用起来/第3章%20桌面端使用链路/">
+        <a class="wb-reading-card" href="/greenbook/%E7%AC%AC%E4%B8%89%E9%83%A8%E5%88%86%20%E8%BF%9B%E9%98%B6%E4%BD%BF%E7%94%A8%E6%A1%88%E4%BE%8B/">
           <span class="wb-reading-card__icon"><PixelIcon name="sitemap" /></span>
           <span class="wb-reading-card__content">
-            <small>PART 01 · CH. 03</small>
-            <strong>桌面端使用链路：从下载到交付</strong>
-            <span>下载安装、登录账号、熟悉界面并提交第一个本地任务。</span>
-            <em><b>macOS / Windows</b><b>本地执行</b></em>
+            <small>PART 03</small>
+            <strong>进阶使用案例：深入场景实战</strong>
+            <span>公众号排版、UI 到前端原型、需求生成原型图、图片设计。</span>
+            <em><b>进阶实战</b><b>场景深入</b></em>
           </span>
           <PixelIcon name="arrow-right" class="wb-reading-card__arrow" />
         </a>
 
-        <a class="wb-reading-card" href="/greenbook/第一篇%20使用手册：先把%20千问办公%20用起来/第4章%20通用设置/">
+        <a class="wb-reading-card" href="/greenbook/%E7%AC%AC%E5%9B%9B%E9%83%A8%E5%88%86%20%E8%AE%A4%E7%9F%A5%E4%B8%8E%E6%96%B9%E6%B3%95%E8%AE%BA/">
           <span class="wb-reading-card__icon"><PixelIcon name="users" /></span>
           <span class="wb-reading-card__content">
-            <small>PART 01 · CH. 04</small>
-            <strong>通用设置：把账号调到最顺手</strong>
-            <span>个人资料、语言与外观、订阅及积分使用管理。</span>
-            <em><b>账号管理</b><b>订阅积分</b></em>
+            <small>PART 04</small>
+            <strong>认知与方法论：构建AI工作系统</strong>
+            <span>AI 工作流方法论、Skill 编写详解、IP 配图与排版 Skill 架构。</span>
+            <em><b>方法论</b><b>Skill 开发</b></em>
           </span>
           <PixelIcon name="arrow-right" class="wb-reading-card__arrow" />
         </a>
@@ -132,20 +132,20 @@ import PixelIconSprite from "./PixelIconSprite.vue";
       </div>
 
       <div class="wb-task-grid">
-        <a href="/greenbook/第一篇%20使用手册：先把%20千问办公%20用起来/">
-          <PixelIcon name="book" /><strong>本篇导读</strong><span>路线 · 章节 · 总览</span>
+        <a href="/greenbook/%E7%AC%AC%E4%BA%8C%E9%83%A8%E5%88%86%20%E5%AE%9E%E6%88%98%E6%A1%88%E4%BE%8B%20%E4%BB%8E%E5%85%B7%E4%BD%93%E4%BB%BB%E5%8A%A1%EF%BC%8C%E8%B5%B0%E5%90%91AI%20Native/%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97%EF%BD%9CExcel%20%E8%A1%A8%E6%A0%BC%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86/">
+          <PixelIcon name="chart-line" /><strong>数据分析</strong><span>Excel · 数据分析全流程</span>
         </a>
-        <a href="/greenbook/第一篇%20使用手册：先把%20千问办公%20用起来/第1章%20初识%20千问办公/">
-          <PixelIcon name="robot" /><strong>认识千问办公</strong><span>能力 · 场景 · 差异</span>
+        <a href="/greenbook/%E7%AC%AC%E4%BA%8C%E9%83%A8%E5%88%86%20%E5%AE%9E%E6%88%98%E6%A1%88%E4%BE%8B%20%E4%BB%8E%E5%85%B7%E4%BD%93%E4%BB%BB%E5%8A%A1%EF%BC%8C%E8%B5%B0%E5%90%91AI%20Native/%E8%87%AA%E5%AA%92%E4%BD%93-%E4%B8%8A%E4%BC%A0%E5%BD%95%E9%9F%B3%EF%BC%8C%E5%85%8B%E9%9A%86%E8%87%AA%E5%B7%B1%E7%9A%84%E5%A3%B0%E9%9F%B3%E5%81%9A%E5%8F%A3%E6%92%AD/">
+          <PixelIcon name="video-camera" /><strong>内容创作</strong><span>公众号排版 · 声音克隆 · 视频</span>
         </a>
-        <a href="/greenbook/第一篇%20使用手册：先把%20千问办公%20用起来/第2章%20Web端使用链路/">
-          <PixelIcon name="newspaper" /><strong>Web 端上手</strong><span>登录 · 任务 · 发布</span>
+        <a href="/greenbook/%E7%AC%AC%E4%BA%8C%E9%83%A8%E5%88%86%20%E5%AE%9E%E6%88%98%E6%A1%88%E4%BE%8B%20%E4%BB%8E%E5%85%B7%E4%BD%93%E4%BB%BB%E5%8A%A1%EF%BC%8C%E8%B5%B0%E5%90%91AI%20Native/%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97%EF%BD%9C4%E4%B8%AA%E5%9C%BA%E6%99%AF%E6%95%99%E4%BD%A0%E7%94%A8%20%E5%8D%83%E9%97%AE%E5%8A%9E%E5%85%AC%20%E5%91%8A%E5%88%AB%E9%87%8D%E5%A4%8D%E5%B7%A5%E4%BD%9C/">
+          <PixelIcon name="check-box" /><strong>办公效率</strong><span>告别重复 · 场景实战</span>
         </a>
-        <a href="/greenbook/第一篇%20使用手册：先把%20千问办公%20用起来/第3章%20桌面端使用链路/">
-          <PixelIcon name="folder-open" /><strong>桌面端上手</strong><span>下载 · 安装 · 交付</span>
+        <a href="/greenbook/%E7%AC%AC%E4%B8%89%E9%83%A8%E5%88%86%20%E8%BF%9B%E9%98%B6%E4%BD%BF%E7%94%A8%E6%A1%88%E4%BE%8B/%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97%EF%BD%9C%E7%94%B1%E9%9C%80%E6%B1%82%E7%9B%B4%E6%8E%A5%E7%94%9F%E6%88%90%E5%8E%9F%E5%9E%8B%E5%9B%BE/">
+          <PixelIcon name="grid" /><strong>开发辅助</strong><span>UI 到原型 · 需求到原型图</span>
         </a>
-        <a href="/greenbook/第一篇%20使用手册：先把%20千问办公%20用起来/第4章%20通用设置/">
-          <PixelIcon name="check-box" /><strong>通用设置</strong><span>资料 · 外观 · 订阅</span>
+        <a href="/greenbook/%E7%AC%AC%E5%9B%9B%E9%83%A8%E5%88%86%20%E8%AE%A4%E7%9F%A5%E4%B8%8E%E6%96%B9%E6%B3%95%E8%AE%BA/%E6%80%8E%E4%B9%88%E5%86%99%E5%87%BA%E4%B8%80%E4%B8%AAskill/">
+          <PixelIcon name="robot" /><strong>AI 工作流</strong><span>Skill 编写 · 方法论</span>
         </a>
       </div>
     </section>
