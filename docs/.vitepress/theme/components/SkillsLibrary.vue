@@ -311,7 +311,7 @@ const totalSkills = categories.reduce((sum, cat) => sum + cat.skills.length, 0);
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 16px;
 }
 
@@ -375,18 +375,17 @@ const totalSkills = categories.reduce((sum, cat) => sum + cat.skills.length, 0);
   font-weight: 600;
   color: var(--wb-ink, #11130e);
   margin: 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  white-space: normal;
+  line-height: 1.3;
 }
 
 .card-tags {
   font-size: 12px;
   color: var(--wb-muted, #656b60);
   margin: 2px 0 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  white-space: normal;
+  line-height: 1.4;
+  word-break: break-all;
 }
 
 .card-count {
