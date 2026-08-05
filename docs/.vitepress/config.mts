@@ -59,6 +59,7 @@ export default defineConfig({
         light: "github-light",
         dark: "github-dark",
       },
+      ignoreDeadLinks: true,
     },
     themeConfig: {
       siteTitle: "QwenWork Guide",
