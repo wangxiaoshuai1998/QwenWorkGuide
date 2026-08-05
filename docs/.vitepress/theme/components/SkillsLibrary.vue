@@ -224,7 +224,7 @@ const totalSkills = categories.reduce((sum, cat) => sum + cat.skills.length, 0);
 <template>
   <div class="skills-library">
     <div class="skills-header">
-      <h2 class="skills-title">📦 Skills 工具库</h2>
+      <h2 class="skills-title">📦 教育全场景下的Skills 工具库</h2>
       <p class="skills-subtitle">
         共 <strong>{{ totalSkills }}</strong> 个 Skill，覆盖
         <strong>{{ categories.length }}</strong> 大教学功能分类，点击分类展开查看详情

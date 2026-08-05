@@ -77,7 +77,7 @@ export const greenbookSidebar: DefaultTheme.Sidebar = {
         child(part2, "电商运营-电商经营数据大屏「官方案例」"),
         child(part2, "自媒体-上传录音，克隆自己的声音做口播"),
         child(part2, "[实战案例]｜如何用 Remotion Skills 做视频"),
-        { text: "Skills 工具库", link: route(part2, "skills-download") },
+        { text: "教育全场景下的Skills 工具库", link: route(part2, "skills-download") }
       ],
     },
     {
