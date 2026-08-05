@@ -16,6 +16,7 @@ export default defineConfig({
     cleanUrls: true,
     lastUpdated: true,
     srcExclude: ["**/source.md", "plans/**"],
+    ignoreDeadLinks: true,
     sitemap: {
       hostname: siteUrl,
     },
@@ -59,7 +60,6 @@ export default defineConfig({
         light: "github-light",
         dark: "github-dark",
       },
-      ignoreDeadLinks: true,
     },
     themeConfig: {
       siteTitle: "QwenWork Guide",
