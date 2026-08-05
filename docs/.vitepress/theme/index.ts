@@ -3,6 +3,7 @@ import DefaultTheme from "vitepress/theme-without-fonts";
 import GroupQrMenu from "./components/GroupQrMenu.vue";
 import HomePage from "./components/HomePage.vue";
 import ImageLightbox from "./components/ImageLightbox.vue";
+import SkillsLibrary from "./components/SkillsLibrary.vue";
 
 import "./fonts.css";
 import "./style.css";
@@ -47,6 +48,7 @@ export default {
   enhanceApp({ app, router }) {
     app.component("GroupQrMenu", GroupQrMenu);
     app.component("HomePage", HomePage);
+    app.component("SkillsLibrary", SkillsLibrary);
     app.component(
       "MermaidDiagram",
       defineAsyncComponent(() => import("./components/MermaidDiagram.vue")),
